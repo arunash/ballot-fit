@@ -1,0 +1,58 @@
+[
+ {
+  "id": "OK-845",
+  "state": "OK",
+  "label": "State Question 845",
+  "t": "Change Judicial Nominating Commission rules",
+  "type": "Legislatively referred constitutional amendment (Legislative Referendum 379)",
+  "threshold": "majority",
+  "what": "Changes the 15-member Judicial Nominating Commission, which screens judicial applicants for the governor. Appointments would follow current congressional districts instead of 1967 districts, any number of commissioners could be lawyers, and the bar on attorneys' immediate family members is removed. It also removes party-balance limits on governor-appointed and at-large members and lets commissioners serve consecutive terms.",
+  "y": "The commission's membership rules change as described, including removing party-balance and non-lawyer requirements.",
+  "n": "The current commission structure, party limits and lawyer restrictions stay.",
+  "fiscal": "Attorney General's ballot title: \"This measure will not have a fiscal impact.\"",
+  "pro": "Republican legislative majorities (referred the measure)",
+  "con": "Senate Democrats",
+  "endorse": {},
+  "poll": null,
+  "source": "https://www.sos.ok.gov/documents/questions/845.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "OK-847",
+  "state": "OK",
+  "label": "State Question 847",
+  "t": "Lower caps on yearly property value increases",
+  "type": "Legislatively referred constitutional amendment (SJR 39, Legislative Referendum 381)",
+  "threshold": "majority",
+  "what": "Starting in tax year 2027, lowers the cap on yearly growth in a property's taxable fair cash value from 3% to 1.75% for homesteads and farmland, and from 5% to 4% for other real property. For homeowners 65+, it removes the income cap on the senior valuation freeze: those at or below area median income stay frozen, and those above get tiered caps from 0.35% to 1.75%.",
+  "y": "Taxable values of homes, farmland and other property can rise more slowly each year from 2027.",
+  "n": "The current 3% and 5% caps and the income-limited senior freeze stay.",
+  "fiscal": "Attorney General's ballot title: the measure \"would have a fiscal impact on the state, but the exact impact is unknown.\" Property taxes fund schools, counties, CareerTechs and some cities; no dollar estimate published.",
+  "pro": "House Speaker Kyle Hilbert (author), Senate President Pro Tem Lonnie Paxton, Oklahoma Farm Bureau",
+  "con": "Oklahoma Policy Institute, Rep. Ellen Pogemiller (D)",
+  "endorse": {
+   "OK Farm Bureau": "Y",
+   "OK Policy Institute": "N"
+  },
+  "poll": null,
+  "source": "https://www.sos.ok.gov/documents/questions/847.pdf",
+  "values": false,
+  "cost": {
+   "model": "property_tax_pct",
+   "pct_change": -1.25,
+   "homestead_only": true,
+   "note": "Upper-bound first-year effect: homestead value growth capped at 1.75% instead of 3% (1.25 points less) when market values rise at least 3%; the gap compounds each year. No effect where values rise less than 1.75%. No official $ estimate."
+  },
+  "effects": {
+   "services": -0.5,
+   "fiscal": -0.5
+  },
+  "reasons": {
+   "services": "Slower growth in taxable values means slower revenue growth for schools, counties and CareerTechs that rely on property tax.",
+   "fiscal": "The official ballot title says it would have a fiscal impact on the state, with the amount unknown."
+  }
+ }
+]

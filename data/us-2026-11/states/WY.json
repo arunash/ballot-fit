@@ -1,0 +1,39 @@
+[
+ {
+  "id": "WY-1",
+  "state": "WY",
+  "label": "Initiative 1",
+  "t": "50% property tax exemption for primary homes",
+  "type": "Initiated state statute",
+  "threshold": "majority of all ballots cast in the general election (not just votes on the measure)",
+  "what": "Exempts 50% of the assessed value of a qualifying owner-occupied primary residence (the dwelling) from property tax. Owners must have lived in Wyoming at least a year and in the home at least six months of the prior year, and file a sworn claim with the county assessor. The earliest tax year affected would be 2027.",
+  "y": "Owner-occupied primary homes get a 50% assessed-value exemption.",
+  "n": "Existing property tax rules and exemptions (including the 2025 25% exemption on the first $1M) stay.",
+  "fiscal": "Official ballot estimate: state revenue falls about $92.6M in FY2028 and $95.9M in FY2029, continuing each year. This covers the state only; the larger loss to counties, cities, school districts and special districts was not estimated.",
+  "pro": "BCR Initiatives (Brent Bien, Cheryl Aguiar, Rich Weber), Wyoming Republican Party",
+  "con": "Vote NO on Initiative #1, Wyoming Education Association, Wyoming Taxpayers Association, Wyoming Hospital Association, Wyoming County Commissioners Association, Wyoming community colleges",
+  "endorse": {
+   "WY GOP": "Y",
+   "WEA (WY)": "N",
+   "WY Taxpayers Assn": "N",
+   "WY Hospital Assn": "N"
+  },
+  "poll": null,
+  "source": "https://ballotpedia.org/Wyoming_Initiative_1,_Homeowner%27s_Primary_Residence_Property_Tax_Exemption_Measure_(2026)",
+  "values": false,
+  "cost": {
+   "model": "property_tax_pct",
+   "pct_change": -0.5,
+   "homestead_only": true,
+   "note": "Upper bound: exempts 50% of the assessed value of the dwelling on an owner-occupied primary residence; the ballot title says it applies to the residential structure, so land value may not be exempt and the actual cut can be smaller. Interaction with the existing 25% exemption is not stated in the official estimate."
+  },
+  "effects": {
+   "services": -1,
+   "fiscal": -1.5
+  },
+  "reasons": {
+   "services": "The official estimate shows about $93-96M a year less state revenue, and local governments, schools and special districts that rely on property tax would also lose revenue.",
+   "fiscal": "State revenue falls about $92.6M in FY2028 and $95.9M in FY2029 with no replacement source, and local losses are unestimated."
+  }
+ }
+]

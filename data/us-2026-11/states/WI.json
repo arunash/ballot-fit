@@ -1,0 +1,74 @@
+[
+ {
+  "id": "WI-AJR10",
+  "state": "WI",
+  "label": "Question: Freedom to gather in places of worship during an emergency",
+  "t": "Bar closing places of worship in emergencies",
+  "type": "Legislative constitutional amendment (2025 AJR 10)",
+  "threshold": "majority",
+  "what": "Amends the religious-liberty section of the constitution so the state and local governments may not order places of worship closed, or forbid gatherings in them, in response to a declared emergency, including a public health emergency.",
+  "y": "Governments cannot close or ban gatherings at places of worship during emergencies.",
+  "n": "Emergency powers over gatherings at places of worship stay as under current law.",
+  "fiscal": "No official fiscal estimate located.",
+  "pro": "Wisconsin Family Action, State Rep. Ron Tusler",
+  "con": "League of Women Voters of Wisconsin, State Sen. Chris Larson",
+  "endorse": {
+   "WI Family Action": "Y",
+   "LWV": "N"
+  },
+  "poll": 55,
+  "source": "https://docs.legis.wisconsin.gov/2025/related/enrolled/ajr10.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "WI-AJR102",
+  "state": "WI",
+  "label": "Question: Governmental entity discrimination prohibited",
+  "t": "Ban government race/sex preferences",
+  "type": "Legislative constitutional amendment (2025 AJR 102)",
+  "threshold": "majority",
+  "what": "Creates a new section barring state and local governments, the UW and technical college systems and school districts from discriminating against, or granting preferential treatment to, anyone based on race, sex, color, ethnicity or national origin in public employment, education, contracting or administration.",
+  "y": "Government preferences based on race, sex, color, ethnicity or national origin are banned in the constitution.",
+  "n": "No such constitutional ban is added; existing law continues to apply.",
+  "fiscal": "No official fiscal estimate located.",
+  "pro": "Wisconsin Institute for Law & Liberty, State Sen. Stephen Nass, State Rep. Dave Murphy",
+  "con": "League of Women Voters of Wisconsin, Common Cause Wisconsin, Wisconsin Democracy Campaign, Wisconsin Public Education Network, State Sens. Dora Drake and Chris Larson",
+  "endorse": {
+   "WILL": "Y",
+   "LWV": "N",
+   "Common Cause WI": "N"
+  },
+  "poll": 61,
+  "source": "https://docs.legis.wisconsin.gov/2025/related/enrolled/ajr102.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "WI-SJR116",
+  "state": "WI",
+  "label": "Question: Partial veto",
+  "t": "Bar governor's partial veto from raising taxes",
+  "type": "Legislative constitutional amendment (2025 SJR 116)",
+  "threshold": "majority",
+  "what": "Prohibits the governor, when using the partial (line-item) veto on budget bills, from creating or increasing, or authorizing the creation or increase of, any tax or fee. It follows Gov. Evers' 2023 partial veto that extended a school revenue-limit increase for 400 years.",
+  "y": "The governor's partial veto can no longer be used to create or raise a tax or fee.",
+  "n": "The governor's partial veto power stays as it is.",
+  "fiscal": "No official fiscal estimate located.",
+  "pro": "Americans for Prosperity-Wisconsin, State Sen. Chris Kapenga, State Rep. Amanda Nedweski",
+  "con": "State Sen. Chris Larson",
+  "endorse": {
+   "AFP-WI": "Y"
+  },
+  "poll": null,
+  "source": "https://docs.legis.wisconsin.gov/2025/related/enrolled/sjr116.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

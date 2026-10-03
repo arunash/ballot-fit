@@ -1,0 +1,72 @@
+[
+ {
+  "id": "MT-CI-132",
+  "state": "MT",
+  "label": "CI-132",
+  "t": "Keep judicial elections nonpartisan",
+  "type": "Initiated constitutional amendment",
+  "threshold": "majority",
+  "what": "Adds a new Section 12 to Article VII of the Montana Constitution: \"Judicial elections shall remain nonpartisan.\" Montana has elected judges in nonpartisan races under a 1935 law; this would put that rule in the constitution, so switching to partisan judicial elections would require another constitutional amendment.",
+  "y": "Nonpartisan judicial elections are written into the state constitution.",
+  "n": "Judicial elections stay nonpartisan under current state law, which the Legislature could change.",
+  "fiscal": "–",
+  "pro": "Montanans for Nonpartisan Courts, retired Montana Supreme Court justices (incl. former Chief Justice Mike McGrath), ACLU of Montana, Montana AFL-CIO, Montana Federation of Public Employees, Montana Conservation Voters",
+  "con": "Montana Republican Party",
+  "endorse": {
+   "MT GOP": "N",
+   "ACLU of Montana": "Y",
+   "MT AFL-CIO": "Y"
+  },
+  "poll": null,
+  "source": "https://ballotpedia.org/Montana_CI-132,_Require_Nonpartisan_Judicial_Elections_Initiative_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "MT-CI-133",
+  "state": "MT",
+  "label": "CI-133",
+  "t": "Initiative and referendum as a constitutional right",
+  "type": "Initiated constitutional amendment",
+  "threshold": "majority",
+  "what": "Adds the people's initiative and referendum power to Montana's Declaration of Rights and requires any government limit on it to pass strict scrutiny. It guarantees 'impartial, predictable, transparent, and expeditious' petition processes, including resolving ballot-language challenges within 90 days, no invalidating signatures for minor technical defects, and no use of government resources to support or oppose a ballot issue.",
+  "y": "The initiative and referendum process becomes a fundamental right with the listed procedural guarantees.",
+  "n": "The initiative process stays governed by existing constitutional articles and state law.",
+  "fiscal": "–",
+  "pro": "Montanans Decide, The Fairness Project, American Opportunity Action",
+  "con": "State Rep. Braxton Mitchell (R); no registered opposition campaign",
+  "endorse": {},
+  "poll": null,
+  "source": "https://ballotpedia.org/Montana_CI-133,_Add_Right_to_Initiative_and_Referendum_Power_to_Declaration_of_Rights_Amendment_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "MT-I-194",
+  "state": "MT",
+  "label": "I-194",
+  "t": "Bar corporations and other entities from political spending",
+  "type": "Initiated state statute",
+  "threshold": "majority",
+  "what": "Removes 'political spending power' from the powers Montana grants to 'artificial persons' (corporations, nonprofits, LLCs, partnerships, trusts, trade associations and out-of-state entities doing business or owning property in Montana). An entity that spends on candidates, ballot issues or parties would forfeit charter privileges such as limited liability until it gives up the money spent and certifies compliance. Effective January 1, 2027; individuals' spending is not limited.",
+  "y": "Entities chartered or doing business in Montana could no longer spend money in Montana elections without losing their charter privileges.",
+  "n": "Current campaign-finance law stays; corporations and other entities can keep making independent political expenditures.",
+  "fiscal": "–",
+  "pro": "Transparent Election Initiative / The Montana Plan, former Gov. Steve Bullock (D), former Gov. Marc Racicot (R), former U.S. Sen. Jon Tester (D), League of Women Voters of Montana, End Citizens United",
+  "con": "Montanans for Free Speech, Montana Chamber of Commerce",
+  "endorse": {
+   "LWV Montana": "Y",
+   "MT Chamber of Commerce": "N"
+  },
+  "poll": null,
+  "source": "https://ballotpedia.org/Montana_I-194,_Exclude_Political_Spending_from_Artificial_Persons’_Charter_Powers_Initiative_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

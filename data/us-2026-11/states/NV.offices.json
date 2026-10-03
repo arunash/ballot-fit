@@ -1,0 +1,21 @@
+[
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Incumbent Joe Lombardo (R) seeks a second term; no U.S. Senate race in 2026. Also on ballot: Danielle Ford (no party).",
+  "cands": [
+   {
+    "name": "Joe Lombardo",
+    "party": "R",
+    "inc": true,
+    "desc": "First-term governor and former Clark County sheriff; runs on his jobs and investment record and as a veto check on the Democratic Legislature."
+   },
+   {
+    "name": "Aaron Ford",
+    "party": "D",
+    "inc": false,
+    "desc": "Attorney general since 2019; focuses on housing costs and tariffs, and says he would sign a repeal of the state's right-to-work law."
+   }
+  ]
+ }
+]

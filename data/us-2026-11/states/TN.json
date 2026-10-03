@@ -1,0 +1,77 @@
+[
+ {
+  "id": "TN-1",
+  "state": "TN",
+  "label": "Amendment 1",
+  "t": "Allow denying bail for certain serious offenses",
+  "type": "Legislative constitutional amendment (SJR 25)",
+  "threshold": "majority of those voting on it, and the yes votes must also exceed half of all votes cast for governor",
+  "what": "Today the Tennessee Constitution lets judges deny bail only in capital cases. This amendment would let a court hold a defendant without bail, when the proof is evident or the presumption great, for terrorism, second-degree murder, aggravated rape, aggravated rape of a child, grave torture, or any offense requiring at least 85% of a sentence to be served. Judges would have to state on the record why they granted or denied bail in those cases.",
+  "y": "Courts may deny bail before trial for the listed offenses.",
+  "n": "The right to bail stays as it is, with denial allowed only in capital cases.",
+  "fiscal": "Fiscal Review Committee note: one-time increase in local expenditures of about $9,400 (FY26-27) for longer sample-ballot publication; no other state or local fiscal impact identified.",
+  "pro": "House Speaker Cameron Sexton, State Sen. Jack Johnson, Tennessee District Attorneys General Conference, Tennessee Sheriffs' Association, Tennessee Voices for Victims",
+  "con": "State Sens. Heidi Campbell, London Lamar and Jeff Yarbro, State Rep. Justin Pearson, Just City Memphis, Tennessee Association of Professional Bail Agents",
+  "endorse": {
+   "TN DA Conference": "Y",
+   "TN Sheriffs' Assn": "Y",
+   "Just City": "N",
+   "TN Bail Agents": "N"
+  },
+  "poll": null,
+  "source": "https://www.capitol.tn.gov/Bills/114/Fiscal/SJR0025.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "TN-2",
+  "state": "TN",
+  "label": "Amendment 2",
+  "t": "Ban a state property tax",
+  "type": "Legislative constitutional amendment (SJR 1)",
+  "threshold": "majority of those voting on it, and the yes votes must also exceed half of all votes cast for governor",
+  "what": "Adds language to the Tennessee Constitution saying the Legislature may not levy, authorize, or otherwise permit any state tax on real, personal or mixed property. County and city property taxes are not affected. Tennessee does not levy a state property tax today.",
+  "y": "A state-level property tax is banned in the constitution.",
+  "n": "The constitution stays silent on a state property tax; none exists today.",
+  "fiscal": "Fiscal Review Committee note: one-time increase in local expenditures of about $9,400 (FY26-27) for longer sample-ballot publication; no other state or local fiscal impact identified. No current state revenue is affected because the state levies no property tax.",
+  "pro": "Gov. Bill Lee, U.S. Sen. Marsha Blackburn, House Speaker Cameron Sexton, Yes on 2 committee",
+  "con": "State Sen. Heidi Campbell",
+  "endorse": {
+   "Gov. Bill Lee": "Y",
+   "Sen. Blackburn": "Y",
+   "Speaker Sexton": "Y"
+  },
+  "poll": null,
+  "source": "https://www.capitol.tn.gov/Bills/114/Fiscal/SJR0001.pdf",
+  "values": false,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "TN-3",
+  "state": "TN",
+  "label": "Amendment 3",
+  "t": "Expand crime victims' rights (Marsy's Law)",
+  "type": "Legislative constitutional amendment (SJR 9)",
+  "threshold": "majority of those voting on it, and the yes votes must also exceed half of all votes cast for governor",
+  "what": "Replaces the existing victims' rights section of the constitution with a longer list. Victims would gain rights to fair treatment, to take part in parole proceedings, to be free from harassment and abuse, to be told the minimum sentence and release date, and to have their own, their family's and the public's safety considered before release. Existing rights to notice and to be present at proceedings are kept or clarified.",
+  "y": "The longer list of crime victims' rights goes into the constitution.",
+  "n": "The current victims' rights section stays.",
+  "fiscal": "Fiscal Review Committee note: one-time increase in local expenditures of about $9,400 (FY26-27) for longer sample-ballot publication; no other state or local fiscal impact identified.",
+  "pro": "House Speaker Cameron Sexton, State Sen. John Stevens, State Rep. Elaine Davis, former State Rep. Patsy Hazlewood",
+  "con": "State Sen. Jeff Yarbro, National Association of Criminal Defense Lawyers",
+  "endorse": {
+   "Speaker Sexton": "Y",
+   "NACDL": "N"
+  },
+  "poll": null,
+  "source": "https://www.capitol.tn.gov/Bills/114/Fiscal/SJR0009.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

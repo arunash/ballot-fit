@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "U.S. Senate",
+  "note": "Incumbent Bill Hagerty (R) seeking a second term; rematch of 2020",
+  "cands": [
+   {
+    "name": "Bill Hagerty",
+    "party": "R",
+    "inc": true,
+    "desc": "U.S. senator since 2021 and former ambassador to Japan; unopposed in the Republican primary."
+   },
+   {
+    "name": "Marquita Bradshaw",
+    "party": "D",
+    "inc": false,
+    "desc": "Activist and staffing consultant; 2020 Democratic nominee for this seat; won the 2026 primary with 54.8% over Maria Brewer."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Open seat: Gov. Bill Lee (R) is term-limited",
+  "cands": [
+   {
+    "name": "Marsha Blackburn",
+    "party": "R",
+    "inc": false,
+    "desc": "U.S. senator since 2019; won the August 6 Republican primary; backs Amendment 2's ban on a state property tax."
+   },
+   {
+    "name": "Jerri Green",
+    "party": "D",
+    "inc": false,
+    "desc": "Memphis city councilor (District 2) since 2024; won the August 6 Democratic primary."
+   }
+  ]
+ }
+]

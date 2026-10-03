@@ -1,0 +1,455 @@
+[
+ {
+  "id": "CO-81",
+  "state": "CO",
+  "label": "Amendment 81",
+  "t": "Police must notify federal immigration authorities",
+  "type": "Initiated constitutional amendment",
+  "threshold": "55%",
+  "what": "Requires state and local law enforcement, correctional officers and district attorney staff to make a reasonable effort to determine whether a person charged with a violent crime, or with any crime after a prior felony conviction, is lawfully present. If lawful presence can't be determined, they must notify the federal Department of Homeland Security within 72 hours of filing charges.",
+  "y": "Law enforcement must notify federal immigration authorities after filing these charges against people not confirmed to be lawfully present.",
+  "n": "Current law stays, which allows cooperation on criminal matters but limits state and local involvement in civil immigration enforcement.",
+  "fiscal": "State one-time costs of $50,000 (Dept. of Revenue) and $10,000 (Dept. of Natural Resources) in 2026-27, plus added workload; most work falls on local district attorney offices, amount varies by jurisdiction (Legislative Council Staff).",
+  "pro": "A Brighter Colorado, Eagle County Republican Women Club",
+  "con": "Colorado Communities First, The People's No, Vote Common Sense",
+  "endorse": {
+   "CO Dem Party": "N",
+   "Independence Institute": "Y",
+   "Bell Policy Center": "N"
+  },
+  "poll": null,
+  "source": "https://content.leg.colorado.gov/sites/default/files/2026-blue-book-en-accessible.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "CO-82",
+  "state": "CO",
+  "label": "Amendment 82",
+  "t": "Constitutional right to buy and sell natural gas",
+  "type": "Initiated constitutional amendment",
+  "threshold": "55%",
+  "what": "Adds to the state constitution a right for consumers to buy natural gas for cooking or heating in homes and businesses, and a right for distributors and utilities to sell it. This may limit state or local rules that restrict natural gas, such as all-electric building codes.",
+  "y": "Creates a constitutional right to purchase and sell natural gas for homes and businesses.",
+  "n": "Current laws and regulations on the purchase and sale of natural gas stay in place.",
+  "fiscal": "Minimal state cost increase (Dept. of Local Affairs, PUC and others) for guidance and legal work; local governments with gas-restricting building codes may face legal and compliance costs. No dollar estimate (Legislative Council Staff).",
+  "pro": "A Brighter Colorado, Energy Freedom Alliance of the Rockies",
+  "con": "No Pollution in the Constitution, Vote Common Sense",
+  "endorse": {
+   "CO Dem Party": "N",
+   "Independence Institute": "Y",
+   "Bell Policy Center": "N"
+  },
+  "poll": null,
+  "source": "https://content.leg.colorado.gov/sites/default/files/2026-blue-book-en-accessible.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "CO-83",
+  "state": "CO",
+  "label": "Amendment 83",
+  "t": "Constitutional right to hunt and fish",
+  "type": "Initiated constitutional amendment",
+  "threshold": "55%",
+  "what": "Creates a constitutional right to hunt, fish and harvest wildlife by traditional methods (excluding nongame, endangered or federally protected species) and makes hunting and fishing the preferred way to manage wildlife populations. The state can still regulate for sound science, public safety or to preserve future hunting and fishing.",
+  "y": "Establishes a state constitutional right to hunt and fish.",
+  "n": "Hunting and fishing continue as allowed under existing state and federal law.",
+  "fiscal": "No significant near-term change; possible added legal costs for Colorado Parks and Wildlife if rules are challenged, amount cannot be estimated (Legislative Council Staff).",
+  "pro": "Let's Go Colorado, T. Roosevelt Conservation Alliance, Colorado's Wildlife Deserve Better",
+  "con": "Protect Colorado's Constitution, Stop the Constitutional Power Grab, Colorado Hunters and Anglers for Sensible Wildlife Conservation",
+  "endorse": {
+   "CO Dem Party": "–",
+   "Independence Institute": "Y",
+   "Bell Policy Center": "–"
+  },
+  "poll": null,
+  "source": "https://content.leg.colorado.gov/sites/default/files/2026-blue-book-en-accessible.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "CO-84",
+  "state": "CO",
+  "label": "Amendment 84",
+  "t": "ID number required on mail ballots",
+  "type": "Initiated constitutional amendment",
+  "threshold": "55%",
+  "what": "For federal and state elections, voters must write the last four digits of their Social Security number or Colorado (Real ID-compliant) driver's license or ID card number on their mail ballot envelope, in addition to signing. Ballots with missing or mismatched numbers are not counted unless the voter fixes it within eight days after Election Day.",
+  "y": "Voters must provide ID information with their mail ballot, in addition to their signature.",
+  "n": "The current signature-only verification system for mail ballots continues.",
+  "fiscal": "Up to $2.7 million in 2026-27 and $1.2 million a year after, split between counties (up to $2.5M, then $1.2M) and the state (outreach plus ~45% reimbursement to counties); state share may be paid by raising business filing fees (Legislative Council Staff).",
+  "pro": "Colorado Voter Trust Initiative",
+  "con": "Defend our Ballots Issue Committee, Vote Common Sense",
+  "endorse": {
+   "CO Dem Party": "N",
+   "Independence Institute": "Y",
+   "Bell Policy Center": "N"
+  },
+  "poll": null,
+  "source": "https://content.leg.colorado.gov/sites/default/files/2026-blue-book-en-accessible.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "CO-85",
+  "state": "CO",
+  "label": "Amendment 85",
+  "t": "Plain-language (8th-grade) ballot titles",
+  "type": "Initiated constitutional amendment",
+  "threshold": "55%",
+  "what": "Requires all state and local ballot titles to be written in plain language at no more than an eighth-grade reading level. It also bars laws that require extra language in citizen-initiative titles (such as current tax-impact wording) if that conflicts with plain language.",
+  "y": "Ballot titles must be at or below an eighth-grade reading level, and laws can't add conflicting required language to initiative titles.",
+  "n": "Current law stays, which requires plain language but sets no grade-level standard.",
+  "fiscal": "Minimal added workload for the state Title Board (Legislative Council Staff).",
+  "pro": "A Brighter Colorado",
+  "con": "Vote Common Sense",
+  "endorse": {
+   "CO Dem Party": "N",
+   "Independence Institute": "Y",
+   "Bell Policy Center": "N"
+  },
+  "poll": null,
+  "source": "https://content.leg.colorado.gov/sites/default/files/2026-blue-book-en-accessible.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "CO-86",
+  "state": "CO",
+  "label": "Amendment 86",
+  "t": "Limits on mid-decade congressional redistricting",
+  "type": "Initiated constitutional amendment",
+  "threshold": "55%",
+  "what": "Requires any congressional redistricting outside the regular once-a-decade cycle to be approved by the Independent Congressional Redistricting Commission after at least three public hearings, and adopted by the Colorado Supreme Court. Off-cycle maps may not intentionally favor a party or unnecessarily divide communities of interest.",
+  "y": "Any off-cycle congressional map must go through the independent commission and the state Supreme Court.",
+  "n": "Current requirements for redrawing congressional districts every ten years continue.",
+  "fiscal": "About $370,000 for the Legislative Department in any year the commission must review an off-cycle map, plus small court workload (Legislative Council Staff).",
+  "pro": "Fair Redistricting Colorado, A Brighter Colorado",
+  "con": "No registered opposing committee; opposed by the Colorado Democratic Party",
+  "endorse": {
+   "CO Dem Party": "N",
+   "Independence Institute": "Y",
+   "Bell Policy Center": "–"
+  },
+  "poll": null,
+  "source": "https://content.leg.colorado.gov/sites/default/files/2026-blue-book-en-accessible.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "CO-87",
+  "state": "CO",
+  "label": "Amendment 87",
+  "t": "Graduated state income tax",
+  "type": "Initiated constitutional amendment and statute",
+  "threshold": "majority",
+  "what": "Replaces Colorado's 4.4% flat income tax with six brackets from 2027: 3.7% up to $25,000 of taxable income, 4.2% to $100,000, 4.4% to $500,000, 7.4% to $750,000, 7.9% to $1 million and 8.4% above (brackets not indexed for inflation). Taxes fall for taxable income under about $510,834 (by up to $325) and rise above it; the extra revenue goes to K-12 education, health care and early childhood programs and is exempt from the TABOR limit.",
+  "y": "Creates a graduated income tax that raises revenue for K-12, health care and early childhood, exempt from the state revenue limit.",
+  "n": "Keeps the constitutional requirement for a single flat income tax rate (now 4.4%).",
+  "fiscal": "Raises income tax revenue by an estimated $958.4 million in 2026-27 (half year) and $1.972 billion in 2027-28, growing after; maximum ballot estimate $2.7 billion for 2027-28. No change to TABOR refunds; $98,000 one-time Dept. of Revenue cost (Legislative Council Staff). If Prop 136 also passes, the conflict must be resolved by the legislature or courts.",
+  "pro": "Protect Colorado's Future (Bell Policy Center, Colorado Fiscal Institute, Colorado Education Association fund, Gary Community Ventures), State Treasurer Dave Young, SEIU Colorado, Colorado WINS, League of Women Voters of Colorado",
+  "con": "Gov. Jared Polis, Americans for Prosperity Colorado, NFIB, Colorado Chamber of Commerce, Advance Colorado, Independence Institute, A Brighter Colorado, Keep Colorado Affordable",
+  "endorse": {
+   "CO Dem Party": "Y",
+   "Independence Institute": "N",
+   "Bell Policy Center": "Y",
+   "Gov. Polis": "N",
+   "LWV CO": "Y"
+  },
+  "poll": null,
+  "source": "https://content.leg.colorado.gov/sites/default/files/2026-blue-book-en-accessible.pdf",
+  "values": false,
+  "cost": {
+   "model": "income_tax_brackets",
+   "start": 2027,
+   "brackets": {
+    "mfj": [
+     [
+      0,
+      -0.007
+     ],
+     [
+      25000,
+      0.005
+     ],
+     [
+      100000,
+      0.002
+     ],
+     [
+      500000,
+      0.03
+     ],
+     [
+      750000,
+      0.005
+     ],
+     [
+      1000000,
+      0.005
+     ]
+    ],
+    "single": [
+     [
+      0,
+      -0.007
+     ],
+     [
+      25000,
+      0.005
+     ],
+     [
+      100000,
+      0.002
+     ],
+     [
+      500000,
+      0.03
+     ],
+     [
+      750000,
+      0.005
+     ],
+     [
+      1000000,
+      0.005
+     ]
+    ]
+   },
+   "note": "Cumulative change vs. today's 4.4% flat rate on Colorado taxable income: 3.7% to $25K, 4.2% to $100K, 4.4% to $500K, 7.4% to $750K, 7.9% to $1M, 8.4% above. Same brackets for single and joint returns, not inflation-indexed. Blue Book: max cut $325; +$1,175 at $550K, +$55,925 at $2M."
+  },
+  "effects": {
+   "services": 2,
+   "fiscal": 1
+  },
+  "reasons": {
+   "services": "Directs about $2 billion a year in new revenue to K-12 education, health care and early childhood care and education.",
+   "fiscal": "Adds an estimated $1.97 billion in 2027-28 (growing later) exempt from the TABOR limit, without changing TABOR refunds."
+  },
+  "boost": {
+   "school": {
+    "services": 1
+   },
+   "medicaid": {
+    "services": 0.5
+   }
+  }
+ },
+ {
+  "id": "CO-NN",
+  "state": "CO",
+  "label": "Proposition NN",
+  "t": "Keep TABOR refunds for schools and children",
+  "type": "Legislative referral (statute)",
+  "threshold": "majority",
+  "what": "Lets the state keep revenue above the TABOR limit that would otherwise be refunded, up to a new higher cap tied to K-12 spending. For ten years the money goes to K-12 (teacher pay, smaller classes, career and technical education, disability services) and children's programs such as preschool and child care; afterward to K-12 and other purposes set by the legislature.",
+  "y": "The state keeps some or all revenue that would otherwise be refunded under TABOR and spends it on schools, children's programs and later other purposes.",
+  "n": "Current TABOR refunds and funding levels for K-12 and children's programs stay.",
+  "fiscal": "Reduces TABOR refunds by $329.9 million in 2026-27 and $521.0 million in 2027-28, eliminating refunds in both years; raises state spending by the same amounts, including about $241.5M (2026-27) and $234M (2027-28) each to K-12 and to children's programs, and $206.1M for property-tax exemption reimbursements in 2027-28, while $153.1M a year of general-budget money is moved into the new Children's Account (Legislative Council Staff).",
+  "pro": "Yes for Colorado Kids, Colorado Education Association, legislative Democrats",
+  "con": "Advance Colorado, A Brighter Colorado, Keep Colorado Affordable, Let's Go Colorado, Don't Price Us Out, legislative Republicans",
+  "endorse": {
+   "CO Dem Party": "Y",
+   "Independence Institute": "N",
+   "Bell Policy Center": "Y"
+  },
+  "poll": null,
+  "source": "https://content.leg.colorado.gov/sites/default/files/2026-blue-book-en-accessible.pdf",
+  "values": false,
+  "cost": {
+   "model": "flat_fee",
+   "amount": 56,
+   "per": "household",
+   "note": "Lost TABOR refund. Blue Book 2027 estimates: $21-$65 for single filers and $42-$130 for joint filers (AGI $50K-$500K); $56 is a joint filer at $75K-$100K AGI. 2028 losses are larger ($39-$352) and future years vary, possibly over $1,000 in some years."
+  },
+  "effects": {
+   "services": 1.5,
+   "fiscal": 0.5
+  },
+  "reasons": {
+   "services": "Adds about $483 million in 2026-27 for K-12 schools and children's programs like preschool and child care.",
+   "fiscal": "Lets the state keep $330-521 million a year that would otherwise be refunded, though $153.1 million of existing general-budget money is redirected in each of the first two years."
+  },
+  "boost": {
+   "school": {
+    "services": 1
+   }
+  }
+ },
+ {
+  "id": "CO-132",
+  "state": "CO",
+  "label": "Proposition 132",
+  "t": "Tougher penalties for fentanyl crimes",
+  "type": "Initiated state statute",
+  "threshold": "majority",
+  "what": "Makes possession of any amount of fentanyl (and related synthetic opioids) a felony and requires an 8-32 year prison sentence for distributing any amount. It removes reduced penalties for 'Good Samaritan' distribution cases and bars judges from considering whether the person knew the drug contained fentanyl; possession under one gram can be reduced to a misdemeanor after court-ordered treatment.",
+  "y": "Fentanyl possession becomes a felony and distribution of any amount carries a mandatory 8-year minimum prison term.",
+  "n": "Tiered, quantity-based penalties and options to reduce some penalties stay.",
+  "fiscal": "State costs of $0.9 million in year one, $8.9 million in year two, rising to $68.2 million by year five for courts, public defenders and prisons, possibly requiring more prison space; small added fine revenue ($73,000/yr). Paid from the General Fund (Legislative Council Staff).",
+  "pro": "A Brighter Colorado, Eagle County Republican Women Club",
+  "con": "The People's No, Coloradans For Real Safety Solutions, Vote Common Sense",
+  "endorse": {
+   "CO Dem Party": "N",
+   "Independence Institute": "–",
+   "Bell Policy Center": "N"
+  },
+  "poll": null,
+  "source": "https://content.leg.colorado.gov/sites/default/files/2026-blue-book-en-accessible.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {
+   "fiscal": -1
+  },
+  "reasons": {
+   "fiscal": "Raises state criminal-justice costs to an estimated $68.2 million a year by year five, paid from the General Fund."
+  }
+ },
+ {
+  "id": "CO-133",
+  "state": "CO",
+  "label": "Proposition 133",
+  "t": "Life without parole for child sex trafficking",
+  "type": "Initiated state statute",
+  "threshold": "majority",
+  "what": "Makes child sex trafficking a class 1 felony with a mandatory sentence of life in prison without parole, replacing the current 8-48 year range plus parole. It also expands the crime to include exchanging anything of value to buy sexual activity with a minor.",
+  "y": "Child sex trafficking, including buying sex from a minor, carries a mandatory life sentence without parole.",
+  "n": "The current penalty of 8 to 48 years in prison plus mandatory parole stays.",
+  "fiscal": "Prison costs begin in about 14 years: $180,000 in 2041-42, rising by about $180,000 a year for several years; minimal added court and prosecution workload (Legislative Council Staff).",
+  "pro": "Protect Kids Colorado - Issue Committee, Protect Our Children",
+  "con": "Vote Common Sense",
+  "endorse": {
+   "CO Dem Party": "–",
+   "Independence Institute": "–",
+   "Bell Policy Center": "–"
+  },
+  "poll": null,
+  "source": "https://content.leg.colorado.gov/sites/default/files/2026-blue-book-en-accessible.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "CO-134",
+  "state": "CO",
+  "label": "Proposition 134",
+  "t": "School sports teams by biological sex",
+  "type": "Initiated state statute",
+  "threshold": "majority",
+  "what": "Requires every school-based team from elementary through college (public, private and religious) to be designated male-only, female-only or coed based on biological sex, with females allowed on male teams if no female team exists. Schools must adopt policies to enforce this, and no agency or athletic association may penalize a school for designating a female-only team.",
+  "y": "School and college teams must be designated by biological sex or as coed, and schools must adopt eligibility policies.",
+  "n": "Schools, districts and athletic associations keep setting their own policies under current state and federal law.",
+  "fiscal": "Indeterminate state legal costs if districts don't comply; minimal costs for schools and colleges to update policies (Legislative Council Staff).",
+  "pro": "Protect Kids Colorado - Issue Committee, Protect Our Children",
+  "con": "The People's No, Families not Politics, Protect Trans Kids, Vote Common Sense",
+  "endorse": {
+   "CO Dem Party": "N",
+   "Independence Institute": "Y",
+   "Bell Policy Center": "N"
+  },
+  "poll": null,
+  "source": "https://content.leg.colorado.gov/sites/default/files/2026-blue-book-en-accessible.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "CO-135",
+  "state": "CO",
+  "label": "Proposition 135",
+  "t": "Ban on gender-related surgery for minors",
+  "type": "Initiated state statute",
+  "threshold": "majority",
+  "what": "Prohibits surgery on minors to alter biological sex characteristics in response to the minor's perception of sex or gender, with exceptions for male circumcision and medically verifiable disorders of sex development. It also bars state or federal funds, Medicaid and private insurance from paying for such surgeries.",
+  "y": "These surgeries on minors are banned and can't be paid for by government funds or insurance.",
+  "n": "Current law protecting access to these surgeries and allowing insurance coverage stays.",
+  "fiscal": "Minimal state and local workload for rule updates and complaints; possibly minimal savings in Medicaid and employee health insurance (Legislative Council Staff).",
+  "pro": "Protect Kids Colorado - Issue Committee, Protect Our Children",
+  "con": "The People's No, Families not Politics, Protect Trans Kids, Vote Common Sense",
+  "endorse": {
+   "CO Dem Party": "N",
+   "Independence Institute": "Y",
+   "Bell Policy Center": "N"
+  },
+  "poll": null,
+  "source": "https://content.leg.colorado.gov/sites/default/files/2026-blue-book-en-accessible.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "CO-136",
+  "state": "CO",
+  "label": "Proposition 136",
+  "t": "Cap state income tax rate at 4.4%",
+  "type": "Initiated state statute",
+  "threshold": "majority",
+  "what": "Sets 4.4% (the current rate) as the maximum state income tax rate for individuals and corporations starting January 1, 2027. It doesn't change today's rate; if Amendment 87 also passes, the legislature or courts would have to resolve the conflict.",
+  "y": "Puts the current 4.4% income tax rate into law as a maximum.",
+  "n": "The rate stays 4.4% with no new statutory cap.",
+  "fiscal": "No fiscal impact (Legislative Council Staff).",
+  "pro": "A Brighter Colorado, Keep Colorado Affordable",
+  "con": "Vote Common Sense",
+  "endorse": {
+   "CO Dem Party": "N",
+   "Independence Institute": "Y",
+   "Bell Policy Center": "N"
+  },
+  "poll": null,
+  "source": "https://content.leg.colorado.gov/sites/default/files/2026-blue-book-en-accessible.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "CO-137",
+  "state": "CO",
+  "label": "Proposition 137",
+  "t": "Sporting-goods sales tax to conservation",
+  "type": "Initiated state statute",
+  "threshold": "majority",
+  "what": "Directs existing state sales tax collected on sporting goods (bikes, camping, hunting/fishing gear, boats, RVs and rentals) to conservation, wildfire mitigation, watershed and outdoor recreation programs, and exempts that money from the TABOR limit. No tax rate or price changes; about 47.5% goes to Great Outdoors Colorado and 47.5% to wildfire, forest and watershed work.",
+  "y": "Existing sporting-goods sales tax money goes to conservation and wildfire programs and is exempt from the state revenue limit.",
+  "n": "That revenue stays in the general budget under the TABOR limit, spent by the legislature or refunded.",
+  "fiscal": "Transfers an estimated $175.0 million in 2027-28 and $180.2 million in 2028-29 and later; reduces TABOR refunds by $175 million in tax year 2027 when revenue is over the limit, or reduces money for other budget priorities in years below it (Legislative Council Staff).",
+  "pro": "Protect Colorado's Land and Water, Prevent Wildfires",
+  "con": "Protect Colorado's Land, Communities, and Tax Dollars; Independence Institute; Colorado Democratic Party (budget concerns)",
+  "endorse": {
+   "CO Dem Party": "N",
+   "Independence Institute": "N",
+   "Bell Policy Center": "–"
+  },
+  "poll": null,
+  "source": "https://content.leg.colorado.gov/sites/default/files/2026-blue-book-en-accessible.pdf",
+  "values": false,
+  "cost": {
+   "model": "flat_fee",
+   "amount": 109,
+   "per": "household",
+   "note": "Lost six-tier sales-tax TABOR refund in 2027-28: Blue Book range $26-$83 per single filer and $52-$166 per joint filer depending on income; $109 is the joint-filer midpoint. If Prop NN also passes, refunds would already be eliminated and this instead reduces what NN keeps."
+  },
+  "effects": {
+   "fiscal": -0.5
+  },
+  "reasons": {
+   "fiscal": "Locks $175-180 million a year of existing sales tax into conservation programs, reducing money for other priorities or refunds."
+  }
+ }
+]

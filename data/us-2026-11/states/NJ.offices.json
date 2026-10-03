@@ -1,0 +1,21 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Incumbent Cory Booker (D) seeks a third full term; no governor's race in 2026. Minor-party candidates also on ballot.",
+  "cands": [
+   {
+    "name": "Cory Booker",
+    "party": "D",
+    "inc": true,
+    "desc": "Senator since 2013 and former Newark mayor; unopposed in the Democratic primary."
+   },
+   {
+    "name": "Justin Murphy",
+    "party": "R",
+    "inc": false,
+    "desc": "Attorney from Tabernacle; prioritizes private-sector growth, tax cuts, spending reductions, border security and energy independence."
+   }
+  ]
+ }
+]

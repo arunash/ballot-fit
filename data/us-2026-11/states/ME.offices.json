@@ -1,0 +1,46 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Incumbent Susan Collins (R) seeking a sixth term; Democratic nominee chosen by convention after Graham Platner withdrew",
+  "cands": [
+   {
+    "name": "Susan Collins",
+    "party": "R",
+    "inc": true,
+    "desc": "Senator since 1997 and Appropriations Committee chair; runs on federal funding for Maine, telehealth and authoring the Social Security Fairness Act."
+   },
+   {
+    "name": "Troy Jackson",
+    "party": "D",
+    "inc": false,
+    "desc": "Former logger and Maine Senate President; economic populist backing Medicare for All and abolishing ICE."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Open seat — Gov. Janet Mills (D) is term-limited",
+  "cands": [
+   {
+    "name": "Hannah Pingree",
+    "party": "D",
+    "inc": false,
+    "desc": "Former Maine state representative (2002-2010); Democratic nominee."
+   },
+   {
+    "name": "Bobby Charles",
+    "party": "R",
+    "inc": false,
+    "desc": "Republican nominee (won the June 9 primary); detailed positions not verified."
+   },
+   {
+    "name": "Rick Bennett",
+    "party": "I",
+    "inc": false,
+    "desc": "Independent; sitting Maine state senator (District 18)."
+   }
+  ]
+ }
+]

@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Incumbent Jeff Merkley (D) seeks a fourth term.",
+  "cands": [
+   {
+    "name": "Jeff Merkley",
+    "party": "D",
+    "inc": true,
+    "desc": "Senator since 2009; won the Democratic primary with 93%."
+   },
+   {
+    "name": "David Brock Smith",
+    "party": "R",
+    "inc": false,
+    "desc": "State senator; won a multi-candidate Republican primary with 29.5%."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Incumbent Tina Kotek (D) seeks a second term; rematch of 2022.",
+  "cands": [
+   {
+    "name": "Tina Kotek",
+    "party": "D",
+    "inc": true,
+    "desc": "Governor since 2023; former House Speaker; won the primary with 84%."
+   },
+   {
+    "name": "Christine Drazan",
+    "party": "R",
+    "inc": false,
+    "desc": "Former House Republican leader and 2022 GOP nominee for governor."
+   }
+  ]
+ }
+]

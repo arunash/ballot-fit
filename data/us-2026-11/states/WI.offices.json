@@ -1,0 +1,21 @@
+[
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Open seat: Gov. Tony Evers (D) not running",
+  "cands": [
+   {
+    "name": "David Crowley",
+    "party": "D",
+    "inc": false,
+    "desc": "Milwaukee County executive since 2020; endorsed by Gov. Tony Evers; won the Democratic primary with 39.8% over Rep. Francesca Hong."
+   },
+   {
+    "name": "Tom Tiffany",
+    "party": "R",
+    "inc": false,
+    "desc": "U.S. representative for Wisconsin's 7th District since 2020; endorsed by President Trump; won the Republican primary without serious challenge."
+   }
+  ]
+ }
+]

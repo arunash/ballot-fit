@@ -176,7 +176,7 @@ function render(){
   const nLocal=list.filter(m=>m.jurisdiction==="sf").length, nState=list.length-nLocal-list.filter(m=>m.jurisdiction==="bay-area-rtm").length;
   const groups=["Yes","Lean Yes","Lean No","No","Your call"].map(r=>[r,res.filter(x=>x.rec===r)]).filter(g=>g[1].length);
   $("headline").innerHTML=!list.length?`<h3>No statewide measures in ${esc(name)} this November</h3><p class="note">${esc(name)} has no statewide ballot measures on 3 November 2026. Local measures may still be on your ballot; check your county's sample ballot.</p>`:
-   `<h3>${list.length} measures on your ballot in ${esc(name)}</h3>
+   `<h3>${list.length} measure${list.length===1?"":"s"} on your ballot in ${esc(name)}</h3>
     <div class="chips"><span class="chipx">ZIP ${esc(h.zip)}</span><span class="chipx">${nState} statewide</span>${nLocal?`<span class="chipx">${nLocal} San Francisco</span>`:""}${list.some(m=>m.jurisdiction==="bay-area-rtm")?`<span class="chipx">Regional transit tax</span>`:""}</div>
     ${B.state!=="CA"?`<p class="note">Statewide measures only; county and city measures aren't included yet.</p>`:(!h.sf?`<p class="note">Local measures are loaded for San Francisco only so far.</p>`:"")}
     ${c.cards.filter(x=>x.show).length?`<div class="costs">${c.cards.filter(x=>x.show).map(x=>`<div class="cost"><b>${x.amount<0?"−":""}${money(Math.abs(x.amount))}</b><span>${esc(x.label)}</span></div>`).join("")}</div>`:""}

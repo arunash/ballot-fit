@@ -1,0 +1,46 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Incumbent Republican seeking 4th term; Democratic nominee withdrew",
+  "cands": [
+   {
+    "name": "Jim Risch",
+    "party": "R",
+    "inc": true,
+    "desc": "Senator since 2009; endorsed by Trump, U.S. Chamber of Commerce."
+   },
+   {
+    "name": "Todd Achilles",
+    "party": "I",
+    "inc": false,
+    "desc": "Former Democratic state representative running as independent; backed by Forward Party, AFGE."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Incumbent Republican seeking 3rd term",
+  "cands": [
+   {
+    "name": "Brad Little",
+    "party": "R",
+    "inc": true,
+    "desc": "Governor since 2019; endorsed by Trump, Idaho FOP, Professional Firefighters of Idaho."
+   },
+   {
+    "name": "Terri Pickens",
+    "party": "D",
+    "inc": false,
+    "desc": "Boise attorney, 2022 Lt. Gov. nominee; endorsed by Everytown for Gun Safety."
+   },
+   {
+    "name": "John Stegner",
+    "party": "I",
+    "inc": false,
+    "desc": "Former Idaho Supreme Court justice (2018–2023) running as independent."
+   }
+  ]
+ }
+]

@@ -1,0 +1,266 @@
+[
+ {
+  "id": "MA-Q1",
+  "state": "MA",
+  "label": "Question 1",
+  "t": "Apply public records law to Legislature and Governor",
+  "type": "Indirect initiated state statute",
+  "threshold": "majority (and at least 30% of ballots cast must vote yes)",
+  "what": "Makes most records held by the Legislature and the Governor's office public records under the Massachusetts Public Records Law. Exempts documents related to developing policy positions and legislators' communications with constituents seeking help with government services or agencies.",
+  "y": "Most Legislature and Governor's-office records become subject to public records requests.",
+  "n": "The Legislature and Governor's office stay exempt from the public records law.",
+  "fiscal": "No official state fiscal estimate (Massachusetts does not publish fiscal notes for initiative petitions).",
+  "pro": "Gov. Maura Healey, State Auditor Diana DiZoglio, Massachusetts Democratic Party, Massachusetts Republican Party, League of Women Voters of MA, Massachusetts Fiscal Alliance, Pioneer Institute, Progressive Massachusetts",
+  "con": "Senate President Karen Spilka",
+  "endorse": {
+   "Dem Party": "Y",
+   "GOP": "Y",
+   "LWV": "Y",
+   "Boston Globe": "Y",
+   "Gov. Healey": "Y"
+  },
+  "poll": 63,
+  "source": "https://ballotpedia.org/Massachusetts_Question_1,_Public_Records_Requirements_for_Legislature_and_Governor%E2%80%99s_Office_Initiative_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "MA-Q2",
+  "state": "MA",
+  "label": "Question 2",
+  "t": "Union rights for public defender agency staff",
+  "type": "Indirect initiated state statute",
+  "threshold": "majority (and at least 30% of ballots cast must vote yes)",
+  "what": "Specifies that employees of the Committee for Public Counsel Services (CPCS), the state's public defender agency, may form a union and bargain collectively. After signing a contract, CPCS must ask the Governor for the money needed to fund it.",
+  "y": "CPCS employees may unionize and collectively bargain.",
+  "n": "No change to labor law for CPCS employees, who currently are not explicitly covered by public-sector bargaining law.",
+  "fiscal": "No official state fiscal estimate (Massachusetts does not publish fiscal notes for initiative petitions). Any cost would depend on future contracts and legislative appropriations.",
+  "pro": "SEIU Local 888, Massachusetts Defenders Union, AFT Massachusetts, National Association of Government Employees, Progressive Massachusetts",
+  "con": "No organised opposition identified",
+  "endorse": {
+   "Dem Party": "–",
+   "GOP": "–",
+   "LWV": "–",
+   "Boston Globe": "–",
+   "Gov. Healey": "–"
+  },
+  "poll": 48,
+  "source": "https://ballotpedia.org/Massachusetts_Question_2,_Permit_Collective_Bargaining_for_Committee_for_Public_Counsel_Services_Employees_Initiative_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "MA-Q3",
+  "state": "MA",
+  "label": "Question 3",
+  "t": "Top-two primaries for state elections",
+  "type": "Indirect initiated state statute",
+  "threshold": "majority (and at least 30% of ballots cast must vote yes)",
+  "what": "Replaces party primaries for state, congressional and county offices with a single primary where all candidates appear on one ballot (with their party or designation listed) and all voters take part; the top two vote-getters advance to November regardless of party. Governor and Lt. Governor candidates would run together as a ticket in the primary.",
+  "y": "Party primaries are replaced by a top-two primary open to all voters.",
+  "n": "Separate party primaries continue.",
+  "fiscal": "No official state fiscal estimate (Massachusetts does not publish fiscal notes for initiative petitions).",
+  "pro": "Former Gov. Deval Patrick, U.S. Reps. Jake Auchincloss and Seth Moulton, State Auditor Diana DiZoglio, Open Primaries, MA Forward Party, NAACP New England Area Conference, Lowell Sun",
+  "con": "U.S. Sen. Ed Markey, Massachusetts Democratic Party, Massachusetts Republican Party, SEIU Massachusetts, AFT Massachusetts, Progressive Massachusetts",
+  "endorse": {
+   "Dem Party": "N",
+   "GOP": "N",
+   "LWV": "–",
+   "Boston Globe": "–",
+   "Gov. Healey": "–"
+  },
+  "poll": 43,
+  "source": "https://ballotpedia.org/Massachusetts_Question_3,_Top-Two_Primary_Elections_Initiative_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "MA-Q4",
+  "state": "MA",
+  "label": "Question 4",
+  "t": "Election Day voter registration",
+  "type": "Indirect initiated state statute",
+  "threshold": "majority (and at least 30% of ballots cast must vote yes)",
+  "what": "Lets eligible people register and vote on Election Day at their polling place by showing proof of residency and signing an oath of eligibility. Not available for town meetings, and voters could not change party enrollment on primary day. Currently registration closes 10 days before an election.",
+  "y": "Same-day registration is allowed on Election Day.",
+  "n": "The 10-day registration deadline stays (with limited same-day registration during early voting).",
+  "fiscal": "No official state fiscal estimate (Massachusetts does not publish fiscal notes for initiative petitions).",
+  "pro": "Secretary of the Commonwealth William Galvin, Massachusetts Democratic Party, League of Women Voters of MA, Teamsters, AFT Massachusetts",
+  "con": "Massachusetts Republican Party",
+  "endorse": {
+   "Dem Party": "Y",
+   "GOP": "N",
+   "LWV": "Y",
+   "Boston Globe": "–",
+   "Gov. Healey": "–"
+  },
+  "poll": 53,
+  "source": "https://ballotpedia.org/Massachusetts_Question_4,_Permit_Same-Day_Voter_Registration_Initiative_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "MA-Q5",
+  "state": "MA",
+  "label": "Question 5",
+  "t": "Tighter state tax revenue cap with refunds",
+  "type": "Indirect initiated state statute",
+  "threshold": "majority (and at least 30% of ballots cast must vote yes)",
+  "what": "Changes the 1986 state tax revenue cap (Chapter 62F) so the limit equals the prior year's actual net revenue plus three-year average wage growth, instead of the prior year's limit plus wage growth. Counts revenue from the 4% surtax on incomes over $1 million toward the cap. Revenue above the cap is refunded to taxpayers the next year. Effective July 1, 2027.",
+  "y": "The revenue cap is recalculated from actual collections, making taxpayer refunds more frequent and larger.",
+  "n": "The current cap formula stays; it has been triggered only twice since 1986.",
+  "fiscal": "No official state fiscal estimate. Tufts Center for State Policy Analysis: annual refunds would be 3-5 times more likely than in the past and 5-15 times larger. Backers (Mass. Opportunity Alliance) say refunds would have occurred 24 times in 40 years (~$19B); opponents say it would cut funding for services.",
+  "pro": "Massachusetts Republican Party, Massachusetts Fiscal Alliance, Massachusetts High Technology Council, Massachusetts Competitive Partnership, Pioneer Institute, NFIB, Retailers Association of Massachusetts",
+  "con": "Senate President Karen Spilka, Massachusetts Teachers Association, AFT Massachusetts, 1199SEIU, League of Women Voters of MA, Mass. Budget and Policy Center, Protect Massachusetts' Future",
+  "endorse": {
+   "Dem Party": "–",
+   "GOP": "Y",
+   "LWV": "N",
+   "Boston Globe": "–",
+   "Gov. Healey": "–"
+  },
+  "poll": 47,
+  "source": "https://ballotpedia.org/Massachusetts_Question_5,_Change_State_Tax_Revenue_Limit_Initiative_(2026)",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "fiscal": -1,
+   "services": -0.5,
+   "budget": 0.5
+  },
+  "reasons": {
+   "fiscal": "Tufts CSPA finds revenue above the cap would be refunded far more often and in larger amounts, reducing revenue the state keeps.",
+   "services": "Revenue refunded under the cap, including from the millionaire surtax, would not be available for budgeted services.",
+   "budget": "Taxpayers would receive refunds in years revenue exceeds the new, lower cap."
+  }
+ },
+ {
+  "id": "MA-Q6",
+  "state": "MA",
+  "label": "Question 6",
+  "t": "Dedicate sporting-goods sales tax to nature fund",
+  "type": "Indirect initiated state statute",
+  "threshold": "majority (and at least 30% of ballots cast must vote yes)",
+  "what": "Creates a Nature for All Fund for land and water conservation, parks and outdoor access, overseen by a 15-member board. Directs 50% of existing sales and use tax on sporting goods, recreational vehicles and golf courses to the fund, rising to 100% after July 1, 2028. No new tax; the money would otherwise go to the General Fund.",
+  "y": "Existing sales tax on outdoor goods is dedicated to a conservation fund.",
+  "n": "That sales tax keeps going to the General Fund.",
+  "fiscal": "No official state fiscal estimate. Sponsors estimate up to about $100M a year (based on $2.49B of 2022 sporting-goods sales) shifted from the General Fund to conservation.",
+  "pro": "Gov. Maura Healey, The Nature Conservancy, Mass Audubon, The Trustees, Trust for Public Land, Conservation Law Foundation, Appalachian Mountain Club, REI",
+  "con": "Massachusetts Republican Party",
+  "endorse": {
+   "Dem Party": "–",
+   "GOP": "N",
+   "LWV": "–",
+   "Boston Globe": "–",
+   "Gov. Healey": "Y"
+  },
+  "poll": 56,
+  "source": "https://ballotpedia.org/Massachusetts_Question_6,_Establish_the_Nature_for_All_Fund_Initiative_(2026)",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "fiscal": -0.5
+  },
+  "reasons": {
+   "fiscal": "Shifts an estimated up to ~$100M a year of existing sales-tax revenue out of the General Fund into a dedicated conservation fund."
+  }
+ },
+ {
+  "id": "MA-Q7",
+  "state": "MA",
+  "label": "Question 7",
+  "t": "Allow starter homes on 5,000 sq ft lots",
+  "type": "Indirect initiated state statute",
+  "threshold": "majority (and at least 30% of ballots cast must vote yes)",
+  "what": "Requires cities and towns to allow a single-family home on any residentially zoned lot of at least 5,000 square feet with 50 feet of street frontage and public sewer and water. Localities may still reasonably regulate height, setbacks, open space, parking and short-term rentals.",
+  "y": "Large minimum-lot-size rules can't block single-family homes on qualifying 5,000 sq ft lots.",
+  "n": "Local zoning continues to set minimum lot sizes.",
+  "fiscal": "No official state fiscal estimate (Massachusetts does not publish fiscal notes for initiative petitions).",
+  "pro": "Gov. Maura Healey, Lt. Gov. Kim Driscoll, U.S. Rep. Jake Auchincloss, Legalize Starter Homes, Abundant Housing MA, Mass. Association of Realtors, Home Builders & Remodelers Assn., League of Women Voters of MA, The New York Times",
+  "con": "Massachusetts Municipal Association, Massachusetts Republican Party",
+  "endorse": {
+   "Dem Party": "–",
+   "GOP": "N",
+   "LWV": "Y",
+   "Boston Globe": "–",
+   "Gov. Healey": "Y"
+  },
+  "poll": 51,
+  "source": "https://ballotpedia.org/Massachusetts_Question_7,_Limit_on_Required_Lot_Size_for_Single-Family_Homes_Initiative_(2026)",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "housing": 1
+  },
+  "reasons": {
+   "housing": "Overrides local minimum-lot-size rules larger than 5,000 sq ft on sewered lots, allowing more single-family homes to be built."
+  },
+  "boost": {
+   "renter": {
+    "housing": 0.5
+   }
+  }
+ },
+ {
+  "id": "MA-Q8",
+  "state": "MA",
+  "label": "Question 8",
+  "t": "Repeal recreational marijuana sales",
+  "type": "Indirect initiated state statute",
+  "threshold": "majority (and at least 30% of ballots cast must vote yes)",
+  "what": "Repeals the laws allowing licensed recreational marijuana sales, the state marijuana excise tax and local marijuana taxes, and home cultivation, effective January 1, 2028. Adults 21+ could still possess up to 1 ounce without penalty (with limits on concentrates); medical marijuana continues under the Cannabis Control Commission.",
+  "y": "Recreational marijuana stores and home growing end in 2028; small-amount possession stays decriminalized.",
+  "n": "Recreational marijuana stays legal, taxed and regulated.",
+  "fiscal": "No official state fiscal estimate. The legal market generated about $290M in state tax revenue in FY2025 (including ~$183M marijuana excise) plus ~$50M for local budgets, which would end.",
+  "pro": "Coalition for a Healthy Massachusetts, Smart Approaches to Marijuana",
+  "con": "Marijuana Policy Project, Retailers Association of Massachusetts, SEIU Massachusetts, Progressive Massachusetts",
+  "endorse": {
+   "Dem Party": "–",
+   "GOP": "–",
+   "LWV": "–",
+   "Boston Globe": "–",
+   "Gov. Healey": "–"
+  },
+  "poll": 27,
+  "source": "https://ballotpedia.org/Massachusetts_Question_8,_Eliminate_Recreational_Marijuana_Sales_and_Allow_Limited_Possession_Initiative_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "MA-Q9",
+  "state": "MA",
+  "label": "Question 9",
+  "t": "Keep 2024 gun law (H.4885)",
+  "type": "Veto referendum",
+  "threshold": "majority",
+  "what": "Asks whether to keep the 2024 law 'An Act Modernizing Firearm Laws' (Chapter 135). It requires firearm registration, expands the assault-weapon ban to 'assault-style firearms', bans untraceable ghost guns, requires safety training for licenses, bars guns in government buildings, polling places and schools, and expands extreme-risk protection orders.",
+  "y": "The 2024 firearms law stays in effect.",
+  "n": "The 2024 firearms law is repealed.",
+  "fiscal": "No official state fiscal estimate (Massachusetts does not publish fiscal notes for initiative petitions).",
+  "pro": "Gov. Maura Healey, Mass. Coalition to Prevent Gun Violence, Moms Demand Action, Everytown, Massachusetts Teachers Association, Mass. AFL-CIO, League of Women Voters of MA",
+  "con": "Gun Owners' Action League, The Civil Rights Coalition, Massachusetts Republican Party, Smith & Wesson",
+  "endorse": {
+   "Dem Party": "–",
+   "GOP": "N",
+   "LWV": "Y",
+   "Boston Globe": "–",
+   "Gov. Healey": "Y"
+  },
+  "poll": 70,
+  "source": "https://ballotpedia.org/Massachusetts_Question_9,_Firearm_Regulations_Referendum_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

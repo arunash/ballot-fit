@@ -1,0 +1,12 @@
+[
+ {"short": "SEN", "office": "US Senate", "note": "Incumbent Dan Sullivan (R) seeks a third term; ranked-choice general election (top four from Aug 18 primary).",
+  "cands": [
+   {"name": "Dan Sullivan", "party": "R", "inc": true, "desc": "Two-term incumbent; resource development and military focus; endorsed by Donald Trump, Lisa Murkowski and the U.S. Chamber of Commerce."},
+   {"name": "Mary Peltola", "party": "D", "inc": false, "desc": "Former U.S. Representative (2022–2025); fisheries, cost of living and bipartisanship focus; endorsed by Alaska AFL-CIO and EMILY's List. Led the Aug 18 primary with 49.5%."}
+  ]},
+ {"short": "GOV", "office": "Governor", "note": "Open seat (Mike Dunleavy term-limited); ranked-choice general election. Also on ballot: Dave Bronson (R) and Treg Taylor (R).",
+  "cands": [
+   {"name": "Jonathan Kreiss-Tomkins", "party": "D", "inc": false, "desc": "Former state representative from Sitka (2013–2023), running with independent Zac Johnson; endorsed by former Gov. Tony Knowles and Tom Begich after Begich withdrew. Led the primary (22.5%)."},
+   {"name": "Bernadette Wilson", "party": "R", "inc": false, "desc": "Waste-management business founder and conservative activist, running with former Senate minority leader Mike Shower; supports repealing ranked-choice voting; endorsed by Rep. Byron Donalds."}
+  ]}
+]

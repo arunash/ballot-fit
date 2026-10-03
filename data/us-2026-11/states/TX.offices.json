@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "U.S. Senate",
+  "note": "Open seat in effect: incumbent John Cornyn (R) lost the Republican runoff",
+  "cands": [
+   {
+    "name": "Ken Paxton",
+    "party": "R",
+    "inc": false,
+    "desc": "Texas attorney general since 2015; runs on border security, tax cuts and President Trump's agenda; endorsed by President Trump; beat Cornyn 63.8% in the May 26 runoff."
+   },
+   {
+    "name": "James Talarico",
+    "party": "D",
+    "inc": false,
+    "desc": "State representative since 2018 and former teacher; won the Democratic primary with 52.4% over U.S. Rep. Jasmine Crockett."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Incumbent Greg Abbott (R) seeking a fourth term",
+  "cands": [
+   {
+    "name": "Greg Abbott",
+    "party": "R",
+    "inc": true,
+    "desc": "Governor since 2015; won the Republican primary with 82%; would become the state's longest-serving governor."
+   },
+   {
+    "name": "Gina Hinojosa",
+    "party": "D",
+    "inc": false,
+    "desc": "State representative from Austin (HD-49) since 2017; won the Democratic primary with 59%."
+   }
+  ]
+ }
+]

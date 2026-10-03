@@ -1,0 +1,28 @@
+[
+ {
+  "id": "OH-3",
+  "state": "OH",
+  "label": "Issue 3",
+  "t": "Photo ID to vote in the state constitution",
+  "type": "Legislatively referred constitutional amendment",
+  "threshold": "majority",
+  "what": "Adds Ohio's existing photo-ID voting rules to the state constitution. In-person voters must show government-issued photo ID; absentee voters must provide photo ID or a signature plus one other identifier authorized by law. The legislature may create a separate verification process for voters with a religious objection to being photographed.",
+  "y": "The photo-ID requirement for voting becomes part of the Ohio Constitution.",
+  "n": "Photo ID stays required by state law only, which the legislature can change.",
+  "fiscal": "No official fiscal estimate; the amendment largely constitutionalizes the photo-ID requirement already in state law.",
+  "pro": "Ohio Republican Party, Senate Majority Leader Theresa Gavarone, Treasurer Robert Sprague, Vivek Ramaswamy, Amy Acton, President Trump",
+  "con": "ACLU of Ohio, Ohio Citizen Action, Ohio Legislative Black Caucus, League of Women Voters of Ohio, Democratic legislators",
+  "endorse": {
+   "Ohio GOP": "Y",
+   "Amy Acton (D)": "Y",
+   "Vivek Ramaswamy (R)": "Y",
+   "ACLU of Ohio": "N"
+  },
+  "poll": null,
+  "source": "https://www.ohiosos.gov/assets/2026-11-statewide-issue-3-report.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Open seat (Sen. Dick Durbin retiring)",
+  "cands": [
+   {
+    "name": "Juliana Stratton",
+    "party": "D",
+    "inc": false,
+    "desc": "Lieutenant Governor; endorsed by Gov. JB Pritzker."
+   },
+   {
+    "name": "Don Tracy",
+    "party": "R",
+    "inc": false,
+    "desc": "Former Illinois Republican Party chair."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Incumbent Democrat seeking 3rd term; 2022 rematch",
+  "cands": [
+   {
+    "name": "JB Pritzker",
+    "party": "D",
+    "inc": true,
+    "desc": "Governor since 2019; running mate Christian Mitchell."
+   },
+   {
+    "name": "Darren Bailey",
+    "party": "R",
+    "inc": false,
+    "desc": "Former state senator and 2022 GOP nominee; running mate Aaron Del Mar."
+   }
+  ]
+ }
+]

@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Incumbent Mike Rounds (R) seeks a third term; the Democratic nominee withdrew Aug 4.",
+  "cands": [
+   {
+    "name": "Mike Rounds",
+    "party": "R",
+    "inc": true,
+    "desc": "Senator since 2015 and former governor; won the primary with 75.8%."
+   },
+   {
+    "name": "Brian Bengs",
+    "party": "I",
+    "inc": false,
+    "desc": "Military officer; 2022 Democratic Senate nominee, running as an independent."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Incumbent Larry Rhoden (R), who succeeded Kristi Noem in 2025, seeks a full term.",
+  "cands": [
+   {
+    "name": "Larry Rhoden",
+    "party": "R",
+    "inc": true,
+    "desc": "Governor since 2025; won the first-ever GOP runoff over Toby Doeden with 70.8%."
+   },
+   {
+    "name": "Dan Ahlers",
+    "party": "D",
+    "inc": false,
+    "desc": "SD Democratic Party executive director and former state senator; endorsed by Joe Biden."
+   }
+  ]
+ }
+]

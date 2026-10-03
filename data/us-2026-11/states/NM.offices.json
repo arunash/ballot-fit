@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Incumbent Ben Ray Luján (D) seeks a second term.",
+  "cands": [
+   {
+    "name": "Ben Ray Luján",
+    "party": "D",
+    "inc": true,
+    "desc": "Senator since 2021 and former U.S. Representative; won the Democratic primary with 83.7%."
+   },
+   {
+    "name": "Larry E. Marker",
+    "party": "R",
+    "inc": false,
+    "desc": "Former oil and gas operator; nominated as a write-in after no Republican qualified for the primary ballot."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Open seat (Gov. Michelle Lujan Grisham term-limited).",
+  "cands": [
+   {
+    "name": "Deb Haaland",
+    "party": "D",
+    "inc": false,
+    "desc": "Former U.S. Interior Secretary and congresswoman (Laguna Pueblo); focuses on lowering costs for families; defeated Sam Bregman in the primary."
+   },
+   {
+    "name": "Gregg Hull",
+    "party": "R",
+    "inc": false,
+    "desc": "Former Rio Rancho mayor; argues eight years of one-party control have failed New Mexico families."
+   }
+  ]
+ }
+]

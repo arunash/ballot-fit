@@ -1,0 +1,12 @@
+[
+ {"short": "SEN", "office": "US Senate", "note": "Special election for the rest of Marco Rubio's term; appointed incumbent Ashley Moody (R).",
+  "cands": [
+   {"name": "Ashley Moody", "party": "R", "inc": true, "desc": "Appointed senator (2025) and former Florida Attorney General; endorsed by Donald Trump, Sens. Rick Scott and Ted Cruz."},
+   {"name": "Angie Nixon", "party": "D", "inc": false, "desc": "State representative from Jacksonville; progressive; won the Democratic primary (56.1%) in an upset over Alex Vindman."}
+  ]},
+ {"short": "GOV", "office": "Governor", "note": "Open seat (Ron DeSantis term-limited).",
+  "cands": [
+   {"name": "Byron Donalds", "party": "R", "inc": false, "desc": "U.S. Representative (FL-19), running with Bryan Avila; endorsed by Donald Trump and Elon Musk; beat Lt. Gov. Jay Collins and Paul Renner in the primary."},
+   {"name": "David Jolly", "party": "D", "inc": false, "desc": "Former Republican U.S. Representative turned Democrat, running with former Rep. Gwen Graham; Democratic nominee."}
+  ]}
+]

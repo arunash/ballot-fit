@@ -1,0 +1,96 @@
+[
+ {
+  "id": "NE-440",
+  "state": "NE",
+  "label": "Initiative Measure 440",
+  "t": "Allow online sports betting (constitution)",
+  "type": "Initiated constitutional amendment",
+  "threshold": "majority, with 'yes' votes at least 35% of all ballots cast",
+  "what": "Amends Article III, Section 24 so the Legislature or voters may authorize sports wagering over the internet, offered by licensed racetrack casino operators, for people located in Nebraska when they bet. Sports betting is currently legal only in person at licensed racetracks. Companion to Initiative Measure 441.",
+  "y": "The constitution allows laws permitting online sports betting through racetrack gaming operators.",
+  "n": "Sports betting stays limited to in-person wagering at licensed racetracks.",
+  "fiscal": "No official state fiscal estimate published. Supporters (SoS pamphlet) project more than $166M in property tax relief over 10 years from Initiatives 440/441; opponents dispute this.",
+  "pro": "Tax Relief Nebraska; DraftKings, FanDuel, BetMGM, Fanatics",
+  "con": "Save Nebraska Sports, Nebraska Family Alliance",
+  "endorse": {
+   "Nebraska Family Alliance": "N"
+  },
+  "poll": null,
+  "source": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026%20Ballot%20Measures%20Pamphlet.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "NE-441",
+  "state": "NE",
+  "label": "Initiative Measure 441",
+  "t": "Legalize and regulate online sports betting (law)",
+  "type": "Initiated state statute",
+  "threshold": "majority, with 'yes' votes at least 35% of all ballots cast",
+  "what": "Lets licensed racetrack gaming operators, directly or through up to two contracted platform providers, take online sports bets from people located in Nebraska, with servers in the state. The State Racing and Gaming Commission must adopt rules by June 1, 2027; existing exclusions such as bets on in-state college teams stay.",
+  "y": "Online sports betting becomes legal through racetrack operators' apps and websites, regulated by the state gaming commission.",
+  "n": "No online sports betting; wagering stays in person at racetracks.",
+  "fiscal": "No official state fiscal estimate published. Supporters say 70% of the resulting wagering tax would go to the Property Tax Credit Cash Fund, more than $166M over 10 years; opponents say the relief would be minimal.",
+  "pro": "Tax Relief Nebraska; DraftKings, FanDuel, BetMGM, Fanatics",
+  "con": "Save Nebraska Sports, Nebraska Family Alliance",
+  "endorse": {
+   "Nebraska Family Alliance": "N"
+  },
+  "poll": null,
+  "source": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026%20Ballot%20Measures%20Pamphlet.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "NE-442",
+  "state": "NE",
+  "label": "Initiative Measure 442",
+  "t": "School and college sports teams by biological sex",
+  "type": "Initiated constitutional amendment",
+  "threshold": "majority, with 'yes' votes at least 35% of all ballots cast",
+  "what": "Adds Article VII, Section 16: schools must designate each team as male, female, or coed based on biological sex, and teams for females may not be open to students of the male sex. It covers public K-12 schools, public colleges, and private schools that compete against them. A 2025 state law already sets similar requirements.",
+  "y": "Sex-based team rules are written into the Nebraska Constitution.",
+  "n": "The rules remain in state statute (2025 law) rather than the constitution.",
+  "fiscal": "–",
+  "pro": "Fairness for Girls, Nebraska Family Alliance, State Treasurer Joey Spellerberg (R)",
+  "con": "Fairness for All, Rainbow Parents of Nebraska, Ballot Initiative Strategy Center",
+  "endorse": {
+   "Nebraska Family Alliance": "Y"
+  },
+  "poll": null,
+  "source": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026%20Ballot%20Measures%20Pamphlet.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "NE-LR19CA",
+  "state": "NE",
+  "label": "Constitutional Amendment (LR19CA)",
+  "t": "Three-term legislative term limit",
+  "type": "Legislative constitutional amendment (LR19CA, 2025)",
+  "threshold": "majority, with 'yes' votes at least 35% of all ballots cast",
+  "what": "Changes term limits for Nebraska state senators from two consecutive four-year terms (8 years) to three consecutive terms (12 years). After reaching the limit, a senator would still have to sit out four years before serving again. Voters rejected a similar change in 2012.",
+  "y": "State senators could serve up to three consecutive terms (12 years).",
+  "n": "The two-consecutive-term (8-year) limit stays.",
+  "fiscal": "–",
+  "pro": "Sen. Rob Dover (R), Civic Nebraska, Common Cause, Nebraska Chamber of Commerce, Nebraska Farm Bureau, OpenSky Policy Institute, League of Nebraska Municipalities",
+  "con": "Nebraska State Grange",
+  "endorse": {
+   "NE Chamber": "Y",
+   "NE Farm Bureau": "Y",
+   "Common Cause": "Y"
+  },
+  "poll": null,
+  "source": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/LR19CA_Approved_Ballot_Statement_Language.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

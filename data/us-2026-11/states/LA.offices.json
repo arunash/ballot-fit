@@ -1,0 +1,21 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Open seat — incumbent Bill Cassidy (R) lost the May 16 Republican primary",
+  "cands": [
+   {
+    "name": "Julia Letlow",
+    "party": "R",
+    "inc": false,
+    "desc": "U.S. Rep. for LA-5 since 2021; runs as a conservative on parents' rights in education and law enforcement; endorsed by President Trump."
+   },
+   {
+    "name": "Jamie Davis",
+    "party": "D",
+    "inc": false,
+    "desc": "Tensas Parish farmer and former police juror; focuses on cost of living, keeping ACA subsidies and Medicaid, and a public Medicare option."
+   }
+  ]
+ }
+]

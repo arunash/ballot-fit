@@ -1,0 +1,28 @@
+[
+ {
+  "id": "IA-1",
+  "state": "IA",
+  "label": "Amendment 1",
+  "t": "Two-thirds legislative vote to raise income taxes",
+  "type": "Legislative constitutional amendment (SJR 11)",
+  "threshold": "majority",
+  "what": "Requires a two-thirds vote of the members of each legislative chamber (67 of 100 House, 34 of 50 Senate) to pass any bill that raises the individual or corporate income tax rate, or creates a new state tax on income or on financial institutions' legal and special reserves. Tax cuts would still need a simple majority, and local-option taxes are exempt.",
+  "y": "Future state income-tax rate increases would need a two-thirds supermajority in both chambers.",
+  "n": "Income-tax increases continue to need only a simple majority.",
+  "fiscal": "No official fiscal note; the amendment does not itself change any tax rate.",
+  "pro": "Iowans for Tax Relief Foundation (Make Tax Hikes Harder), Iowa Credit Union League, legislative Republicans",
+  "con": "Fair Taxes for Iowa's Future coalition, Common Good Iowa, League of Women Voters of Iowa, labor unions",
+  "endorse": {
+   "ITR Foundation": "Y",
+   "Iowa Credit Union League": "Y",
+   "LWV Iowa": "N",
+   "Common Good Iowa": "N"
+  },
+  "poll": 33,
+  "source": "https://ballotpedia.org/Iowa_Amendment_1,_Two-Thirds_Legislative_Vote_Requirement_for_Income_Tax_Increase_Bills_Amendment_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

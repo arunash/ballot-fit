@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "U.S. Senate",
+  "note": "Open seat: Sen. Cynthia Lummis (R) not seeking re-election",
+  "cands": [
+   {
+    "name": "Harriet Hageman",
+    "party": "R",
+    "inc": false,
+    "desc": "U.S. representative (at-large) since 2023; endorsed by Sen. Lummis; won the Republican primary with 64.9%."
+   },
+   {
+    "name": "James W. Byrd",
+    "party": "D",
+    "inc": false,
+    "desc": "Former state representative (2009-2019) and 2018 secretary of state nominee; won the Democratic primary with 79.3%."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Open seat: Gov. Mark Gordon (R) is term-limited",
+  "cands": [
+   {
+    "name": "Eric Barlow",
+    "party": "R",
+    "inc": false,
+    "desc": "State senator and former House speaker; opposes property-tax Initiative 1; beat Superintendent Megan Degenfelder in the Republican primary with 45.1%."
+   },
+   {
+    "name": "Kenneth Casner",
+    "party": "D",
+    "inc": false,
+    "desc": "Perennial candidate (2002, 2018); unopposed for the Democratic nomination."
+   }
+  ]
+ }
+]

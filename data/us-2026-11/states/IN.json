@@ -1,0 +1,48 @@
+[
+ {
+  "id": "IN-PQ1",
+  "state": "IN",
+  "label": "Public Question 1",
+  "t": "Allow denying bail to people posing substantial risk",
+  "type": "Legislative constitutional amendment (SJR 1)",
+  "threshold": "majority",
+  "what": "Lets courts deny bail to a person charged with any offense, not just murder or treason, if the proof is evident or the presumption strong and the state proves by clear and convincing evidence that no release conditions would reasonably protect any other person or the community.",
+  "y": "Judges could hold more defendants without bail when the state shows they pose a substantial risk.",
+  "n": "Only murder and treason charges can be denied bail; other offenses stay bailable.",
+  "fiscal": "No official fiscal estimate identified.",
+  "pro": "Sen. Eric Koch (author), Indiana Prosecuting Attorneys Council",
+  "con": "ACLU of Indiana, Indiana Public Defender Council, Strength Over Struggle",
+  "endorse": {
+   "IN Prosecuting Attorneys Council": "Y",
+   "ACLU of Indiana": "N",
+   "IN Public Defender Council": "N"
+  },
+  "poll": null,
+  "source": "https://ballotpedia.org/Indiana_Bailable_Offenses_and_Substantial_Risk_Standard_Amendment_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "IN-PQ2",
+  "state": "IN",
+  "label": "Public Question 2",
+  "t": "Residency rules for city and town court judges",
+  "type": "Legislative constitutional amendment",
+  "threshold": "majority",
+  "what": "Allows the judge of a city or town court to live either in the county where the court sits or in the bordering county closest to that city or town.",
+  "y": "City and town court judges could live in the court's county or the nearest bordering county.",
+  "n": "Current residency requirements for city and town court judges stay.",
+  "fiscal": "No fiscal impact identified.",
+  "pro": "Indiana General Assembly (referred)",
+  "con": "No organized opposition",
+  "endorse": {},
+  "poll": null,
+  "source": "https://ballotpedia.org/Indiana_Residency_Requirements_for_City_and_Town_Court_Judges_Amendment_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

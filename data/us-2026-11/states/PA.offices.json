@@ -1,0 +1,21 @@
+[
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Incumbent Josh Shapiro (D) seeks a second term. No U.S. Senate seat is up in Pennsylvania in 2026.",
+  "cands": [
+   {
+    "name": "Josh Shapiro",
+    "party": "D",
+    "inc": true,
+    "desc": "Governor since 2023; former state attorney general."
+   },
+   {
+    "name": "Stacy Garrity",
+    "party": "R",
+    "inc": false,
+    "desc": "State Treasurer; sole name on the GOP primary ballot; endorsed by Donald Trump."
+   }
+  ]
+ }
+]

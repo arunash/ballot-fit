@@ -1,0 +1,60 @@
+[
+ {
+  "id": "ND-1",
+  "state": "ND",
+  "label": "Constitutional Measure No. 1",
+  "t": "Require 60% to pass constitutional amendments",
+  "type": "Legislative constitutional amendment (HCR 3003, 2025)",
+  "threshold": "majority",
+  "what": "Requires future amendments to the North Dakota Constitution, whether proposed by the Legislature or by citizen petition, to win at least 60% of the votes cast on the question. Today a simple majority is enough.",
+  "y": "Constitutional amendments would need 60% of the vote to pass.",
+  "n": "Constitutional amendments continue to pass with a simple majority.",
+  "fiscal": "Official ballot language: the estimated fiscal impact is none.",
+  "pro": "Sen. Jeff Barta (R), Sen. Janne Myrdal (R), Sen. David Hogue (R), Rep. Mike Lefor (R), Sen. Kathy Hogan (D)",
+  "con": "League of Women Voters of North Dakota, Prairie Action ND, North Dakota Watchdog Network, Sen. Sean Cleary (R)",
+  "endorse": {
+   "LWV ND": "N"
+  },
+  "poll": null,
+  "source": "https://www.sos.nd.gov/sites/default/files/documents/elections/measures/ballot-language-2026-general-measure1.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "ND-2",
+  "state": "ND",
+  "label": "Initiated Constitutional Measure No. 2",
+  "t": "Free school breakfast and lunch for all students",
+  "type": "Initiated constitutional amendment",
+  "threshold": "majority",
+  "what": "Requires all public schools and charter schools to serve one breakfast and one lunch each school day at no cost to students or families (optional for private and tribal schools), starting in 2027-28. The state reimburses schools at the USDA free-meal rate, adjusted for inflation, minus federal money; if lawmakers do not find a funding source, the money comes from the Legacy Earnings Fund.",
+  "y": "Every public-school student can get free breakfast and lunch, paid by the state after federal reimbursement.",
+  "n": "Meals stay free or reduced-price only for income-eligible students under federal and current state programs.",
+  "fiscal": "Legislative Council / Dept. of Public Instruction: $124.3M–$134.3M per 2027-29 biennium for meals plus $300,000 in administrative costs, adjusted for inflation each year after.",
+  "pro": "Together for School Meals, Prairie Action ND, Sen. Sean Cleary (R), Rep. Mike Nathe (R)",
+  "con": "Gov. Kelly Armstrong (R), Sen. Janne Myrdal (R)",
+  "endorse": {
+   "Gov. Armstrong": "N"
+  },
+  "poll": null,
+  "source": "https://www.sos.nd.gov/sites/default/files/documents/elections/measures/schoollunches-fiscal-impact.pdf",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "services": 1.5,
+   "fiscal": -1
+  },
+  "reasons": {
+   "services": "Guarantees a free breakfast and lunch each school day to every public-school student starting in 2027-28.",
+   "fiscal": "Adds an estimated $124M–$134M per biennium in ongoing state spending, constitutionally required and backstopped by the Legacy Earnings Fund.",
+   "budget": "Families with public-school children would no longer pay for school breakfast or lunch."
+  },
+  "boost": {
+   "school": {
+    "budget": 1.5
+   }
+  }
+ }
+]

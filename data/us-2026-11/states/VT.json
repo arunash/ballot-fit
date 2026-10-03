@@ -1,0 +1,51 @@
+[
+ {
+  "id": "VT-3",
+  "state": "VT",
+  "label": "Proposal 3",
+  "t": "Right to collective bargaining",
+  "type": "Legislative constitutional amendment",
+  "threshold": "majority",
+  "what": "Adds a right for employees to organize or join a union to bargain collectively. It bars laws that interfere with that right over wages, hours, other terms of employment and workplace safety, and bars laws that prohibit agreements requiring union membership (so-called right-to-work laws).",
+  "y": "Collective bargaining becomes a constitutional right and right-to-work laws are barred.",
+  "n": "Collective bargaining stays governed by ordinary state and federal law.",
+  "fiscal": "No official fiscal estimate located.",
+  "pro": "Vermont Democratic Party, Vermont AFL-CIO, Treasurer Mike Pieciak, Fraternal Order of Police",
+  "con": "No organized campaign identified; former Vermont GOP chair Rob Roper has argued against it",
+  "endorse": {
+   "VT Dem Party": "Y",
+   "VT AFL-CIO": "Y",
+   "FOP": "Y"
+  },
+  "poll": null,
+  "source": "https://ballotpedia.org/Vermont_Proposal_3,_Right_to_Collective_Bargaining_Amendment_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "VT-4",
+  "state": "VT",
+  "label": "Proposal 4",
+  "t": "Equal protection under the law",
+  "type": "Legislative constitutional amendment",
+  "threshold": "majority",
+  "what": "Adds an equal protection clause to the Vermont Constitution. It bars denying anyone equal treatment under the law because of race, ethnicity, sex, religion, disability, sexual orientation, gender identity, gender expression or national origin, while allowing measures meant to help groups historically subject to discrimination.",
+  "y": "An explicit equal protection guarantee with listed categories is added.",
+  "n": "The constitution keeps no explicit equal protection clause.",
+  "fiscal": "No official fiscal estimate located.",
+  "pro": "Vermont Human Rights Commission, Vermont Racial Justice Alliance, Vermont Commission on Women, House Speaker Jill Krowinski",
+  "con": "No on Proposal 4 committee, State Reps. Michael Boutin and Zachary Harvey",
+  "endorse": {
+   "VT Human Rights Comm.": "Y",
+   "VT Racial Justice Alliance": "Y"
+  },
+  "poll": null,
+  "source": "https://ballotpedia.org/Vermont_Proposal_4,_Equal_Protection_of_Law_Amendment_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

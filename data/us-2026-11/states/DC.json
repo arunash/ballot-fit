@@ -1,0 +1,25 @@
+[
+ {
+  "id": "DC-86",
+  "state": "DC",
+  "label": "Initiative 86",
+  "t": "Ban force-feeding birds and foie gras sales",
+  "type": "Initiative",
+  "threshold": "majority",
+  "what": "Prohibits force-feeding birds to enlarge their livers and bans the commercial sale, distribution and importation of foie gras and other fattened-liver products in D.C. The Department of Energy and Environment would enforce it during routine food-safety inspections.",
+  "y": "Foie gras and other force-fed bird liver products can no longer be sold in D.C.",
+  "n": "Foie gras sales remain legal.",
+  "fiscal": "No official fiscal estimate located.",
+  "pro": "Pro-Animal D.C.",
+  "con": "Some D.C. restaurateurs, e.g. chef Bart Hutchins (Butterworth's)",
+  "endorse": {
+   "Pro-Animal DC": "Y"
+  },
+  "poll": null,
+  "source": "https://ballotpedia.org/Washington,_D.C.,_Initiative_86,_Prohibit_Force-Feeding_Birds_and_Sale_of_Foie_Gras_and_Other_Fattened_Bird_Liver_Products_Initiative_(November_2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

@@ -1,0 +1,23 @@
+[
+ {
+  "id": "NH-CACR13",
+  "state": "NH",
+  "label": "Constitutional Amendment Question (CACR 13)",
+  "t": "Eliminate the office of register of probate",
+  "type": "Legislative constitutional amendment (CACR 13, 2026)",
+  "threshold": "two-thirds",
+  "what": "Removes the elected office of register of probate and all references to it from Articles 71 and 81 of Part Second of the New Hampshire Constitution. The office's duties were moved to circuit court clerks in 2011. A similar amendment got 62.9% in 2022 and failed the two-thirds requirement.",
+  "y": "The register of probate office is eliminated from the constitution.",
+  "n": "The constitution keeps the elected register of probate office.",
+  "fiscal": "–",
+  "pro": "Sponsors Rep. Dennis Mannion (R), Rep. Catherine Rombeau (D), Rep. Aidan Ankarberg (I), Sen. Lucinda Rosenwald (D)",
+  "con": "No organized opposition",
+  "endorse": {},
+  "poll": null,
+  "source": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?id=1803&txtFormat=html&sy=2026",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

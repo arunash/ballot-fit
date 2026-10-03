@@ -1,0 +1,7 @@
+[
+ {"short": "GOV", "office": "Governor", "note": "Incumbent Ned Lamont (D) seeks a third term; no U.S. Senate seat up in 2026.",
+  "cands": [
+   {"name": "Ned Lamont", "party": "D", "inc": true, "desc": "Two-term governor, running with Lt. Gov. Susan Bysiewicz; fiscal guardrails and budget surpluses; also endorsed by the Working Families Party."},
+   {"name": "Ryan Fazio", "party": "R", "inc": false, "desc": "State senator from Greenwich, running with Mathew Corey; focus on taxes, energy costs and affordability; also has the Independent Party of Connecticut line."}
+  ]}
+]

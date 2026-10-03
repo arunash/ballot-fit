@@ -1,0 +1,54 @@
+[
+ {
+  "id": "MI-P1",
+  "state": "MI",
+  "label": "Proposal 1",
+  "t": "Call a state constitutional convention",
+  "type": "Automatic constitutional convention question",
+  "threshold": "majority",
+  "what": "Asks whether a convention of elected delegates should meet in 2027 to draft a general revision of the Michigan Constitution, which would then go to voters for approval or rejection. The question appears automatically every 16 years under the state constitution.",
+  "y": "Delegates would be elected and a convention held in 2027 to propose a revised constitution for a later statewide vote.",
+  "n": "No convention is held; the constitution can still be changed by individual amendments.",
+  "fiscal": "No official fiscal estimate located; a convention would require spending on delegate elections and convention operations.",
+  "pro": "State Sen. Aric Nesbitt (R), House Speaker Matt Hall (R)",
+  "con": "Protect MI Constitution from Special Interests, Michigan AFL-CIO, Michigan Education Association, Michigan Chamber of Commerce, Business Leaders for Michigan, League of Women Voters of Michigan, Michigan LCV",
+  "endorse": {
+   "MI Chamber": "N",
+   "MI AFL-CIO": "N",
+   "LWV": "N",
+   "Speaker Hall": "Y"
+  },
+  "poll": 47,
+  "source": "https://ballotpedia.org/Michigan_Proposal_1,_Constitutional_Convention_Question_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "MI-P2",
+  "state": "MI",
+  "label": "Proposal 2",
+  "t": "Ban utility and big-contractor political donations",
+  "type": "Initiated state statute",
+  "threshold": "majority",
+  "what": "Bars regulated electric and gas utilities, government contractors with over $250,000 a year in government contracts, and people and groups substantially connected to them from contributing directly or indirectly to candidates for governor, attorney general, secretary of state, the legislature and certain local offices, and to ballot-measure committees. Also requires disclaimers on AI-generated political ads, disclosure of electioneering ads over $5,000 a year, and lowers the independent-expenditure reporting threshold to $500.",
+  "y": "Utilities and large state contractors are barred from political giving, with new AI-ad and disclosure rules.",
+  "n": "Current Michigan campaign-finance rules stay.",
+  "fiscal": "No official fiscal estimate located.",
+  "pro": "Michiganders for Money out of Politics, Secretary of State Jocelyn Benson, Lt. Gov. Garlin Gilchrist II, Michigan LCV, Clean Water Action, Voters Not Politicians",
+  "con": "Protect MI Free Speech, Michigan Chamber of Commerce, Blue Cross Blue Shield of Michigan PAC",
+  "endorse": {
+   "MI Chamber": "N",
+   "SoS Benson": "Y",
+   "MI LCV": "Y",
+   "LWV": "–"
+  },
+  "poll": 72,
+  "source": "https://ballotpedia.org/Michigan_Proposal_2,_Utility_and_Government_Contractor_Campaign_Finance_Regulations_Initiative_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

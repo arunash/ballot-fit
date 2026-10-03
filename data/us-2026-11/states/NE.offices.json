@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Incumbent Pete Ricketts (R) seeks a full term. Democratic nominee Cindy Burbank withdrew July 17, 2026; the Nebraska Democratic Party endorsed Osborn. Also on ballot: Chuck Conboy (America First), Mike Marvin (Legal Marijuana Now), Robin Richards (Working People).",
+  "cands": [
+   {
+    "name": "Pete Ricketts",
+    "party": "R",
+    "inc": true,
+    "desc": "Senator since 2023 and former two-term governor; runs on tax cuts, border security and spending restraint alongside President Trump."
+   },
+   {
+    "name": "Dan Osborn",
+    "party": "I",
+    "inc": false,
+    "desc": "Industrial mechanic, former union local president and Navy veteran; nonpartisan candidate who says he would not caucus with either party; endorsed by the Nebraska Democratic Party."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Incumbent Jim Pillen (R) seeks a second term. Also on ballot: Brett Lindstrom (America First), Rick Beard (Legal Marijuana Now).",
+  "cands": [
+   {
+    "name": "Jim Pillen",
+    "party": "R",
+    "inc": true,
+    "desc": "First-term governor; runs on property tax relief, constitutional carry and border security support."
+   },
+   {
+    "name": "Lynne Walz",
+    "party": "D",
+    "inc": false,
+    "desc": "Former state senator from Fremont; focuses on the state budget deficit, public schools, jobs and costs; supports implementing voter-approved medical cannabis."
+   }
+  ]
+ }
+]

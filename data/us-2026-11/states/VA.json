@@ -1,0 +1,77 @@
+[
+ {
+  "id": "VA-1",
+  "state": "VA",
+  "label": "Question 1",
+  "t": "Right to reproductive freedom",
+  "type": "Legislative constitutional amendment (HB 781)",
+  "threshold": "majority",
+  "what": "Adds a fundamental right to reproductive freedom to the Virginia Constitution, covering decisions on prenatal care, childbirth, postpartum care, contraception, abortion, miscarriage management and fertility care. It bars punishing patients or providers for these decisions. The state could restrict abortion in the third trimester except when the patient's life or health is at risk or the pregnancy cannot survive.",
+  "y": "The constitution protects reproductive decisions, including abortion, with third-trimester limits allowed.",
+  "n": "No such right is added; abortion stays governed by ordinary state law.",
+  "fiscal": "Department of Planning and Budget: one-time cost of about $205,000 (FY2027) for the Department of Elections to advertise the referendum and print notices; no other fiscal impact identified.",
+  "pro": "Gov. Abigail Spanberger, Virginians for Reproductive Freedom, U.S. Rep. Don Beyer, Democratic legislators",
+  "con": "The Family Foundation of Virginia, Virginia Catholic Conference, Susan B. Anthony Pro-Life America, Heritage Action, Republican legislators",
+  "endorse": {
+   "Gov. Spanberger": "Y",
+   "Family Foundation": "N",
+   "VA Catholic Conf.": "N",
+   "National Review": "N"
+  },
+  "poll": 66,
+  "source": "https://lis.blob.core.windows.net/files/1141203.PDF",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "VA-2",
+  "state": "VA",
+  "label": "Question 2",
+  "t": "Repeal same-sex marriage ban",
+  "type": "Legislative constitutional amendment (HB 612)",
+  "threshold": "majority",
+  "what": "Removes the 2006 constitutional language that defines marriage as only between one man and one woman. Adds that marriage is a vital personal right and that the state may not deny a marriage license to two adults based on sex, gender or race, and requires lawful marriages to be treated equally.",
+  "y": "The ban is removed and marriage between two adults regardless of sex, gender or race is protected.",
+  "n": "The one-man-one-woman language stays in the constitution (though unenforceable under current U.S. Supreme Court precedent).",
+  "fiscal": "Department of Planning and Budget: one-time cost of about $205,000 (FY2027) for the Department of Elections to advertise the referendum and print notices; no other fiscal impact identified.",
+  "pro": "Gov. Abigail Spanberger, Virginians for Marriage Equality, Democratic legislators",
+  "con": "The Family Foundation of Virginia, Virginia Catholic Conference, Heritage Action, Liberty Counsel Action",
+  "endorse": {
+   "Gov. Spanberger": "Y",
+   "Family Foundation": "N",
+   "VA Catholic Conf.": "N"
+  },
+  "poll": null,
+  "source": "https://lis.blob.core.windows.net/files/1141202.PDF",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "VA-3",
+  "state": "VA",
+  "label": "Question 3",
+  "t": "Restore voting rights after prison",
+  "type": "Legislative constitutional amendment (HB 963)",
+  "threshold": "majority",
+  "what": "Declares a fundamental right to vote. People convicted of felonies would lose the vote only while incarcerated and regain it automatically on release, instead of needing the governor to restore it. The bar on voting by people 'mentally incompetent' becomes a bar on those found by a court to lack capacity to understand voting.",
+  "y": "People with felony convictions regain voting rights automatically when released.",
+  "n": "Restoration of voting rights continues to depend on the governor.",
+  "fiscal": "Department of Planning and Budget: one-time cost of about $205,000 (FY2027) for the Department of Elections to advertise the referendum and print notices; no other fiscal impact identified.",
+  "pro": "Gov. Abigail Spanberger, Virginia Right to Vote Coalition, Democratic legislators, Del. Mike Cherry (R)",
+  "con": "State Sens. Mark Peake and Chris Head, former Del. Todd Gilbert, Arlington County Republican Party",
+  "endorse": {
+   "Gov. Spanberger": "Y",
+   "Right to Vote Coalition": "Y"
+  },
+  "poll": 64,
+  "source": "https://lis.blob.core.windows.net/files/1141205.PDF",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Incumbent Republican seeking 2nd term",
+  "cands": [
+   {
+    "name": "Roger Marshall",
+    "party": "R",
+    "inc": true,
+    "desc": "Senator since 2021, physician; endorsed by Trump, NRA, Teamsters."
+   },
+   {
+    "name": "Adam Hamilton",
+    "party": "D",
+    "inc": false,
+    "desc": "Pastor, Church of the Resurrection founder; endorsed by ex-GOP Govs. Graves and Hayden, AFL-CIO, Kansas City Star."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Open seat (Gov. Laura Kelly term-limited)",
+  "cands": [
+   {
+    "name": "Cindy Holscher",
+    "party": "D",
+    "inc": false,
+    "desc": "State senator; endorsed by Kansas AFL-CIO, EMILYs List, Kansas City Star."
+   },
+   {
+    "name": "Ty Masterson",
+    "party": "R",
+    "inc": false,
+    "desc": "Kansas Senate President; endorsed by Trump, Sen. Marshall, Americans for Prosperity, NRA."
+   }
+  ]
+ }
+]

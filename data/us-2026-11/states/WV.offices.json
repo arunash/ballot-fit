@@ -1,0 +1,21 @@
+[
+ {
+  "short": "SEN",
+  "office": "U.S. Senate",
+  "note": "Incumbent Shelley Moore Capito (R) seeking a third term",
+  "cands": [
+   {
+    "name": "Shelley Moore Capito",
+    "party": "R",
+    "inc": true,
+    "desc": "U.S. senator since 2015; won the Republican primary with 66.5% over state Sen. Tom Willis."
+   },
+   {
+    "name": "Rachel Fetty Anderson",
+    "party": "D",
+    "inc": false,
+    "desc": "Former Morgantown city council member; won the Democratic primary with 33.2% in a multi-candidate field."
+   }
+  ]
+ }
+]

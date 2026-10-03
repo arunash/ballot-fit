@@ -8,7 +8,13 @@
 
 Everything runs in the browser. Nothing you enter is sent anywhere or stored.
 
-Currently covers the **California general election of 3 November 2026**: all 14 statewide propositions everywhere, the 10 San Francisco measures for SF ZIPs, and the Bay Area regional transit tax (RTM) for the five participating counties.
+Covers the **US general election of 3 November 2026**:
+
+- **Every statewide ballot measure**: 146 measures in 39 states + DC, with official fiscal impact and, where a measure changes household taxes or fees, a personal cost model (income-tax brackets, flat-rate changes, property-tax rates and exemptions, sales tax, fees, minimum wage)
+- **Governor and US Senate races** in all 50 states
+- **San Francisco** local measures and the Bay Area regional transit tax (RTM) for those ZIPs
+
+ZIP code only: your state comes from the ZIP, and nothing leaves the browser. County and city measures outside San Francisco aren't included yet.
 
 ## How recommendations work
 
@@ -40,7 +46,8 @@ No dependencies. Host `dist/index.html` anywhere static. Every push to `main` ru
 
 Each election is a folder under `data/`:
 
-- `measures.json`: one object per measure (`id`, `jurisdiction`, `t`, `type`, `what`, `y`, `n`, `fiscal`, `pro`, `con`, `e` endorsements, `poll`)
+- `us-2026-11/states/XX.json` + `XX.offices.json`: each state's measures and races, in the format in `us-2026-11/SCHEMA.md`
+- `ca-2026-11/measures.json`: one object per measure (`id`, `jurisdiction`, `t`, `type`, `what`, `y`, `n`, `fiscal`, `pro`, `con`, `e` endorsements, `poll`)
 - `offices.json`: candidate races shown to everyone
 - `rules.js`: ZIP → jurisdictions, personal-cost formulas, and the effect of a Yes vote per measure
 

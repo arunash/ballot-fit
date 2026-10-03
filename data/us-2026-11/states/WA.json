@@ -1,0 +1,106 @@
+[
+ {
+  "id": "WA-IL26-001",
+  "state": "WA",
+  "label": "Initiative Measure No. IL26-001",
+  "t": "Restore 2024 parents' rights law (I-2081)",
+  "type": "Initiative to the Legislature (indirect initiated statute)",
+  "threshold": "majority",
+  "what": "Re-enacts the 2024 parents' bill of rights (I-2081) as originally passed, giving parents rights to review curricula and student records, get certain notifications, and opt children out of sexual-health education. It repeals 2025 amendments (HB 1296) that changed school obligations and access to records and added other rights.",
+  "y": "The original 2024 parents' rights law is restored and the 2025 changes are repealed.",
+  "n": "The law stays as amended in 2025.",
+  "fiscal": "OFM: no fiscal impact on the state; local school districts may incur minor, indeterminate costs to update policies.",
+  "pro": "Let's Go Washington, Moms for Liberty Washington, Washington State Catholic Conference",
+  "con": "Washington State Democratic Party, Washington Education Association, SEIU 775, ACLU of Washington, Planned Parenthood Alliance Advocates",
+  "endorse": {
+   "Let's Go WA": "Y",
+   "WA Dem Party": "N",
+   "WEA": "N",
+   "ACLU WA": "N"
+  },
+  "poll": null,
+  "source": "https://www.sos.wa.gov/sites/default/files/2026-07/Initiative%20Measure%20NoIL26-001_FIS_FINAL.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "WA-IL26-638",
+  "state": "WA",
+  "label": "Initiative Measure No. IL26-638",
+  "t": "Bar transgender girls from girls' school sports",
+  "type": "Initiative to the Legislature (indirect initiated statute)",
+  "threshold": "majority",
+  "what": "Requires schools and athletic associations to bar students it defines as 'biologically male' from girls' interscholastic sports. Students joining girls' teams would need a healthcare provider's statement verifying biological sex based on reproductive anatomy, genetics or natural testosterone levels.",
+  "y": "Girls' school sports are limited to students verified as biologically female.",
+  "n": "Current law letting students play consistent with gender identity stays.",
+  "fiscal": "OFM: one-time cost of about $21,000 for OSPI to update guidance; local school districts face indeterminate costs to revise policies.",
+  "pro": "Let's Go Washington, Washington State Republican Party, Moms for Liberty Washington, XX-XY Athletics",
+  "con": "Washington State Democratic Party, Washington Education Association, ACLU of Washington, U.S. Rep. Pramila Jayapal",
+  "endorse": {
+   "WA GOP": "Y",
+   "Let's Go WA": "Y",
+   "WA Dem Party": "N",
+   "WEA": "N",
+   "Seattle Times": "N"
+  },
+  "poll": null,
+  "source": "https://www.sos.wa.gov/sites/default/files/2026-07/Initiative%20Measure%20NoIL26-638_FIS_FINAL.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "WA-IP26-645",
+  "state": "WA",
+  "label": "Initiative Measure No. IP26-645",
+  "t": "Repeal the 9.9% tax on income over $1 million",
+  "type": "Initiative to the People (direct initiated statute)",
+  "threshold": "majority",
+  "what": "Repeals the 9.9% tax on annual household income above $1 million that the Legislature passed in 2026 (ESSB 6346), set to start in 2028. It also bars state and local taxes on individual income. The tax cuts passed alongside the income tax (sales-tax exemptions on diapers and hygiene products, small-business credits) are not repealed.",
+  "y": "The millionaires' income tax is repealed before it starts and future income taxes are barred by statute.",
+  "n": "The 9.9% tax on household income above $1 million takes effect in 2028.",
+  "fiscal": "OFM: state revenue loss of about $11.4 billion over FY2027-2031 ($3.1B in FY2029, $4.4B in FY2030, $3.9B in FY2031), mainly from the general fund that pays for K-12, higher education and human services, plus $377M less for the Fair Start for Kids child-care account; partly offset by about $150M in tax administration savings. No local revenue impact.",
+  "pro": "Let's Go Washington (Brian Heywood), Washington State Republican Party, State Sen. John Braun, Building Industry Association of Washington",
+  "con": "Gov. Bob Ferguson, Washington Education Association, Washington State Labor Council, SEIU 775, Planned Parenthood Advocates",
+  "endorse": {
+   "WA GOP": "Y",
+   "Let's Go WA": "Y",
+   "Gov. Ferguson": "N",
+   "WEA": "N",
+   "WA Labor Council": "N"
+  },
+  "poll": null,
+  "source": "https://www.sos.wa.gov/sites/default/files/2026-07/FIS%20-%20Initiative%20645%20-%20FINAL.pdf",
+  "values": false,
+  "cost": {
+   "model": "income_tax_brackets",
+   "start": 2028,
+   "brackets": {
+    "mfj": [
+     [
+      1000000,
+      -0.099
+     ]
+    ],
+    "single": [
+     [
+      1000000,
+      -0.099
+     ]
+    ]
+   },
+   "note": "YES repeals the 9.9% tax on WA taxable income above a $1M per-household standard deduction (shared by married couples; indexed from 2029; up to $100K charitable deduction). Only households over $1M are affected."
+  },
+  "effects": {
+   "services": -2,
+   "fiscal": -2
+  },
+  "reasons": {
+   "services": "OFM says the lost revenue would reduce general-fund support for K-12, higher education and human services and remove $377M from the child-care account.",
+   "fiscal": "OFM estimates state revenue falls about $11.4 billion over five years, roughly $3-4 billion a year once collections would have begun."
+  }
+ }
+]

@@ -1,0 +1,179 @@
+[
+ {
+  "id": "NM-HJR1",
+  "state": "NM",
+  "label": "Constitutional Amendment (HJR 1)",
+  "t": "Nominating committees for university regents",
+  "type": "Legislative constitutional amendment (HJR 1, 2026)",
+  "threshold": "majority",
+  "what": "The governor would have to pick non-student regents of the constitutionally named universities and special schools from lists made by nominating committees, and student regents from a list from an elected student government. The amendment adds party-balance limits and bars recent party switching (within 12 months) before appointment; the Legislature would set up the committees by law.",
+  "y": "Regent appointments must come from nominating-committee (or student-government) lists.",
+  "n": "The governor keeps choosing regents freely, subject to Senate confirmation.",
+  "fiscal": "About $35K–$50K per amendment in Secretary of State printing and publication costs (LFC fiscal impact report).",
+  "pro": "Rep. Christine Chandler (D), Sen. Jeff Steinborn (D)",
+  "con": "No organized opposition",
+  "endorse": {},
+  "poll": null,
+  "source": "https://www.nmlegis.gov/Sessions/26%20Regular/firs/HJR01.PDF",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "NM-HJR2",
+  "state": "NM",
+  "label": "Constitutional Amendment (HJR 2)",
+  "t": "End the governor's pocket veto",
+  "type": "Legislative constitutional amendment (HJR 2, 2025)",
+  "threshold": "majority",
+  "what": "Bills presented in the last three days of a session would become law if the governor does not sign or veto them within 20 days, ending the 'pocket veto'. The governor would also have to give a substantive explanation for every full or partial veto, not only those made during a session.",
+  "y": "Unsigned bills become law after the deadline, and every veto must be explained.",
+  "n": "Bills the governor does not sign after a session die, and veto messages are required only during sessions.",
+  "fiscal": "About $30K–$50K in Secretary of State election costs; minimal, indeterminate cost to the governor's office (LFC fiscal impact report).",
+  "pro": "Sen. Joseph Cervantes (D), Rep. Matthew McQueen (D), Common Cause New Mexico",
+  "con": "Office of Gov. Michelle Lujan Grisham (testimony)",
+  "endorse": {
+   "Common Cause NM": "Y"
+  },
+  "poll": null,
+  "source": "https://www.nmlegis.gov/Sessions/25%20Regular/firs/HJR02.PDF",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "NM-HJR5",
+  "state": "NM",
+  "label": "Constitutional Amendment (HJR 5)",
+  "t": "Pay legislators a salary",
+  "type": "Legislative constitutional amendment (HJR 5, 2026)",
+  "threshold": "majority",
+  "what": "New Mexico is the only state that pays legislators no salary; they get per diem and mileage. This would entitle each legislator to an annual salary equal to the state's median household income (about $67,800 in 2024), adjusted as that figure changes, starting with the Legislature seated in 2029.",
+  "y": "Legislators receive a salary tied to New Mexico's median household income.",
+  "n": "Legislators continue to receive only per diem and mileage.",
+  "fiscal": "LFC: about $7.6M a year from the general fund once in effect (112 legislators × ~$67.8K), $3.8M in the first half-year (FY29); plus $35K for the Secretary of State to put it on the ballot.",
+  "pro": "Sen. Angel Charley (D), Sen. Cindy Nava (D)",
+  "con": "Sen. Larry Scott (R)",
+  "endorse": {},
+  "poll": null,
+  "source": "https://www.nmlegis.gov/Sessions/26%20Regular/firs/HJR05.PDF",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "NM-SJR1",
+  "state": "NM",
+  "label": "Constitutional Amendment (SJR 1)",
+  "t": "Let school elections share partisan election dates",
+  "type": "Legislative constitutional amendment (SJR 1, 2026)",
+  "threshold": "majority",
+  "what": "Strikes the constitutional sentence requiring school elections to be held at different times from partisan elections. School board races and school bond or mill levy questions could then appear on the same ballots as statewide and federal elections.",
+  "y": "School elections and questions may be held with partisan general elections.",
+  "n": "School elections must stay on separate dates from partisan elections.",
+  "fiscal": "About $35K–$50K per amendment in Secretary of State printing and publication costs (LFC fiscal impact report). LFC notes districts could avoid paying for separate special elections.",
+  "pro": "Sen. Linda Trujillo (D), Sen. Natalie Figueroa (D)",
+  "con": "No organized opposition",
+  "endorse": {},
+  "poll": null,
+  "source": "https://www.nmlegis.gov/Sessions/26%20Regular/firs/SJR01.PDF",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "NM-BOND-A",
+  "state": "NM",
+  "label": "Bond Question A",
+  "t": "Senior citizen facilities bond ($21.6M)",
+  "type": "Bond ($21,582,213)",
+  "threshold": "majority",
+  "what": "Lets the state issue up to $21,582,213 in general obligation bonds for senior center improvements, construction, vehicles and equipment, repaid from the statewide property tax. The LFC analysis of the bill lists about 60 projects.",
+  "y": "The state may borrow up to $21.6M for senior facility projects.",
+  "n": "These senior facility projects are not funded by this bond.",
+  "fiscal": "Part of a ~$393M 2026 GO bond package that the LFC says stays within bonding capacity and keeps the statewide property tax mill levy flat; bonds sold spring 2027 and repaid from property taxes.",
+  "pro": "–",
+  "con": "–",
+  "endorse": {},
+  "poll": null,
+  "source": "https://www.nmlegis.gov/Sessions/26%20Regular/final/HB0248.pdf",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "services": 0.5,
+   "fiscal": -0.25
+  },
+  "reasons": {
+   "services": "Funds improvements, vehicles and equipment at senior centers statewide.",
+   "fiscal": "Adds up to $21.6M of state debt, repaid from the existing statewide property tax levy."
+  },
+  "boost": {
+   "senior": {
+    "services": 1
+   }
+  }
+ },
+ {
+  "id": "NM-BOND-B",
+  "state": "NM",
+  "label": "Bond Question B",
+  "t": "Library acquisitions bond ($19.3M)",
+  "type": "Bond ($19,324,188)",
+  "threshold": "majority",
+  "what": "Lets the state issue up to $19,324,188 in general obligation bonds for books, electronic resources, equipment and broadband at public, tribal, public-school and academic libraries, repaid from the statewide property tax.",
+  "y": "The state may borrow up to $19.3M for library resources.",
+  "n": "These library purchases are not funded by this bond.",
+  "fiscal": "Part of a ~$393M 2026 GO bond package that the LFC says stays within bonding capacity and keeps the statewide property tax mill levy flat; repaid from property taxes.",
+  "pro": "–",
+  "con": "–",
+  "endorse": {},
+  "poll": null,
+  "source": "https://www.nmlegis.gov/Sessions/26%20Regular/final/HB0248.pdf",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "services": 0.5,
+   "fiscal": -0.25
+  },
+  "reasons": {
+   "services": "Buys library materials, technology and broadband for public, tribal, school and college libraries.",
+   "fiscal": "Adds up to $19.3M of state debt, repaid from the existing statewide property tax levy."
+  },
+  "boost": {
+   "school": {
+    "services": 0.5
+   }
+  }
+ },
+ {
+  "id": "NM-BOND-C",
+  "state": "NM",
+  "label": "Bond Question C",
+  "t": "Higher education and tribal schools bond ($352M)",
+  "type": "Bond ($352,225,379)",
+  "threshold": "majority",
+  "what": "Lets the state issue up to $352,225,379 in general obligation bonds for buildings and equipment at public colleges and universities, special schools and tribal schools. Large projects include a new UNM School of Medicine building ($116M) and an NMSU academic building ($55M).",
+  "y": "The state may borrow up to $352M for higher-education and special/tribal school projects.",
+  "n": "These campus projects are not funded by this bond.",
+  "fiscal": "Part of a ~$393M 2026 GO bond package that the LFC says stays within bonding capacity (~0.136% of net taxable property value) and keeps the statewide property tax mill levy flat; repaid from property taxes.",
+  "pro": "–",
+  "con": "–",
+  "endorse": {},
+  "poll": null,
+  "source": "https://www.nmlegis.gov/Sessions/26%20Regular/final/HB0248.pdf",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "services": 1,
+   "fiscal": -0.5
+  },
+  "reasons": {
+   "services": "Funds new and renovated buildings at universities, community colleges, special schools and tribal schools.",
+   "fiscal": "Adds up to $352M of state debt, repaid from the existing statewide property tax levy."
+  }
+ }
+]

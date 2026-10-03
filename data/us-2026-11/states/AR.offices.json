@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Incumbent Tom Cotton (R) seeks a third term.",
+  "cands": [
+   {
+    "name": "Tom Cotton",
+    "party": "R",
+    "inc": true,
+    "desc": "Two-term incumbent and Senate Republican Conference chair; hawkish on defense and immigration."
+   },
+   {
+    "name": "Hallie Shoffner",
+    "party": "D",
+    "inc": false,
+    "desc": "Farmer; won the Democratic primary with 78.3% over Lewisville mayor Ethan Dunbar."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Incumbent Sarah Huckabee Sanders (R) seeks a second term; Libertarian Colt Shelby also running.",
+  "cands": [
+   {
+    "name": "Sarah Huckabee Sanders",
+    "party": "R",
+    "inc": true,
+    "desc": "First-term governor and former White House press secretary; signed income-tax cuts and the LEARNS Act education/school-choice law."
+   },
+   {
+    "name": "Fred Love",
+    "party": "D",
+    "inc": false,
+    "desc": "State senator from Little Rock (House 2011–2022, Senate since 2023); Democratic nominee."
+   }
+  ]
+ }
+]

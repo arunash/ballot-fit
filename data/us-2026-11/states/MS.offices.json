@@ -1,0 +1,27 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Incumbent Cindy Hyde-Smith (R) seeking re-election",
+  "cands": [
+   {
+    "name": "Cindy Hyde-Smith",
+    "party": "R",
+    "inc": true,
+    "desc": "Senator since 2018, former state agriculture commissioner; endorsed by President Trump."
+   },
+   {
+    "name": "Scott Colom",
+    "party": "D",
+    "inc": false,
+    "desc": "District attorney for Mississippi's 16th Judicial District since 2016; Democratic nominee."
+   },
+   {
+    "name": "Ty Pinkins",
+    "party": "I",
+    "inc": false,
+    "desc": "Independent; 21-year Army veteran and attorney focused on health care access, veterans and rural communities."
+   }
+  ]
+ }
+]

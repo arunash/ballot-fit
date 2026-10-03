@@ -1,0 +1,46 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Incumbent Jack Reed (D) seeks a sixth term.",
+  "cands": [
+   {
+    "name": "Jack Reed",
+    "party": "D",
+    "inc": true,
+    "desc": "Senator since 1997; won the Democratic primary with 76.8%."
+   },
+   {
+    "name": "Raymond McKay",
+    "party": "R",
+    "inc": false,
+    "desc": "Former Republican state committee member; unopposed in the GOP primary."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Open seat: incumbent Dan McKee (D) lost the Sept 9 primary. Also on ballot: Aaron Guckian (R), endorsed by the RI GOP.",
+  "cands": [
+   {
+    "name": "Helena Foulkes",
+    "party": "D",
+    "inc": false,
+    "desc": "Former CVS executive; defeated Gov. McKee in the primary amid anger over the Washington Bridge closure."
+   },
+   {
+    "name": "Ken Block",
+    "party": "I",
+    "inc": false,
+    "desc": "Founder of the Moderate Party; 2010 Moderate nominee and 2014 GOP candidate for governor."
+   },
+   {
+    "name": "Aaron Guckian",
+    "party": "R",
+    "inc": false,
+    "desc": "Former Warwick Sewer Authority chair and 2022 lieutenant-governor nominee; endorsed by the Rhode Island Republican Party."
+   }
+  ]
+ }
+]

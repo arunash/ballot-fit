@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Open seat (Sen. Joni Ernst retiring)",
+  "cands": [
+   {
+    "name": "Ashley Hinson",
+    "party": "R",
+    "inc": false,
+    "desc": "U.S. Representative; endorsed by Trump, Gov. Reynolds, Sens. Grassley and Ernst."
+   },
+   {
+    "name": "Josh Turek",
+    "party": "D",
+    "inc": false,
+    "desc": "State representative; endorsed by Sen. Tammy Duckworth, Tom Harkin, Pete Buttigieg."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Open seat (Gov. Kim Reynolds not running)",
+  "cands": [
+   {
+    "name": "Rob Sand",
+    "party": "D",
+    "inc": false,
+    "desc": "State Auditor; running mate Dave Muhlbauer."
+   },
+   {
+    "name": "Zach Lahn",
+    "party": "R",
+    "inc": false,
+    "desc": "Businessman; won GOP primary upset; backed by Turning Point Action, MAHA Action."
+   }
+  ]
+ }
+]

@@ -1,0 +1,46 @@
+[
+ {
+  "short": "MAYOR",
+  "office": "Mayor",
+  "note": "Open seat: Mayor Muriel Bowser not running; first D.C. mayoral race using ranked-choice voting",
+  "cands": [
+   {
+    "name": "Janeese Lewis George",
+    "party": "D",
+    "inc": false,
+    "desc": "Ward 4 councilmember since 2021; won the June 16 Democratic primary over Kenyan McDuffie and others."
+   },
+   {
+    "name": "Robert L. Gross",
+    "party": "Statehood Green",
+    "inc": false,
+    "desc": "Information technology specialist; D.C. Statehood Green Party nominee."
+   }
+  ]
+ },
+ {
+  "short": "DEL",
+  "office": "Delegate to the U.S. House",
+  "note": "Open seat: Del. Eleanor Holmes Norton (D) retiring",
+  "cands": [
+   {
+    "name": "Robert White",
+    "party": "D",
+    "inc": false,
+    "desc": "At-large D.C. councilmember since 2016 and 2022 mayoral candidate; Democratic nominee."
+   },
+   {
+    "name": "Denise Rosado",
+    "party": "R",
+    "inc": false,
+    "desc": "Attorney; Republican nominee."
+   },
+   {
+    "name": "Kymone Freeman",
+    "party": "Statehood Green",
+    "inc": false,
+    "desc": "Radio host; D.C. Statehood Green Party nominee, also its 2024 nominee for this seat."
+   }
+  ]
+ }
+]

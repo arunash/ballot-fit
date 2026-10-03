@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Open seat — Sen. Gary Peters (D) not running",
+  "cands": [
+   {
+    "name": "Abdul El-Sayed",
+    "party": "D",
+    "inc": false,
+    "desc": "Former Detroit health director and Wayne County health official; refuses corporate PAC money, backs overturning Citizens United and medical-debt relief."
+   },
+   {
+    "name": "Mike Rogers",
+    "party": "R",
+    "inc": false,
+    "desc": "Former U.S. Rep. and House Intelligence Committee chair, ex-FBI agent; runs on homeownership help, energy and alignment with President Trump."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Open seat — Gov. Gretchen Whitmer (D) is term-limited; independent Mike Duggan withdrew",
+  "cands": [
+   {
+    "name": "Jocelyn Benson",
+    "party": "D",
+    "inc": false,
+    "desc": "Secretary of State; focuses on lowering costs for child care, groceries and housing and raising wages."
+   },
+   {
+    "name": "John James",
+    "party": "R",
+    "inc": false,
+    "desc": "U.S. Rep. for MI-10, Army veteran and businessman; runs on cutting state spending and taxes, border security and ending vehicle mandates."
+   }
+  ]
+ }
+]

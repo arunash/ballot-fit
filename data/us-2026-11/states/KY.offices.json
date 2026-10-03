@@ -1,0 +1,21 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Open seat (Sen. Mitch McConnell retiring)",
+  "cands": [
+   {
+    "name": "Andy Barr",
+    "party": "R",
+    "inc": false,
+    "desc": "U.S. Representative since 2013; endorsed by Trump."
+   },
+   {
+    "name": "Charles Booker",
+    "party": "D",
+    "inc": false,
+    "desc": "Former state representative; 2022 Democratic Senate nominee."
+   }
+  ]
+ }
+]

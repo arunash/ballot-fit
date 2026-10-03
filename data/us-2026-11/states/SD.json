@@ -1,0 +1,103 @@
+[
+ {
+  "id": "SD-I",
+  "state": "SD",
+  "label": "Amendment I",
+  "t": "End Medicaid expansion if federal share falls below 90%",
+  "type": "Legislatively referred constitutional amendment (HJR 5001, 2025)",
+  "threshold": "majority",
+  "what": "Voters added Medicaid expansion for adults 18-64 with incomes up to 133% of the poverty level (plus a 5% disregard) to the constitution in 2022 (Amendment D). Amendment I would end that expanded coverage if the federal government's share of expansion costs drops below 90%, leaving Medicaid for low-income children, pregnant women, people with disabilities and the elderly.",
+  "y": "Expanded Medicaid would end automatically if federal funding for it falls below 90%.",
+  "n": "Expanded Medicaid stays required by the constitution regardless of the federal share.",
+  "fiscal": "No official fiscal note; the Attorney General's explanation gives no dollar estimate. Reported figures: expansion covers about 30,000 South Dakotans at a state cost of roughly $36-39M a year.",
+  "pro": "Sen. Casey Crabtree (Senate sponsor), Republican legislators who referred it",
+  "con": "No on I coalition: former Rep. Jean Hunhoff, AARP South Dakota, Community HealthCare Association of the Dakotas, American Cancer Society Cancer Action Network, American Heart Association, American Lung Association",
+  "endorse": {
+   "AARP SD": "N",
+   "ACS CAN": "N",
+   "American Heart Assn": "N"
+  },
+  "poll": null,
+  "source": "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026%20Election%20Information/2026%20Ballot%20Question%20Information/2026%20Ballot%20Question%20Files/2026%20BQ/HJR5001_Final_5.18.26.pdf",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "services": -1.5,
+   "fiscal": 0.5
+  },
+  "reasons": {
+   "services": "If the federal share drops below 90%, Medicaid coverage for expansion adults (about 30,000 people) would end.",
+   "fiscal": "The state would not have to pay a larger share of expansion costs if federal funding falls."
+  },
+  "boost": {
+   "medicaid": {
+    "services": -1
+   }
+  }
+ },
+ {
+  "id": "SD-J",
+  "state": "SD",
+  "label": "Amendment J",
+  "t": "Only U.S. citizens may vote",
+  "type": "Legislatively referred constitutional amendment (SJR 503, 2025)",
+  "threshold": "majority",
+  "what": "Adds language to the South Dakota Constitution stating that a person must be a U.S. citizen to be eligible to vote, and that non-citizens are disqualified from voting in any election or on any question submitted to voters.",
+  "y": "The constitution explicitly limits voting in all state and local elections to U.S. citizens.",
+  "n": "The current constitutional wording stays.",
+  "fiscal": "No fiscal estimate published.",
+  "pro": "Legislative sponsors (referred by the 2025 Legislature)",
+  "con": "–",
+  "endorse": {},
+  "poll": null,
+  "source": "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026%20Election%20Information/2026%20Ballot%20Question%20Information/2026%20Ballot%20Question%20Files/2026%20BQ/SJR503_Final%20Form_5.14.26.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "SD-K",
+  "state": "SD",
+  "label": "Amendment K",
+  "t": "Create a trust fund for unclaimed property",
+  "type": "Legislatively referred constitutional amendment (SJR 505, 2025)",
+  "threshold": "majority",
+  "what": "Unclaimed financial property (bank deposits, refunds, stocks, insurance payouts and the like) goes to the State Treasurer after three years. Amendment K creates a constitutional trust fund where this property is deposited, with portions of its interest and income paid into the state general fund. The Legislature would set the distribution amount to promote growth of both the fund and the payouts.",
+  "y": "Unclaimed property is placed in a constitutional trust fund that pays part of its earnings to the general fund.",
+  "n": "Unclaimed property continues to be handled under current law.",
+  "fiscal": "No official fiscal estimate published; the Attorney General's explanation gives no dollar figures.",
+  "pro": "Legislative sponsors (referred by the 2025 Legislature)",
+  "con": "–",
+  "endorse": {},
+  "poll": null,
+  "source": "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026%20Election%20Information/2026%20Ballot%20Question%20Information/2026%20Ballot%20Question%20Files/2026%20BQ/SJR505_Final%20Form_5.15.26.pdf",
+  "values": false,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "SD-L",
+  "state": "SD",
+  "label": "Amendment L",
+  "t": "Require 60% to pass constitutional amendments",
+  "type": "Legislatively referred constitutional amendment (HJR 5003, 2025)",
+  "threshold": "majority",
+  "what": "Today a constitutional amendment or revision passes with a simple majority of votes cast. Amendment L would require 60% of the votes cast for future constitutional amendments, whether proposed by citizens or the Legislature.",
+  "y": "Future constitutional amendments need 60% of the vote to pass.",
+  "n": "A simple majority continues to be enough.",
+  "fiscal": "No fiscal estimate published.",
+  "pro": "Republican legislative majority (House passed 61-5)",
+  "con": "American Cancer Society Cancer Action Network, House Democrats",
+  "endorse": {
+   "ACS CAN": "N"
+  },
+  "poll": null,
+  "source": "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026%20Election%20Information/2026%20Ballot%20Question%20Information/2026%20Ballot%20Question%20Files/2026%20BQ/HJR5003_Final_5.19.26.pdf",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

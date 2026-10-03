@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Open seat — Sen. Tina Smith (D) not running",
+  "cands": [
+   {
+    "name": "Peggy Flanagan",
+    "party": "D",
+    "inc": false,
+    "desc": "Lieutenant Governor since 2019; runs against Trump administration policies and on lowering prescription drug prices."
+   },
+   {
+    "name": "Michele Tafoya",
+    "party": "R",
+    "inc": false,
+    "desc": "Former sports broadcaster and reporter; Republican nominee."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Open seat — Gov. Tim Walz (D) not seeking re-election",
+  "cands": [
+   {
+    "name": "Amy Klobuchar",
+    "party": "D",
+    "inc": false,
+    "desc": "U.S. Senator since 2007; endorsed by the Minnesota AFL-CIO, SEIU Minnesota State Council and Education Minnesota."
+   },
+   {
+    "name": "Lisa Demuth",
+    "party": "R",
+    "inc": false,
+    "desc": "Minnesota House Speaker; promises to root out fraud in state programs, cut the two lowest income-tax brackets and car-tab fees, and end tax on Social Security."
+   }
+  ]
+ }
+]

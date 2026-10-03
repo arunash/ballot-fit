@@ -1,0 +1,84 @@
+[
+ {
+  "id": "MD-Q1",
+  "state": "MD",
+  "label": "Question 1",
+  "t": "Fund state worker contracts and binding arbitration",
+  "type": "Legislative constitutional amendment (Ch. 155 of 2026 / HB 604, SB 28)",
+  "threshold": "majority",
+  "what": "Requires the Governor's budget to include the money needed to carry out wages, hours, benefits and other terms in each collective bargaining agreement with state employees, whether reached by agreement or ordered by a neutral arbitrator. If approved, a companion law also takes effect creating binding arbitration with a neutral arbitrator when state-employee bargaining reaches impasse (excluding higher-education units).",
+  "y": "The Governor must budget for state-employee contracts, including terms set by binding arbitration.",
+  "n": "Current law continues: good-faith bargaining with fact-finding at impasse and no binding arbitration.",
+  "fiscal": "Dept. of Legislative Services: state spending (all funds) rises by at least $150,000 a year, likely significantly more, from FY 2028 for arbitration services and labor-relations staff; personnel costs could be affected, potentially significantly, from FY 2029. Revenues and local governments not directly affected.",
+  "pro": "Sen. Cory McCray (D), AFSCME Maryland, Maryland State Education Association, AFT Maryland, Maryland State & DC AFL-CIO, SEIU Local 500; passed with support of all voting Democrats",
+  "con": "Most Republican legislators voted against; no registered opposition campaign",
+  "endorse": {
+   "Gov. Moore": "–",
+   "MD GOP": "–",
+   "MD AFL-CIO": "Y",
+   "LWV": "–"
+  },
+  "poll": null,
+  "source": "https://ballotpedia.org/Maryland_Question_1,_State_Employee_Collective_Bargaining_and_Budget_Amendment_(2026)",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "fiscal": -0.5
+  },
+  "reasons": {
+   "fiscal": "Legislative Services projects at least $150,000 a year in new state costs from FY 2028, and possibly significant personnel costs from FY 2029."
+  }
+ },
+ {
+  "id": "MD-Q2",
+  "state": "MD",
+  "label": "Question 2",
+  "t": "Temporary fill-ins on judicial discipline commission",
+  "type": "Legislative constitutional amendment (Ch. 878 of 2026)",
+  "threshold": "majority",
+  "what": "Allows temporary substitute members on the Commission on Judicial Disabilities, which investigates complaints against judges, when a member is recused, disqualified or their term expires. The chair may recall a former member, or the Governor (at the chair's request) may appoint a substitute or extend a member's term until a permanent replacement is named; substitutes must meet the same qualifications.",
+  "y": "The commission can use temporary substitute members to keep working during vacancies or recusals.",
+  "n": "Vacancies continue to be filled only by Governor appointment with Senate consent.",
+  "fiscal": "No significant fiscal effect identified.",
+  "pro": "Judge Anne Korbel Albright (commission chair), Maryland State Bar Association",
+  "con": "No organised opposition identified",
+  "endorse": {
+   "Gov. Moore": "–",
+   "MD GOP": "–",
+   "MD State Bar": "Y",
+   "LWV": "–"
+  },
+  "poll": null,
+  "source": "https://ballotpedia.org/Maryland_Question_2,_Commission_on_Judicial_Disabilities_Vacancies_Amendment_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "MD-Q3",
+  "state": "MD",
+  "label": "Question 3",
+  "t": "Drop constitutional criteria for congressional maps",
+  "type": "Legislative constitutional amendment (Ch. 881 of 2026)",
+  "threshold": "majority",
+  "what": "Says the constitution's requirements for contiguous, compact, equal-population districts that respect natural and political boundaries apply only to state legislative districts, not congressional districts, and that nothing in the state constitution sets criteria for congressional maps. Lets the legislature give the Maryland Supreme Court original jurisdiction over challenges to congressional maps. Reverses the effect of a 2022 court ruling; does not change the 2026 map.",
+  "y": "State constitutional districting criteria no longer apply to congressional maps.",
+  "n": "The 2022 ruling stands: those criteria apply to congressional maps too.",
+  "fiscal": "No direct fiscal effect identified.",
+  "pro": "Gov. Wes Moore, Senate President Bill Ferguson, SEIU Local 500, NAACP Howard County",
+  "con": "U.S. Rep. Andy Harris, Maryland Republican Party, Sen. Chris West, Maryland Family Institute",
+  "endorse": {
+   "Gov. Moore": "Y",
+   "MD GOP": "N",
+   "MD AFL-CIO": "–",
+   "LWV": "–"
+  },
+  "poll": 28,
+  "source": "https://ballotpedia.org/Maryland_Question_3,_Provide_That_Nothing_in_State_Constitution_Establishes_Criteria_for_Congressional_Redistricting_Amendment_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

@@ -42,7 +42,9 @@ function costOf(m, h, G) {
 const fmtMoney = v => "$" + Math.round(Math.abs(v)).toLocaleString("en-US");
 const costEff = (amt, income) => {
   const scale = Math.max(income * 0.004, 500);
-  return Math.max(-2.5, Math.min(2.5, -amt / scale));
+  // Ordinary costs top out like any other effect (2.5); stakes above ~2% of income can reach 4.
+  const raw = -amt / scale, cap = Math.abs(amt) > income * 0.02 ? 4 : 2.5;
+  return Math.max(-cap, Math.min(cap, raw));
 };
 
 function flags(h) {

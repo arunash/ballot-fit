@@ -1,0 +1,46 @@
+[
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Open seat (Gov. Jared Polis, D, term-limited)",
+  "cands": [
+   {
+    "name": "Phil Weiser",
+    "party": "D",
+    "inc": false,
+    "desc": "State Attorney General since 2019; supports a progressive income tax and changing TABOR; beat Sen. Michael Bennet in the primary; endorsed by Sen. John Hickenlooper and former Gov. Roy Romer."
+   },
+   {
+    "name": "Victor Marx",
+    "party": "R",
+    "inc": false,
+    "desc": "Ministry leader; platform includes a regulation freeze, a property-tax cap and ending limits on cooperation with ICE; endorsed by Rep. Lauren Boebert."
+   },
+   {
+    "name": "Greg Lopez",
+    "party": "I",
+    "inc": false,
+    "desc": "Former U.S. Representative (2024-25) and former Republican, running as an independent."
+   }
+  ]
+ },
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Incumbent John Hickenlooper (D) seeking a second term",
+  "cands": [
+   {
+    "name": "John Hickenlooper",
+    "party": "D",
+    "inc": true,
+    "desc": "Incumbent and former governor; focuses on health costs, ending tariffs, housing, water and wildfire; endorsed by Sen. Michael Bennet, Planned Parenthood Action Fund and League of Conservation Voters."
+   },
+   {
+    "name": "Mark Baisley",
+    "party": "R",
+    "inc": false,
+    "desc": "State senator and aerospace engineer; favors shrinking government, property-tax stabilization, mortgage incentives for first-time buyers and more Front Range water storage."
+   }
+  ]
+ }
+]

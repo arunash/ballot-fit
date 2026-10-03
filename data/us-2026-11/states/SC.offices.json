@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Lindsey Graham (R) died July 11, 2026; his sister Darline Graham was appointed and won the GOP nomination in an Aug 25 runoff.",
+  "cands": [
+   {
+    "name": "Darline Graham",
+    "party": "R",
+    "inc": true,
+    "desc": "Appointed senator; former SC Commission for the Blind commissioner; backed for the seat by Donald Trump and Majority Leader John Thune."
+   },
+   {
+    "name": "Annie Andrews",
+    "party": "D",
+    "inc": false,
+    "desc": "Pediatrician; won the Democratic primary with 61.5%."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Open seat (Henry McMaster term-limited).",
+  "cands": [
+   {
+    "name": "Alan Wilson",
+    "party": "R",
+    "inc": false,
+    "desc": "State attorney general since 2011; won the GOP runoff with 68.6% after Trump backed both runoff candidates."
+   },
+   {
+    "name": "Jermaine Johnson",
+    "party": "D",
+    "inc": false,
+    "desc": "State representative; won the Democratic primary with 59.7%."
+   }
+  ]
+ }
+]

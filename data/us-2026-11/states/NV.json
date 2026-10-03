@@ -1,0 +1,50 @@
+[
+ {
+  "id": "NV-Q6",
+  "state": "NV",
+  "label": "Question 6",
+  "t": "Right to abortion in the state constitution (2nd vote)",
+  "type": "Initiated constitutional amendment (second approval)",
+  "threshold": "majority",
+  "what": "Adds a fundamental right to abortion until fetal viability, or later when needed to protect the patient's life or health, to the Nevada Constitution; the state may restrict it only for a narrowly defined compelling health interest. Abortion is already legal to 24 weeks under a 1990 voter-approved law. Voters approved this 64.4%-35.6% in 2024; it takes effect only if approved again.",
+  "y": "The right to abortion before viability is written into the Nevada Constitution.",
+  "n": "The amendment fails; abortion stays legal to 24 weeks under the 1990 statute.",
+  "fiscal": "–",
+  "pro": "Nevadans for Reproductive Freedom, Sen. Jacky Rosen (D), Planned Parenthood Votes Nevada, ACLU of Nevada",
+  "con": "Protect Our Girls, Nevada Right to Life, Americans United for Life, The Church of Jesus Christ of Latter-day Saints",
+  "endorse": {
+   "ACLU NV": "Y",
+   "Planned Parenthood": "Y",
+   "NV Right to Life": "N"
+  },
+  "poll": null,
+  "source": "https://ballotpedia.org/Nevada_Question_6,_Right_to_Abortion_Initiative_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "NV-Q7",
+  "state": "NV",
+  "label": "Question 7",
+  "t": "Require voter ID (2nd vote)",
+  "type": "Initiated constitutional amendment (second approval)",
+  "threshold": "majority",
+  "what": "Requires in-person voters to show photo ID (current or expired up to four years; any age for voters 70+) and mail voters to give the last four digits of their driver's license or Social Security number, or a county-issued number. Nevada now verifies most voters by signature. Voters approved this 73%-27% in 2024; it takes effect only if approved again.",
+  "y": "Photo ID (in person) and ID numbers (by mail) become constitutional requirements to vote.",
+  "n": "The amendment fails; current signature-based verification stays.",
+  "fiscal": "–",
+  "pro": "Repair The Vote, Nevada Voter ID Coalition, Gov. Joe Lombardo (R), President Donald Trump",
+  "con": "Nevada Voter Freedom Alliance, Battle Born Progress, Silver State Voices",
+  "endorse": {
+   "Gov. Lombardo": "Y"
+  },
+  "poll": null,
+  "source": "https://ballotpedia.org/Nevada_Question_7,_Require_Voter_Identification_Initiative_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

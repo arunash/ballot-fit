@@ -1,0 +1,53 @@
+[
+ {
+  "id": "HI-1",
+  "state": "HI",
+  "label": "Question 1",
+  "t": "More time for Senate to act on judicial appointments",
+  "type": "Legislative constitutional amendment",
+  "threshold": "majority of votes on the question, equal to at least 50% of all ballots cast (blank votes count as no)",
+  "what": "Gives the state Senate 60 days instead of 30 to consider and act on appointments of justices and judges made between April 1 and December 31, when the Senate is not in regular session or is about to adjourn. The 30-day window stays for other appointments.",
+  "y": "The Senate gets 60 days to act on judicial appointments made April–December outside regular session.",
+  "n": "The 30-day window stays year-round, often requiring special sessions.",
+  "fiscal": "No official fiscal estimate. Sponsor Sen. Karl Rhoads cited about $5,000 per special session in neighbor-island senators' airfare and per diem that could be avoided.",
+  "pro": "Sen. Karl Rhoads (sponsor)",
+  "con": "Judiciary administrative director Rodney Maile raised concerns about longer vacancies (courts took no formal position)",
+  "endorse": {},
+  "poll": null,
+  "source": "https://elections.hawaii.gov/voting/2026-proposed-amendments-to-the-hawaii-state-constitution/",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "HI-2",
+  "state": "HI",
+  "label": "Question 2",
+  "t": "County RISE bonds for housing infrastructure",
+  "type": "Legislative constitutional amendment",
+  "threshold": "majority of votes on the question, equal to at least 50% of all ballots cast (blank votes count as no)",
+  "what": "Directs the Legislature to let counties issue Resilient Infrastructure for Shelter and Equity (RISE) bonds, a form of tax-increment financing, for public improvements in designated districts. The bonds would be repaid only from future growth in property-tax revenue in those districts, not from higher tax rates, and would be excluded from county debt limits, subject to oversight rules set by law.",
+  "y": "Counties could use RISE bonds to pay for infrastructure that supports housing, outside their debt limits.",
+  "n": "RISE bonds stay unavailable; infrastructure continues to be funded by developers, regular county borrowing or general funds.",
+  "fiscal": "No official fiscal estimate. Bonds are repaid solely from property-tax growth within designated districts and may not be repaid by raising property-tax rates.",
+  "pro": "Hawai'i Association of Realtors, NAIOP Hawaii, Sen. Troy Hashimoto, Pacific Resource Partnership",
+  "con": "No organized opposition identified",
+  "endorse": {
+   "HI Assn of Realtors": "Y",
+   "NAIOP Hawaii": "Y"
+  },
+  "poll": null,
+  "source": "https://elections.hawaii.gov/voting/2026-proposed-amendments-to-the-hawaii-state-constitution/",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "housing": 1,
+   "fiscal": -0.5
+  },
+  "reasons": {
+   "housing": "Gives counties a new way to finance roads, water and sewer lines needed for housing, especially near transit.",
+   "fiscal": "New county bonds would sit outside county debt limits, with repayment tied to future property-tax growth in each district."
+  }
+ }
+]

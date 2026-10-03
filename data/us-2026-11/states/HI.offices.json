@@ -1,0 +1,21 @@
+[
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Incumbent Democrat seeking 2nd term",
+  "cands": [
+   {
+    "name": "Josh Green",
+    "party": "D",
+    "inc": true,
+    "desc": "Governor since 2022; running mate Kauai Mayor Derek Kawakami."
+   },
+   {
+    "name": "Gary Cordery",
+    "party": "R",
+    "inc": false,
+    "desc": "Businessman and 2022 candidate; running mate Daniel Anthony."
+   }
+  ]
+ }
+]

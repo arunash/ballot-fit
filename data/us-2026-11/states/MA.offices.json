@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Incumbent Ed Markey (D) seeking re-election",
+  "cands": [
+   {
+    "name": "Ed Markey",
+    "party": "D",
+    "inc": true,
+    "desc": "Senator since 2013 (House 1976-2013); runs on progressive record, climate policy and co-authoring the Green New Deal."
+   },
+   {
+    "name": "John Deaton",
+    "party": "R",
+    "inc": false,
+    "desc": "Marine veteran and trial attorney (2024 GOP nominee); backs congressional term limits, a ban on lawmaker stock trading, and lowering costs."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Incumbent Maura Healey (D) seeking re-election",
+  "cands": [
+   {
+    "name": "Maura Healey",
+    "party": "D",
+    "inc": true,
+    "desc": "Governor since 2023, former attorney general; endorsed by the Massachusetts AFL-CIO and Planned Parenthood Advocacy Fund of MA."
+   },
+   {
+    "name": "Mike Minogue",
+    "party": "R",
+    "inc": false,
+    "desc": "West Point graduate and Army veteran, former chairman and CEO of medical-device maker Abiomed; founder of MedTechVets."
+   }
+  ]
+ }
+]

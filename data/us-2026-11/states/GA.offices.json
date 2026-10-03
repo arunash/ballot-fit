@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Incumbent Democrat seeking 2nd term",
+  "cands": [
+   {
+    "name": "Jon Ossoff",
+    "party": "D",
+    "inc": true,
+    "desc": "First-term senator (since 2021) seeking re-election."
+   },
+   {
+    "name": "Mike Collins",
+    "party": "R",
+    "inc": false,
+    "desc": "U.S. Representative; won GOP runoff with Trump's endorsement."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Open seat (Gov. Kemp term-limited)",
+  "cands": [
+   {
+    "name": "Keisha Lance Bottoms",
+    "party": "D",
+    "inc": false,
+    "desc": "Former Atlanta mayor; Democratic nominee."
+   },
+   {
+    "name": "Rick Jackson",
+    "party": "R",
+    "inc": false,
+    "desc": "Healthcare executive; won GOP runoff over Trump-endorsed Burt Jones."
+   }
+  ]
+ }
+]

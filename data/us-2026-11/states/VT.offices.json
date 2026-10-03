@@ -1,0 +1,21 @@
+[
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Incumbent Phil Scott (R) seeking a sixth two-year term",
+  "cands": [
+   {
+    "name": "Phil Scott",
+    "party": "R",
+    "inc": true,
+    "desc": "Governor since 2017; moderate Republican known for vetoing some Democratic-passed bills; consistently rated among the most popular governors."
+   },
+   {
+    "name": "Amanda Janoo",
+    "party": "D",
+    "inc": false,
+    "desc": "Economist; won the August 11 Democratic primary."
+   }
+  ]
+ }
+]

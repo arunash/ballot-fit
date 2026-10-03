@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Special election for the rest of JD Vance's term (through 2028); appointed incumbent Jon Husted (R).",
+  "cands": [
+   {
+    "name": "Jon Husted",
+    "party": "R",
+    "inc": true,
+    "desc": "Appointed in 2025 after Vance became vice president; former lieutenant governor; unopposed in the GOP primary."
+   },
+   {
+    "name": "Sherrod Brown",
+    "party": "D",
+    "inc": false,
+    "desc": "Former three-term U.S. senator (2007-2025) who lost in 2024."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Open seat (Mike DeWine term-limited).",
+  "cands": [
+   {
+    "name": "Vivek Ramaswamy",
+    "party": "R",
+    "inc": false,
+    "desc": "Entrepreneur, founder of Roivant Sciences; endorsed by Donald Trump."
+   },
+   {
+    "name": "Amy Acton",
+    "party": "D",
+    "inc": false,
+    "desc": "Former Ohio Department of Health director (2019-2020); ran unopposed in the Democratic primary."
+   }
+  ]
+ }
+]

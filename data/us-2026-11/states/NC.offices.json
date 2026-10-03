@@ -1,0 +1,21 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Open seat (no incumbent running). Also on ballot: Michael Dublin (G), Shannon Bray (L).",
+  "cands": [
+   {
+    "name": "Roy Cooper",
+    "party": "D",
+    "inc": false,
+    "desc": "Former two-term governor (2017–2025) and attorney general; endorsed by Gov. Josh Stein, Kamala Harris, NC AFL-CIO, NEA, LCV Action Fund and Sierra Club NC."
+   },
+   {
+    "name": "Michael Whatley",
+    "party": "R",
+    "inc": false,
+    "desc": "Former Republican National Committee and NC GOP chair; endorsed by President Donald Trump and Vice President JD Vance."
+   }
+  ]
+ }
+]

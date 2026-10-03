@@ -1,0 +1,48 @@
+[
+ {
+  "id": "UT-A",
+  "state": "UT",
+  "label": "Constitutional Amendment A",
+  "t": "Publish proposed amendments online, not in newspapers",
+  "type": "Legislative constitutional amendment (HJR 10)",
+  "threshold": "majority",
+  "what": "The constitution now requires proposed amendments to be printed in a newspaper in every county for two months before the election. This amendment would instead require publication for the 60 days before the election in a manner set by state law. The accompanying statute would have the Lieutenant Governor post the full text on the Utah Public Notice Website and the Lieutenant Governor's website.",
+  "y": "Proposed amendments are published for 60 days in a way set by law (online), not in county newspapers.",
+  "n": "The two-month newspaper publication requirement stays.",
+  "fiscal": "No official fiscal estimate located.",
+  "pro": "State Sen. Dan McCay, State Rep. Anthony Loubet",
+  "con": "No organized opposition identified",
+  "endorse": {},
+  "poll": null,
+  "source": "https://ballotpedia.org/Utah_Constitutional_Amendment_A,_Publication_Requirements_for_Constitutional_Amendments_Measure_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "UT-B",
+  "state": "UT",
+  "label": "Constitutional Amendment B",
+  "t": "60% vote for citizen initiatives that raise taxes",
+  "type": "Legislative constitutional amendment (SJR 2)",
+  "threshold": "majority",
+  "what": "Citizen initiatives that impose a new tax, expand an existing tax, raise a tax rate, or cut a property tax rate by less than current law would need at least 60% voter approval instead of a simple majority. Laws passed by the Legislature are not affected. If approved, it would apply to initiatives on the 2026 ballot.",
+  "y": "Tax-raising citizen initiatives need 60% approval to pass.",
+  "n": "Citizen initiatives continue to need a simple majority.",
+  "fiscal": "No official fiscal estimate located.",
+  "pro": "Utah Taxpayers Association, State Sen. Lincoln Fillmore, State Reps. Jason Kyle and Jason Thompson",
+  "con": "ACLU of Utah, League of Women Voters of Utah, Mormon Women for Ethical Government, Alliance for a Better Utah, Disability Law Center",
+  "endorse": {
+   "Utah Taxpayers Assn": "Y",
+   "LWV": "N",
+   "ACLU UT": "N"
+  },
+  "poll": 50,
+  "source": "https://ballotpedia.org/Utah_Constitutional_Amendment_B,_60%25_Vote_Requirement_for_Ballot_Initiatives_to_Increase_or_Expand_Taxes_Measure_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

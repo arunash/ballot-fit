@@ -1,0 +1,23 @@
+[
+ {
+  "id": "KY-1",
+  "state": "KY",
+  "label": "Constitutional Amendment 1",
+  "t": "Limit governor's pardons around elections",
+  "type": "Legislative constitutional amendment (SB 10)",
+  "threshold": "majority",
+  "what": "Bars the governor from granting pardons or commuting sentences from 60 days before a gubernatorial election until the new term begins (the fifth Tuesday after the election). Other clemency powers and the existing requirement to publicly file reasons are unchanged; the section's language is also made gender-neutral.",
+  "y": "Governors could not pardon or commute sentences in the window around each gubernatorial election.",
+  "n": "The governor's pardon and commutation power stays available at all times.",
+  "fiscal": "No fiscal impact identified.",
+  "pro": "Sen. Chris McDaniel (sponsor), Kenton Commonwealth's Attorney Rob Sanders",
+  "con": "No organized opposition",
+  "endorse": {},
+  "poll": null,
+  "source": "https://ballotpedia.org/Kentucky_Limit_Governor%27s_Pardon_Power_and_Commutations_Near_General_Election_Amendment_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

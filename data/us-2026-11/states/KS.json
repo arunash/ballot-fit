@@ -1,0 +1,27 @@
+[
+ {
+  "id": "KS-1",
+  "state": "KS",
+  "label": "Constitutional Amendment (Citizen Clarification)",
+  "t": "Only U.S. citizens may vote",
+  "type": "Legislative constitutional amendment (HCR 5004)",
+  "threshold": "majority",
+  "what": "Rewords the voter-qualification section of the Kansas Constitution to state that only a U.S. citizen can be a qualified elector. Federal and state law already require citizenship to vote.",
+  "y": "The constitution would state explicitly that only U.S. citizens are eligible to vote.",
+  "n": "The existing voter-qualification language stays unchanged.",
+  "fiscal": "No fiscal impact identified.",
+  "pro": "Rep. Pat Proctor, Kansas Republican Party, Americans for Citizen Voting, Opportunity Solutions Project",
+  "con": "League of Women Voters of Kansas, ACLU of Kansas, Loud Light Civic Action",
+  "endorse": {
+   "KS GOP": "Y",
+   "LWV Kansas": "N",
+   "ACLU of Kansas": "N"
+  },
+  "poll": null,
+  "source": "https://ballotpedia.org/Kansas_Citizenship_Voting_Requirement_Amendment_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

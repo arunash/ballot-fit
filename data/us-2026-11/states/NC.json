@@ -1,0 +1,76 @@
+[
+ {
+  "id": "NC-voter-id",
+  "state": "NC",
+  "label": "Constitutional amendment (photo ID for all voters)",
+  "t": "Photo ID for all voters, including mail voters",
+  "type": "Legislative constitutional amendment (SB 921, 2024)",
+  "threshold": "majority",
+  "what": "Amends Article VI so that all voters, not only those voting in person, must present photo identification before voting. The constitution has required photo ID for in-person voting since 2018; mail voters currently send a copy of an ID (or an exception form) under state law.",
+  "y": "The constitution requires photo ID from every voter, including absentee/mail voters.",
+  "n": "The constitutional photo ID rule continues to cover only in-person voting; mail-ballot ID rules stay in statute.",
+  "fiscal": "–",
+  "pro": "Sen. Warren Daniel (R), former Sen. Paul Newton (R), legislative Republicans",
+  "con": "Democracy North Carolina, Rep. Mary Harrison (D), most legislative Democrats",
+  "endorse": {
+   "Democracy NC": "N"
+  },
+  "poll": null,
+  "source": "https://www.ncleg.gov/BillLookUp/2023/S921",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "NC-income-tax-cap",
+  "state": "NC",
+  "label": "Constitutional amendment (income tax rate cap)",
+  "t": "Lower the income tax rate cap from 7% to 3.5%",
+  "type": "Legislative constitutional amendment (SB 1080, S.L. 2026-4)",
+  "threshold": "majority",
+  "what": "Lowers the maximum state income tax rate allowed by the constitution, for both personal and corporate income, from 7% to 3.5% for tax years starting on or after January 1, 2027. It does not change today's rates: the personal rate is 3.99% in 2026 and, under a 2023 law, is projected to fall to 3.49% in 2027 and 2.99% in 2028 as revenue triggers are met.",
+  "y": "A future legislature could not raise the income tax rate above 3.5% without another constitutional amendment.",
+  "n": "The constitutional ceiling stays at 7%.",
+  "fiscal": "Legislative Fiscal Research Division: no fiscal impact, because personal rates are projected at 3.49% (2027) and 2.99% (2028+) and the corporate rate falls to 0% by 2030. If revenue missed the 2025-26 trigger, the 3.99% rate would apply and the cap would force a cut. Referendum costs minimal.",
+  "pro": "Sen. Michael Lee (R), Sen. Lisa Barnes (R), Sen. Benton Sawrey (R), legislative Republicans",
+  "con": "Gov. Josh Stein (D), NC Budget & Tax Center, legislative Democrats",
+  "endorse": {
+   "Gov. Stein": "N",
+   "NC Budget & Tax Center": "N"
+  },
+  "poll": null,
+  "source": "https://www.ncleg.gov/Sessions/2025/FiscalNotes/Senate/PDF/SFN1080v1.pdf",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "fiscal": -0.5
+  },
+  "reasons": {
+   "fiscal": "Fiscal Research expects no near-term impact, but notes the cap would force a rate cut below 3.99% if revenue triggers were missed, narrowing future revenue options."
+  }
+ },
+ {
+  "id": "NC-property-levy-limit",
+  "state": "NC",
+  "label": "Constitutional amendment (property tax levy limit)",
+  "t": "Require limits on local property tax increases",
+  "type": "Legislative constitutional amendment (HB 1089, S.L. 2026-5)",
+  "threshold": "majority",
+  "what": "Requires the General Assembly to pass general laws limiting how much a local government's property tax levy may increase, which may include exceptions. The size of the limit and how it is measured are not set by the amendment; they would come in later legislation.",
+  "y": "Lawmakers must enact a cap on growth in county, city and other local property tax levies.",
+  "n": "No constitutional requirement to cap local property tax levy growth.",
+  "fiscal": "Legislative Fiscal Research Division: no fiscal impact, because the limit's details would be set by future legislation (to get its own fiscal note). For context, county and municipal property tax revenue rose 8.1% to $15.1B in FY2024-25.",
+  "pro": "Rep. Brian Echevarria (R), House Speaker Destin Hall (R), Rep. Alan Branson (R)",
+  "con": "NC Budget & Tax Center, Rep. Deb Butler (D)",
+  "endorse": {
+   "NC Budget & Tax Center": "N"
+  },
+  "poll": null,
+  "source": "https://www.ncleg.gov/Sessions/2025/FiscalNotes/House/PDF/HFN1089v1.pdf",
+  "values": false,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]

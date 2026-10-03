@@ -1,0 +1,37 @@
+[
+ {
+  "id": "MN-1",
+  "state": "MN",
+  "label": "Constitutional Amendment 1",
+  "t": "Bigger yearly payouts from Permanent School Fund",
+  "type": "Legislative constitutional amendment (HF 3900)",
+  "threshold": "majority of all voters casting a ballot in the election (blank counts as no)",
+  "what": "Replaces the rule that only interest and dividends from the Permanent School Fund (about $2.2B, built from school trust land revenue) may go to schools with a duty to preserve the fund's purchasing power. A companion law would then pay out 4.5% of the fund's three-year average value each year to all school districts and charter schools per pupil, starting July 1, 2027.",
+  "y": "Annual distributions to schools rise from roughly 2-2.5% to 4.5% of the fund's average value.",
+  "n": "Schools keep receiving only the fund's annual interest and dividends.",
+  "fiscal": "House Research: current distributions have been about 2-2.5% of the fund a year; the record 2024-25 payout was $58M. The change would add roughly $27 per pupil a year (Minnesota House estimate) with no new taxes.",
+  "pro": "Sen. Mary Kunesh (DFL), Reps. Spencer Igo (R) and Jamie Long (DFL), Minnesota DFL, Education Minnesota, Minnesota School Boards Association, Minnesota Rural Education Association, Permanent School Fund Task Force, Minnesota Star Tribune",
+  "con": "No organised opposition identified",
+  "endorse": {
+   "DFL": "Y",
+   "MN GOP": "–",
+   "Star Tribune": "Y",
+   "Education MN": "Y"
+  },
+  "poll": null,
+  "source": "https://ballotpedia.org/Minnesota_Alter_Investment_and_Distribution_Policies_for_Permanent_School_Fund_Amendment_(2026)",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "services": 0.5
+  },
+  "reasons": {
+   "services": "Sends more of the Permanent School Fund to every school district each year (about $27 more per pupil) without new taxes."
+  },
+  "boost": {
+   "school": {
+    "services": 0.5
+   }
+  }
+ }
+]

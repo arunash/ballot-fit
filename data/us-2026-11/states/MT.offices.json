@@ -1,0 +1,27 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Open seat: Sen. Steve Daines (R) withdrew on March 4, 2026 and endorsed Alme. Also on ballot: Kyle Austin (L).",
+  "cands": [
+   {
+    "name": "Kurt Alme",
+    "party": "R",
+    "inc": false,
+    "desc": "Former U.S. Attorney for Montana and state budget director under Gov. Gianforte; runs on veterans, Second Amendment, keeping boys out of girls' sports, public lands and election security; endorsed by Sen. Steve Daines."
+   },
+   {
+    "name": "Alani Bankhead",
+    "party": "D",
+    "inc": false,
+    "desc": "Retired Air Force lieutenant colonel and counterintelligence agent, life-coaching business founder; runs on housing, health care and government accountability."
+   },
+   {
+    "name": "Seth Bodnar",
+    "party": "I",
+    "inc": false,
+    "desc": "Former University of Montana president, Army Green Beret and GE executive; running as an independent, arguing both major parties have failed Montana."
+   }
+  ]
+ }
+]

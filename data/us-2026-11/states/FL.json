@@ -1,0 +1,94 @@
+[
+ {
+  "id": "FL-1",
+  "state": "FL",
+  "label": "Amendment 1",
+  "t": "Bigger rainy-day fund with required deposits",
+  "type": "Legislatively referred constitutional amendment",
+  "threshold": "60%",
+  "what": "Raises the cap on Florida's Budget Stabilization Fund from 10% to 25% of general revenue collections (HJR 5019, 2025). The Legislature must transfer the lesser of $750M or the amount needed to reach 25% each year, unless it suspends transfers after a withdrawal or for a critical state need by two-thirds vote. It also allows a two-thirds vote to withdraw money for a critical state need if the fund is above 15%, without dropping it below 10%.",
+  "y": "The state must save up to $750M a year until reserves reach 25% of general revenue.",
+  "n": "The current 10% cap on the rainy-day fund stays, with no required annual deposit.",
+  "fiscal": "House bill analysis: fiscal impact on the state is indeterminate but likely insignificant. The fund held about $5.06B (9.75% of general revenue) per Florida TaxWatch; reaching 25% would take roughly $16.4B more in transfers over about 22 years (TaxWatch estimate).",
+  "pro": "Senate President Ben Albritton, House Speaker Daniel Perez, Florida TaxWatch",
+  "con": "House Democratic Leader Fentrice Driskell; advocates citing unmet education and health needs",
+  "endorse": {
+   "FL TaxWatch": "Y"
+  },
+  "poll": null,
+  "source": "https://www.flsenate.gov/Session/Bill/2025/5019/Analyses/h5019z1.BUC.PDF",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "fiscal": 1,
+   "services": -0.5
+  },
+  "reasons": {
+   "fiscal": "Requires up to $750M a year into reserves until the fund reaches 25% of general revenue.",
+   "services": "Each required deposit is general revenue not available that year for other spending unless lawmakers suspend it by two-thirds vote."
+  }
+ },
+ {
+  "id": "FL-2",
+  "state": "FL",
+  "label": "Amendment 2",
+  "t": "Property-tax exemption for farm equipment",
+  "type": "Legislatively referred constitutional amendment",
+  "threshold": "60%",
+  "what": "Exempts from property tax the tangible personal property (machinery, equipment, tools) habitually located on land classified as agricultural, used for farm production or agritourism, and owned by the landowner or leaseholder (HJR 1215, 2025). The Legislature may set conditions and definitions. It first applies to the 2027 tax year.",
+  "y": "Farm equipment and other business property on agricultural land become exempt from property tax starting 2027.",
+  "n": "This property stays taxable beyond the existing $25,000 business-property exemption.",
+  "fiscal": "Revenue Estimating Conference: negative recurring impact on local government revenues of $31.0M a year beginning FY 2027-28.",
+  "pro": "Agriculture Commissioner Wilton Simpson, Florida Farm Bureau, Florida TaxWatch",
+  "con": "Rep. Anna Eskamani (sole House no vote)",
+  "endorse": {
+   "FL TaxWatch": "Y"
+  },
+  "poll": null,
+  "source": "https://www.flsenate.gov/Session/Bill/2025/1215/Analyses/h1215z.WMC.PDF",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "fiscal": -0.25
+  },
+  "reasons": {
+   "fiscal": "Cuts local government property-tax revenue by about $31M a year."
+  }
+ },
+ {
+  "id": "FL-3",
+  "state": "FL",
+  "label": "Amendment 3",
+  "t": "$250K homestead exemption, 5% cap on other property",
+  "type": "Legislatively referred constitutional amendment",
+  "threshold": "60%",
+  "what": "Replaces the current second homestead exemption (about $26K) with a non-school exemption of $150,000 in 2027 and $250,000 in 2028, indexed to inflation from 2029; the first $25K exemption would then apply only to school taxes (HJR 1F, 2026). People who weren't Florida residents by Dec 31, 2026 get a $50,000 non-school exemption for their first years before the full amount. It also cuts the yearly assessment-increase cap on non-homestead property from 10% to 5% and limits what counties and cities may spend property-tax revenue on.",
+  "y": "Homeowners pay much lower county, city and special-district property taxes; school taxes are unchanged.",
+  "n": "Current homestead exemptions and the 10% non-homestead cap stay.",
+  "fiscal": "Revenue Estimating Conference (July 10, 2026): local non-school property-tax revenue falls $4.93B in FY 2027-28, $8.71B in FY 2028-29, and $11.83B a year on a recurring basis; school taxes and the state budget are not directly affected.",
+  "pro": "Gov. Ron DeSantis, Florida Realtors, legislative leadership (Rep. Overdorf, sponsor)",
+  "con": "Florida Association of Counties, Florida League of Cities, Florida Sheriffs Association, Florida State FOP, Florida Professional Firefighters, Florida TaxWatch, Florida Policy Institute, Tax Foundation",
+  "endorse": {
+   "FL TaxWatch": "N",
+   "Gov. DeSantis": "Y",
+   "FL League of Cities": "N",
+   "FL Sheriffs Assn": "N"
+  },
+  "poll": null,
+  "source": "https://edr.state.fl.us/Content/conferences/revenueimpact/archives/2026F/_pdf/impact0710.pdf",
+  "values": false,
+  "cost": {
+   "model": "homestead_exemption",
+   "value_change": 118000,
+   "note": "Saving for owner-occupied homes. The non-school homestead exemption rises from about $52.8K (2028 baseline) to $250K, i.e. ~$197K more exempt value, but only for non-school levies (~60% of Florida property taxes; schools are ~40%), so ~$118K full-rate-equivalent. Homes assessed below $250K save less. New residents after Dec 31, 2026 get only $50K at first."
+  },
+  "effects": {
+   "fiscal": -2,
+   "services": -1
+  },
+  "reasons": {
+   "fiscal": "Cuts local non-school property-tax revenue by about $11.8B a year once fully in effect.",
+   "services": "Counties, cities and special districts that fund police, fire and other local services lose much of their property-tax base."
+  }
+ }
+]

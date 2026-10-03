@@ -1,0 +1,21 @@
+[
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Incumbent Kathy Hochul (D) seeks a second full term. No U.S. Senate seat is up in New York in 2026.",
+  "cands": [
+   {
+    "name": "Kathy Hochul",
+    "party": "D",
+    "inc": true,
+    "desc": "Governor since 2021; seeking a second full term."
+   },
+   {
+    "name": "Bruce Blakeman",
+    "party": "R",
+    "inc": false,
+    "desc": "Nassau County Executive; Republican and Conservative nominee; endorsed by Donald Trump."
+   }
+  ]
+ }
+]

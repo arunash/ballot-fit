@@ -1,0 +1,11 @@
+[
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Incumbent Democrat Katie Hobbs seeks a second term; no U.S. Senate seat is up in Arizona in 2026.",
+  "cands": [
+   {"name": "Katie Hobbs", "party": "D", "inc": true, "desc": "First-term governor and former Secretary of State; set a state record for vetoes against the Republican-led Legislature; unopposed in the Democratic primary."},
+   {"name": "Andy Biggs", "party": "R", "inc": false, "desc": "U.S. Representative (AZ-5) since 2017 and former Arizona Senate president; former House Freedom Caucus chair; endorsed by President Trump; won the July 21 GOP primary with about 74%."}
+  ]
+ }
+]

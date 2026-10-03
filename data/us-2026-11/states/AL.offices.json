@@ -1,0 +1,12 @@
+[
+ {"short": "SEN", "office": "US Senate", "note": "Open seat (Tommy Tuberville running for governor).",
+  "cands": [
+   {"name": "Barry Moore", "party": "R", "inc": false, "desc": "U.S. Representative; conservative House Freedom Caucus member; endorsed by Donald Trump; won the GOP nomination over Jared Hudson and AG Steve Marshall."},
+   {"name": "Everett Wess", "party": "D", "inc": false, "desc": "Birmingham attorney; Democratic nominee."}
+  ]},
+ {"short": "GOV", "office": "Governor", "note": "Open seat (Kay Ivey term-limited); rematch of the 2020 Senate race.",
+  "cands": [
+   {"name": "Tommy Tuberville", "party": "R", "inc": false, "desc": "U.S. Senator and former Auburn football coach; conservative, Trump-aligned platform; endorsed by Donald Trump."},
+   {"name": "Doug Jones", "party": "D", "inc": false, "desc": "Former U.S. Senator (2018–2021) and U.S. Attorney; moderate Democrat focused on health care and Medicaid expansion."}
+  ]}
+]

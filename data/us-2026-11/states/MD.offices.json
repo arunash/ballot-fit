@@ -1,0 +1,21 @@
+[
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Incumbent Wes Moore (D) seeking re-election",
+  "cands": [
+   {
+    "name": "Wes Moore",
+    "party": "D",
+    "inc": true,
+    "desc": "Governor since 2023, Army veteran and former Robin Hood Foundation CEO; has backed mid-decade congressional redistricting in Maryland."
+   },
+   {
+    "name": "Dan Cox",
+    "party": "R",
+    "inc": false,
+    "desc": "Attorney and former state delegate from Frederick County; 2022 Republican nominee for governor."
+   }
+  ]
+ }
+]

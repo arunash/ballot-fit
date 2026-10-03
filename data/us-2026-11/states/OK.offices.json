@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Open seat: Markwayne Mullin resigned to become Homeland Security Secretary; appointee Alan Armstrong (R) is barred from running. Also on ballot: Sevier White (L), Ron Meinhardt (I), Curtis Stinnett (I).",
+  "cands": [
+   {
+    "name": "Kevin Hern",
+    "party": "R",
+    "inc": false,
+    "desc": "U.S. Representative for OK-1 since 2018; endorsed by Donald Trump, Senators Lankford and Thune, Club for Growth."
+   },
+   {
+    "name": "N'Kiyla Jasmine Thomas",
+    "party": "D",
+    "inc": false,
+    "desc": "Nurse; won the Democratic runoff; endorsed by the National Women's Political Caucus."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Open seat (Kevin Stitt term-limited). Also on ballot: independents Robert Brooks, Orlando Bush, Jerry Griffin.",
+  "cands": [
+   {
+    "name": "Mike Mazzei",
+    "party": "R",
+    "inc": false,
+    "desc": "Former state senator; backs eliminating the state income tax, property-tax relief for veterans and seniors, and expanded private-school tax credits; opposes abortion; Trump-backed."
+   },
+   {
+    "name": "Cyndi Munson",
+    "party": "D",
+    "inc": false,
+    "desc": "State House minority leader; backs more public-school and teacher funding, middle-class tax cuts, health-care access and repealing the near-total abortion ban."
+   }
+  ]
+ }
+]

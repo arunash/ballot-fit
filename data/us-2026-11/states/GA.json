@@ -1,0 +1,79 @@
+[
+ {
+  "id": "GA-1",
+  "state": "GA",
+  "label": "Amendment 1",
+  "t": "Raise conservation-use land acreage cap to 4,000",
+  "type": "Legislative constitutional amendment (HR 32)",
+  "threshold": "majority",
+  "what": "Doubles, from 2,000 to 4,000 acres, the most land a single owner can enroll in Georgia's Conservation Use Valuation program, under which farm and timber land is taxed on its current-use value instead of fair market value in exchange for a 10-year covenant. A companion law takes effect January 1, 2027 if voters approve.",
+  "y": "Owners could enroll up to 4,000 acres of farm or timber land at the lower conservation-use valuation.",
+  "n": "The 2,000-acre cap stays; land above it continues to be taxed at fair market value.",
+  "fiscal": "No official state fiscal estimate published. Counties, cities and school districts would collect less property tax on newly enrolled acreage; some local governments have voiced concern about revenue loss.",
+  "pro": "Legislature (House 168-5, Senate 50-1); Farmland Preservation Study Committee recommendation",
+  "con": "No organized opposition; some local governments concerned about revenue",
+  "endorse": {},
+  "poll": null,
+  "source": "https://ballotpedia.org/Georgia_Amendment_1,_Increase_Acre_Limit_for_Agriculture_and_Timber_Conservation_Use_Property_Tax_Classification_Measure_(2026)",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "fiscal": -0.5
+  },
+  "reasons": {
+   "fiscal": "Local governments and school districts would collect less property tax on additional large farm and timber holdings; no official dollar estimate exists."
+  }
+ },
+ {
+  "id": "GA-2",
+  "state": "GA",
+  "label": "Amendment 2",
+  "t": "Nonpartisan elections for probate judges",
+  "type": "Legislative constitutional amendment (HR 251)",
+  "threshold": "majority",
+  "what": "Requires all probate court judges to be elected in nonpartisan elections, so party labels no longer appear next to their names. Probate judges are currently the only Georgia judges elected on a partisan basis.",
+  "y": "Probate judges would be elected without party labels, like other Georgia judges.",
+  "n": "Probate judges continue to run in partisan primaries and elections.",
+  "fiscal": "No fiscal impact identified.",
+  "pro": "Rep. Kimberly New (sponsor), Sen. Brian Strickland, Chief Justice Nels Peterson, former Govs. Roy Barnes and Nathan Deal",
+  "con": "No organized opposition",
+  "endorse": {
+   "Chief Justice Peterson": "Y",
+   "Fmr. Gov. Deal (R)": "Y",
+   "Fmr. Gov. Barnes (D)": "Y"
+  },
+  "poll": null,
+  "source": "https://ballotpedia.org/Georgia_Amendment_2,_Require_Nonpartisan_Elections_for_Probate_Judges_Measure_(2026)",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ },
+ {
+  "id": "GA-3",
+  "state": "GA",
+  "label": "Amendment 3",
+  "t": "Dedicated Next Generation 9-1-1 fund",
+  "type": "Legislative constitutional amendment (HR 1243)",
+  "threshold": "majority",
+  "what": "Authorizes the General Assembly to dedicate certain existing revenues to a non-lapsing Georgia Next Generation 9-1-1 Fund used only for expanding, maintaining and operating 911 systems, including upgrades that let callers send texts, photos and video. Which revenues go into the fund would be set by separate law.",
+  "y": "The legislature may create a dedicated, non-lapsing fund for 911 systems.",
+  "n": "911 funding continues through the regular annual budget process.",
+  "fiscal": "No fiscal note. Does not raise the existing $1.50/month 911 fee; the fund's size and revenue sources would be set by later legislation.",
+  "pro": "Georgia Emergency Communications Authority, Georgia Municipal Association, bipartisan legislators (House 162-0, Senate 49-0)",
+  "con": "No organized opposition",
+  "endorse": {
+   "GA Municipal Assn": "Y"
+  },
+  "poll": null,
+  "source": "https://ballotpedia.org/Georgia_Amendment_3,_Authorize_Creation_of_Next_Generation_9-1-1_Fund_Measure_(2026)",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "services": 0.5
+  },
+  "reasons": {
+   "services": "Lets the state lock existing revenue into a fund that can only be spent on modernizing and running 911 emergency systems."
+  }
+ }
+]

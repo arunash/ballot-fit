@@ -1,0 +1,40 @@
+[
+ {
+  "short": "SEN",
+  "office": "US Senate",
+  "note": "Open seat: Sen. Jeanne Shaheen (D) not seeking re-election. Also on ballot: Edmond Laplante (Constitution).",
+  "cands": [
+   {
+    "name": "Chris Pappas",
+    "party": "D",
+    "inc": false,
+    "desc": "U.S. Representative for NH's 1st District since 2019; won the Sept 8 Democratic primary; has tied Sununu to President Trump."
+   },
+   {
+    "name": "John E. Sununu",
+    "party": "R",
+    "inc": false,
+    "desc": "Former U.S. Senator (2003–2009); pitches 'the New Hampshire way' of open debate and problem-solving; endorsed by President Donald Trump; won the primary 69.6% over Scott Brown."
+   }
+  ]
+ },
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Incumbent Kelly Ayotte (R) seeks a second two-year term. Also on ballot: Stephen Villee (L).",
+  "cands": [
+   {
+    "name": "Kelly Ayotte",
+    "party": "R",
+    "inc": true,
+    "desc": "Governor since 2025, former U.S. Senator and attorney general; pledges to keep NH on the 'Sununu path' and has broken with her party on some issues (vetoed HB 148)."
+   },
+   {
+    "name": "Cinde Warmington",
+    "party": "D",
+    "inc": false,
+    "desc": "Former Executive Councilor and health care attorney; campaigning on the affordability crisis and standing up to President Trump."
+   }
+  ]
+ }
+]

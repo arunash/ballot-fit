@@ -1,0 +1,133 @@
+[
+ {
+  "id": "RI-1",
+  "state": "RI",
+  "label": "Question 1",
+  "t": "Higher education facilities bond",
+  "type": "Legislative bond ($275M)",
+  "threshold": "majority",
+  "what": "Borrows $275M for public college buildings: $165M for a new Integrated Health Building at URI's Kingston campus, $60M for a CCRI Workforce Innovation Center in Warwick, and $50M for a student success and career readiness center in RIC's Adams Library.",
+  "y": "The state may issue up to $275 million in general obligation bonds for these projects.",
+  "n": "The bonds are not issued.",
+  "fiscal": "At the Senate Fiscal Office's assumptions (5% interest, 20-year bonds, full issuance in year 1): about $22.0M a year in debt service, $441.3M total including $166.3M interest. The SFO estimates $48.1M a year and $962.9M total for all five 2026 bonds ($600M).",
+  "pro": "University of Rhode Island, Rhode Island College, Community College of Rhode Island, Gov. McKee and General Assembly (FY2027 budget)",
+  "con": "–",
+  "endorse": {},
+  "poll": null,
+  "source": "https://webserver.rilegislature.gov/BillText26/HouseText26/Article-005-SUB-A-as-amended.pdf",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "services": 1,
+   "fiscal": -1
+  },
+  "reasons": {
+   "services": "Funds new health-education and workforce-training buildings at URI, CCRI and RIC.",
+   "fiscal": "Adds $275M of state debt, about $22M a year to repay over 20 years."
+  }
+ },
+ {
+  "id": "RI-2",
+  "state": "RI",
+  "label": "Question 2",
+  "t": "Housing and homeownership bond",
+  "type": "Legislative bond ($120M)",
+  "threshold": "majority",
+  "what": "Borrows $120M to increase and preserve affordable and accessible housing and to support community revitalization. At least $25M must go to homeownership housing and up to $10M may support a public housing development program.",
+  "y": "The state may issue up to $120 million in general obligation bonds for these projects.",
+  "n": "The bonds are not issued.",
+  "fiscal": "Senate Fiscal Office estimate: about $9.6M a year in debt service, $192.6M total including $72.6M interest. The SFO estimates $48.1M a year and $962.9M total for all five 2026 bonds ($600M).",
+  "pro": "Gov. McKee and General Assembly (FY2027 budget), RI Executive Office of Housing",
+  "con": "–",
+  "endorse": {},
+  "poll": null,
+  "source": "https://webserver.rilegislature.gov/BillText26/HouseText26/Article-005-SUB-A-as-amended.pdf",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "housing": 1.5,
+   "fiscal": -0.5
+  },
+  "reasons": {
+   "housing": "Funds production and preservation of affordable housing, including at least $25M for homeownership.",
+   "fiscal": "Adds $120M of state debt, about $9.6M a year to repay over 20 years."
+  }
+ },
+ {
+  "id": "RI-3",
+  "state": "RI",
+  "label": "Question 3",
+  "t": "Economic development infrastructure bond",
+  "type": "Legislative bond ($100M)",
+  "threshold": "majority",
+  "what": "Borrows $100M for economic-development infrastructure: $55M for industrial site development (land acquisition and site readiness) and $45M for infrastructure supporting growth industries such as ocean-economy and life-sciences facilities.",
+  "y": "The state may issue up to $100 million in general obligation bonds for these projects.",
+  "n": "The bonds are not issued.",
+  "fiscal": "At the Senate Fiscal Office's assumptions (5% interest, 20-year bonds, full issuance in year 1): about $8.0M a year in debt service, $160.5M total including $60.5M interest. The SFO estimates $48.1M a year and $962.9M total for all five 2026 bonds ($600M).",
+  "pro": "Gov. McKee and General Assembly (FY2027 budget)",
+  "con": "–",
+  "endorse": {},
+  "poll": null,
+  "source": "https://webserver.rilegislature.gov/BillText26/HouseText26/Article-005-SUB-A-as-amended.pdf",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "fiscal": -0.5
+  },
+  "reasons": {
+   "fiscal": "Adds $100M of state debt, about $8M a year to repay over 20 years."
+  }
+ },
+ {
+  "id": "RI-4",
+  "state": "RI",
+  "label": "Question 4",
+  "t": "State History Center and preservation grants bond",
+  "type": "Legislative bond ($50M)",
+  "threshold": "majority",
+  "what": "Borrows $50M: $45M to build a new Rhode Island State History Center and $5M for matching grants for historic sites and museums, administered by the Historical Preservation and Heritage Commission.",
+  "y": "The state may issue up to $50 million in general obligation bonds for these projects.",
+  "n": "The bonds are not issued.",
+  "fiscal": "At the Senate Fiscal Office's assumptions (5% interest, 20-year bonds, full issuance in year 1): about $4.0M a year in debt service, $80.2M total including $30.2M interest. The SFO estimates $48.1M a year and $962.9M total for all five 2026 bonds ($600M).",
+  "pro": "Gov. McKee and General Assembly (FY2027 budget)",
+  "con": "–",
+  "endorse": {},
+  "poll": null,
+  "source": "https://webserver.rilegislature.gov/BillText26/HouseText26/Article-005-SUB-A-as-amended.pdf",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "fiscal": -0.5
+  },
+  "reasons": {
+   "fiscal": "Adds $50M of state debt, about $4M a year to repay over 20 years."
+  }
+ },
+ {
+  "id": "RI-5",
+  "state": "RI",
+  "label": "Question 5",
+  "t": "Green economy and water infrastructure bond",
+  "type": "Legislative bond ($55M)",
+  "threshold": "majority",
+  "what": "Borrows $55M for environmental projects: $25M Resilient Rhody local water-infrastructure fund, $12M for state recreation facilities, $7M for Narragansett Bay and watershed restoration, $3M each for brownfields, farmland preservation and open space, and $1M each for local recreation grants and marine infrastructure.",
+  "y": "The state may issue up to $55 million in general obligation bonds for these projects.",
+  "n": "The bonds are not issued.",
+  "fiscal": "At the Senate Fiscal Office's assumptions (5% interest, 20-year bonds, full issuance in year 1): about $4.4M a year in debt service, $88.3M total including $33.3M interest. The SFO estimates $48.1M a year and $962.9M total for all five 2026 bonds ($600M).",
+  "pro": "Gov. McKee and General Assembly (FY2027 budget)",
+  "con": "–",
+  "endorse": {},
+  "poll": null,
+  "source": "https://webserver.rilegislature.gov/BillText26/HouseText26/Article-005-SUB-A-as-amended.pdf",
+  "values": false,
+  "cost": null,
+  "effects": {
+   "services": 0.5,
+   "fiscal": -0.5
+  },
+  "reasons": {
+   "services": "Funds local water-infrastructure aid, recreation facilities and watershed cleanup.",
+   "fiscal": "Adds $55M of state debt, about $4.4M a year to repay over 20 years."
+  }
+ }
+]

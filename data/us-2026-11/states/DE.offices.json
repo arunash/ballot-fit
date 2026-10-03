@@ -1,0 +1,7 @@
+[
+ {"short": "SEN", "office": "US Senate", "note": "Incumbent Chris Coons (D) seeks a fourth full term; governor not up in 2026.",
+  "cands": [
+   {"name": "Chris Coons", "party": "D", "inc": true, "desc": "Senator since 2010; Foreign Relations and Appropriations member; won the Sept 15 primary with 78%."},
+   {"name": "Michael Katz", "party": "R", "inc": false, "desc": "Former Democratic state senator (2009–2013) running as a Republican; won the GOP primary with 77% over John Shulli."}
+  ]}
+]

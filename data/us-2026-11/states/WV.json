@@ -1,0 +1,27 @@
+[
+ {
+  "id": "WV-1",
+  "state": "WV",
+  "label": "Amendment 1",
+  "t": "Only U.S. citizens may vote",
+  "type": "Legislative constitutional amendment (SJR 9)",
+  "threshold": "majority",
+  "what": "Changes the constitution's voting clause from 'the citizens of the state shall be entitled to vote' to say only citizens of the state who are U.S. citizens are entitled to vote. Noncitizens already cannot vote in West Virginia elections under current law.",
+  "y": "The constitution explicitly limits voting to U.S. citizens.",
+  "n": "The current wording stays.",
+  "fiscal": "No official fiscal estimate located.",
+  "pro": "Americans for Citizen Voting, American Legislative Exchange Council, Americans for Tax Reform; passed the House 97-0 and Senate 34-0",
+  "con": "West Virginia Mountain Party, WV Citizen Action Group",
+  "endorse": {
+   "ALEC": "Y",
+   "Mountain Party": "N",
+   "WV Citizen Action": "N"
+  },
+  "poll": null,
+  "source": "https://sos.wv.gov/article/secretary-warner-issues-public-notice-proposed-amendment-west-virginia-constitution-will",
+  "values": true,
+  "cost": null,
+  "effects": {},
+  "reasons": {}
+ }
+]
