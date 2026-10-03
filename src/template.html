@@ -36,6 +36,8 @@ input[type=text],input[type=number],select{font:15px var(--ui);padding:8px 10px;
 input:focus-visible,select:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:1px}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .pri{display:grid;grid-template-columns:1fr auto;gap:4px 10px;align-items:center;font-size:14px}
+[hidden]{display:none!important}
+.prow{display:contents}
 .pri output{font:500 12px var(--mono);color:var(--muted);min-width:56px;text-align:right}
 input[type=range]{width:100%;accent-color:var(--accent)}
 .btn{position:sticky;bottom:0;box-shadow:0 -8px 12px var(--sheet);font:700 15px var(--ui);border:0;background:var(--ink);color:var(--sheet);border-radius:10px;padding:11px 14px;cursor:pointer}
@@ -79,54 +81,55 @@ summary{cursor:pointer;color:var(--muted);font-weight:600}
 
   <div class="layout">
     <form id="f" novalidate>
-      <p class="example" id="exnote">Showing an example household. Change anything and press Update.</p>
+      <p class="example" id="exnote">Showing an example household. Change anything and your ballot updates.</p>
       <fieldset><legend>Where you vote</legend>
         <label>ZIP code <input type="text" id="zip" inputmode="numeric" maxlength="5" value="94110"></label>
         <p class="priv" id="stateline"></p>
       </fieldset>
-      <fieldset><legend>Money</legend>
-        <div class="two">
+      <p class="example" id="noneed" hidden>Nothing on this ballot depends on household details, so there's nothing else to fill in.</p>
+      <fieldset data-group="money"><legend>Money</legend>
+        <div class="two" data-need="income">
           <label>Filing status <select id="filing"><option value="mfj">Married, joint</option><option value="single">Single</option></select></label>
           <label>Taxable income $ <input type="number" id="income" min="0" step="10000" value="240000"></label>
         </div>
-        <label>Taxable spending per year $ <input type="number" id="spend" min="0" step="5000" value="40000"></label>
-        <label class="row"><input type="checkbox" id="stocks"> Significant stock or brokerage holdings</label>
-        <div class="two">
+        <label data-need="spend">Taxable spending per year $ <input type="number" id="spend" min="0" step="5000" value="40000"></label>
+        <label class="row" data-need="stocks"><input type="checkbox" id="stocks"> Significant stock or brokerage holdings</label>
+        <div class="two" data-need="wage">
           <label>Hourly wage, if paid hourly $ <input type="number" id="wage" min="0" step="0.5" value="0"></label>
           <label class="row" style="align-self:end"><input type="checkbox" id="employer"> I employ hourly workers</label>
         </div>
       </fieldset>
-      <fieldset><legend>Home</legend>
-        <label>Your home <select id="home"><option value="rent">I rent</option><option value="own">I own</option></select></label>
-        <label>Home value $ (owners) <input type="number" id="homeValue" min="0" step="25000" value="0"></label>
-        <label>Home size <select id="sqft"><option value="s">Up to 3,000 sq ft</option><option value="m">3,000–5,000 sq ft</option><option value="l">Over 5,000 sq ft</option></select></label>
-        <div class="two">
+      <fieldset data-group="home"><legend>Home</legend>
+        <label data-need="home">Your home <select id="home"><option value="rent">I rent</option><option value="own">I own</option></select></label>
+        <label data-need="homeValue" data-owner>Home value $ <input type="number" id="homeValue" min="0" step="25000" value="0"></label>
+        <label data-need="sqft" data-owner>Home size <select id="sqft"><option value="s">Up to 3,000 sq ft</option><option value="m">3,000–5,000 sq ft</option><option value="l">Over 5,000 sq ft</option></select></label>
+        <div class="two" data-need="rentals">
           <label>Other properties you own <input type="number" id="rentals" min="0" max="20" value="0"></label>
-          <label>Their total value $ <input type="number" id="rentalsValue" min="0" step="25000" value="0"></label>
+          <label data-need="rentalsValue">Their total value $ <input type="number" id="rentalsValue" min="0" step="25000" value="0"></label>
         </div>
-        <label class="row"><input type="checkbox" id="rentctl"> I rent a rent-controlled unit (renters)</label>
-        <label class="row"><input type="checkbox" id="senior"> An owner in the household is 65+</label>
+        <label class="row" data-need="rentctl" data-renter><input type="checkbox" id="rentctl"> I rent a rent-controlled unit</label>
+        <label class="row" data-need="senior" data-owner><input type="checkbox" id="senior"> An owner in the household is 65+</label>
       </fieldset>
-      <fieldset><legend>Family</legend>
-        <label class="row"><input type="checkbox" id="school" checked> Children in public school</label>
-        <label class="row"><input type="checkbox" id="disab"> Someone with a disability (Regional Center, IHSS, special ed)</label>
-        <label class="row"><input type="checkbox" id="medical"> Someone on Medicaid (Medi-Cal)</label>
-        <label class="row"><input type="checkbox" id="clinic"> We use a community health clinic</label>
+      <fieldset data-group="family"><legend>Family</legend>
+        <label class="row" data-need="school"><input type="checkbox" id="school" checked> Children in public school</label>
+        <label class="row" data-need="disab"><input type="checkbox" id="disab"> Someone with a disability (disability services, special ed)</label>
+        <label class="row" data-need="medical"><input type="checkbox" id="medical"> Someone on Medicaid</label>
+        <label class="row" data-need="clinic"><input type="checkbox" id="clinic"> We use a community health clinic</label>
       </fieldset>
-      <fieldset><legend>Getting around</legend>
-        <label>Transit use <select id="transit"><option value="0">Rarely</option><option value="1" selected>Weekly</option><option value="2">Daily</option></select></label>
-        <label class="row" id="westrow"><input type="checkbox" id="westside"> I drive SF's west side most weekdays</label>
+      <fieldset data-group="travel"><legend>Getting around</legend>
+        <label data-need="transit">Transit use <select id="transit"><option value="0">Rarely</option><option value="1" selected>Weekly</option><option value="2">Daily</option></select></label>
+        <label class="row" data-need="westside" id="westrow"><input type="checkbox" id="westside"> I drive SF's west side most weekdays</label>
       </fieldset>
-      <fieldset><legend>What matters most to you</legend>
+      <fieldset data-group="pri"><legend>What matters most to you</legend>
         <div class="pri">
-          <span>Keeping my household's costs down</span><output id="o-budget"></output><input type="range" id="w-budget" min="0" max="3" value="2" aria-label="Keeping costs down">
-          <span>Public services my family relies on</span><output id="o-services"></output><input type="range" id="w-services" min="0" max="3" value="2" aria-label="Public services">
-          <span>Transit</span><output id="o-transit"></output><input type="range" id="w-transit" min="0" max="3" value="2" aria-label="Transit">
-          <span>Housing affordability</span><output id="o-housing"></output><input type="range" id="w-housing" min="0" max="3" value="2" aria-label="Housing">
-          <span>Careful government spending</span><output id="o-fiscal"></output><input type="range" id="w-fiscal" min="0" max="3" value="2" aria-label="Careful spending">
+          <div class="prow" data-need="w-budget"><span>Keeping my household's costs down</span><output id="o-budget"></output><input type="range" id="w-budget" min="0" max="3" value="2" aria-label="Keeping costs down"></div>
+          <div class="prow" data-need="w-services"><span>Public services my family relies on</span><output id="o-services"></output><input type="range" id="w-services" min="0" max="3" value="2" aria-label="Public services"></div>
+          <div class="prow" data-need="w-transit"><span>Transit</span><output id="o-transit"></output><input type="range" id="w-transit" min="0" max="3" value="2" aria-label="Transit"></div>
+          <div class="prow" data-need="w-housing"><span>Housing affordability</span><output id="o-housing"></output><input type="range" id="w-housing" min="0" max="3" value="2" aria-label="Housing"></div>
+          <div class="prow" data-need="w-fiscal"><span>Careful government spending</span><output id="o-fiscal"></output><input type="range" id="w-fiscal" min="0" max="3" value="2" aria-label="Careful spending"></div>
         </div>
       </fieldset>
-      <button class="btn" type="submit">Update my ballot</button>
+      <button class="btn" type="submit" id="go">Update my ballot</button>
       <p class="priv">Computed in your browser. Nothing is sent or stored.</p>
     </form>
 
@@ -164,13 +167,52 @@ function read(){
 const rc=r=>/Yes/.test(r)?"Y":/No/.test(r)?"N":"Q";
 const lbl=m=>m.label||(m.id==="RTM"?"Measure RTM":"Prop "+m.id);
 
+
+// Which form inputs matter for this ZIP's ballot: derived from the measures' cost models,
+// effects and boosts, so the form only asks what changes a recommendation or a cost.
+function needsFor(zip){
+  const N=new Set(), st=GEO.stateFromZip(zip);
+  if(!st) return {N,st};
+  if(st==="CA"){
+    const sf=SF.has(zip), rtm=sf||RTM_PREFIX.includes(zip.slice(0,3));
+    ["income","stocks","home","school","disab","medical","clinic","transit","w-budget","w-services","w-transit","w-housing","w-fiscal"].forEach(x=>N.add(x));
+    if(rtm) N.add("spend");
+    if(sf) ["sqft","rentals","rentctl","senior","westside"].forEach(x=>N.add(x));
+    return {N,st};
+  }
+  const COST={income_tax_brackets:["income"],income_tax_flat:["income"],property_tax_rate:["home","homeValue","rentals","rentalsValue"],
+    property_tax_pct:["home","homeValue","rentals","rentalsValue"],homestead_exemption:["home","homeValue"],sales_tax:["spend"],
+    flat_fee:[],min_wage:["wage"]};
+  const FLAG={disab:"disab",medicaid:"medical",school:"school",owner:"home",renter:"home",senior:"senior",hourly:"wage",employer:"wage",transit_user:"transit"};
+  for(const m of US.MEASURES.filter(m=>m.state===st&&!m.values)){
+    if(m.cost){ (COST[m.cost.model]||[]).forEach(x=>N.add(x)); N.add("w-budget");
+      if(m.cost.model==="flat_fee"&&m.cost.per==="property") N.add("home"),N.add("rentals");
+      if(m.cost.homestead_only) N.delete("rentalsValue"), N.delete("rentals"); }
+    for(const [k,v] of Object.entries(m.effects||{})) if(v){ N.add("w-"+k); if(k==="services") ["school","disab","medical"].forEach(x=>N.add(x)); if(k==="transit") N.add("transit"); }
+    for(const f of Object.keys(m.boost||{})) if(FLAG[f]) N.add(FLAG[f]);
+  }
+  if(N.has("w-budget")&&!N.has("income")) N.add("income");   // income scales how much a cost matters
+  return {N,st};
+}
+function applyNeeds(){
+  const zip=($("zip").value||"").trim(), {N,st}=needsFor(zip), own=$("home").value==="own";
+  document.querySelectorAll("#f [data-need]").forEach(el=>{
+    let show=N.has(el.dataset.need);
+    if(show&&el.hasAttribute("data-owner")&&N.has("home")) show=own;
+    if(show&&el.hasAttribute("data-renter")&&N.has("home")) show=!own;
+    el.hidden=!show;
+  });
+  document.querySelectorAll("#f fieldset[data-group]").forEach(fs=>fs.hidden=![...fs.querySelectorAll("[data-need]")].some(el=>!el.hidden));
+  $("noneed").hidden=!(st&&N.size===0);
+  $("go").hidden=!!(st&&N.size===0);
+}
 function render(){
+  applyNeeds();
   const h=read();
   ["budget","services","transit","housing","fiscal"].forEach(k=>$("o-"+k).textContent=LVL[h.w[k]]);
   const B=ballot(h,US,CA);
   const st=/^\d{5}$/.test(h.zip)?GEO.stateFromZip(h.zip):null;
   $("stateline").textContent=st?`${GEO.STATE_NAMES[st]||st}`:"";
-  $("westrow").hidden=!(st==="CA"&&SF.has(h.zip));
   if(!B){ $("headline").innerHTML=`<p class="empty">Enter a 5-digit US ZIP code to see your ballot.</p>`; $("cards").innerHTML=""; $("seats").innerHTML=""; return; }
   const {c,results:res}=B, list=res.map(x=>x.m), name=GEO.STATE_NAMES[B.state]||B.state;
   const nLocal=list.filter(m=>m.jurisdiction==="sf").length, nState=list.length-nLocal-list.filter(m=>m.jurisdiction==="bay-area-rtm").length;
