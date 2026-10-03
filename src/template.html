@@ -25,8 +25,9 @@ p{margin:0}
 .lede{font:18px/1.5 var(--read);color:var(--muted);max-width:70ch;margin-top:8px}
 .layout{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:24px;margin-top:22px;align-items:start}
 @media (max-width:860px){.layout{grid-template-columns:1fr}}
-form{background:var(--sheet);border:1px solid var(--rule);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:14px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px)}
-@media (max-width:860px){form{position:static}}
+form{background:var(--sheet);border:1px solid var(--rule);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:14px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);max-height:calc(100vh - 24px);overflow-y:auto;overscroll-behavior:contain}
+@supports (height:100dvh){form{max-height:calc(100dvh - 24px)}}
+@media (max-width:860px){form{position:static;max-height:none;overflow:visible}}
 fieldset{border:0;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
 legend{font:700 12px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
 label{font-size:14px;display:flex;flex-direction:column;gap:4px}
@@ -37,7 +38,7 @@ input:focus-visible,select:focus-visible,button:focus-visible{outline:3px solid 
 .pri{display:grid;grid-template-columns:1fr auto;gap:4px 10px;align-items:center;font-size:14px}
 .pri output{font:500 12px var(--mono);color:var(--muted);min-width:56px;text-align:right}
 input[type=range]{width:100%;accent-color:var(--accent)}
-.btn{font:700 15px var(--ui);border:0;background:var(--ink);color:var(--sheet);border-radius:10px;padding:11px 14px;cursor:pointer}
+.btn{position:sticky;bottom:0;box-shadow:0 -8px 12px var(--sheet);font:700 15px var(--ui);border:0;background:var(--ink);color:var(--sheet);border-radius:10px;padding:11px 14px;cursor:pointer}
 .example{font-size:12.5px;color:var(--muted);background:var(--accent-soft);border-radius:8px;padding:8px 10px}
 .priv{font-size:12.5px;color:var(--muted)}
 .results{min-width:0}
@@ -179,6 +180,6 @@ function render(){
      <p class="what">${s.cands.map(x=>`<b>${esc(x.name)}</b> (${esc(x.party)})${x.inc?" · incumbent":""}: ${esc(x.desc)}`).join("<br>")}</p></article>`).join("")||`<p class="empty">Statewide races coming soon.</p>`;
 }
 $("f").addEventListener("submit",e=>{e.preventDefault();$("exnote").hidden=true;render();});
-$("f").addEventListener("input",e=>{ if(e.target.type==="range") render(); });
+let tmr; $("f").addEventListener("input",()=>{ $("exnote").hidden=true; clearTimeout(tmr); tmr=setTimeout(render,250); });
 render();
 </script>
