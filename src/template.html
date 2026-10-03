@@ -1,11 +1,12 @@
 <title>Ballot Fit</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@500&display=swap">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
 <style>
 /* Layout: left = household form (sticky on desktop), right = your personalised ballot. Same ballot-paper system as the personal guide. */
 :root{
   --paper:#f5f7fa; --sheet:#ffffff; --ink:#14213d; --muted:#596277; --rule:#d8dde6; --soft:#eef1f6;
   --yes:#1f7a4d; --yes-soft:#e3f2ea; --no:#b23a3a; --no-soft:#f7e4e4; --accent:#3b5bdb; --accent-soft:#e6ebfc; --money:#a8650b; --money-soft:#fbf0de;
-  --ui:"Public Sans",system-ui,-apple-system,sans-serif; --read:"Source Serif 4",Georgia,serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --ui:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; --read:Charter,"Iowan Old Style",Georgia,serif; --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --paper:#0f1420; --sheet:#171d2b; --ink:#e7ebf3; --muted:#9aa4b8; --rule:#2b3346; --soft:#1e2536;
@@ -152,7 +153,8 @@ summary{cursor:pointer;color:var(--muted);font-weight:600}
 US.G=GEO; CA.R=RULES;
 const LVL=["Not much","Some","A lot","Top priority"];
 const $=id=>document.getElementById(id);
-const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl=u=>/^https?:\/\//i.test(String(u||""))?u:"";
 
 function read(){
   const g=id=>$(id), n=id=>Math.max(0,Number(g(id).value)||0);
@@ -229,7 +231,7 @@ function render(){
     <div class="why"><b>Why, for you:</b><ul>${why.slice(0,3).map(w=>`<li>${esc(w[2])}</li>`).join("")}</ul></div>
     <details><summary>Yes/No, cost and who's on each side</summary>
       <div class="yn"><div class="y"><b>Yes:</b> ${esc(m.y)}</div><div class="n"><b>No:</b> ${esc(m.n)}</div></div>
-      <dl class="meta"><dt>Cost</dt><dd>${esc(m.fiscal)}</dd><dt>For</dt><dd>${esc(m.pro)}</dd><dt>Against</dt><dd>${esc(m.con)}</dd>${m.source?`<dt>Source</dt><dd><a href="${esc(m.source)}" target="_blank" rel="noopener">official analysis</a></dd>`:""}</dl>
+      <dl class="meta"><dt>Cost</dt><dd>${esc(m.fiscal)}</dd><dt>For</dt><dd>${esc(m.pro)}</dd><dt>Against</dt><dd>${esc(m.con)}</dd>${safeUrl(m.source)?`<dt>Source</dt><dd><a href="${esc(safeUrl(m.source))}" target="_blank" rel="noopener noreferrer">official analysis</a></dd>`:""}</dl>
     </details></article>`).join("");
   $("seats").innerHTML=(B.offices||[]).map(s=>`<article class="card"><div class="head"><span class="badge">${esc(s.short)}</span><div class="title"><h3>${esc(s.office)}</h3><div class="type">${esc(s.note||"")}</div></div></div>
      <p class="what">${s.cands.map(x=>`<b>${esc(x.name)}</b> (${esc(x.party)})${x.inc?" · incumbent":""}: ${esc(x.desc)}`).join("<br>")}</p></article>`).join("")||`<p class="empty">Statewide races coming soon.</p>`;

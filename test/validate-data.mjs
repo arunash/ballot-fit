@@ -15,6 +15,8 @@ for (const f of fs.readdirSync(dir).sort()) {
     if (!String(m.id).startsWith(st + "-")) err(f, m.id, "id must start with state");
     if (ids.has(m.id)) err(f, m.id, "duplicate id"); ids.add(m.id);
     if (!m.source) warn(f, m.id, "no source URL");
+    else if (!/^https?:\/\//i.test(m.source)) err(f, m.id, "source must be an http(s) URL");
+    for (const [k, v] of Object.entries(m)) if (typeof v === "string" && /<\s*script|javascript:|on\w+\s*=/i.test(v)) err(f, m.id, `suspicious markup in ${k}`);
     if (m.values) continue;
     if (m.cost && !MODELS.has(m.cost.model)) err(f, m.id, `unknown cost model ${m.cost.model}`);
     for (const [k, v] of Object.entries(m.effects || {})) {
