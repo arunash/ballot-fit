@@ -34,7 +34,7 @@ node test/engine.test.mjs # sanity checks on costs and recommendations
 open dist/index.html
 ```
 
-No dependencies. Host `dist/index.html` anywhere static.
+No dependencies. Host `dist/index.html` anywhere static. Every push to `main` runs the tests and publishes to GitHub Pages: **https://arunash.github.io/ballot-fit/**
 
 ## Adding an election or a county
 
