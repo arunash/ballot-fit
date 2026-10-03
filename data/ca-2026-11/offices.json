@@ -1,0 +1,155 @@
+[
+ {
+  "short": "GOV",
+  "office": "Governor",
+  "note": "Open seat (Newsom termed out) · polling avg Becerra +23",
+  "cands": [
+   {
+    "name": "Xavier Becerra",
+    "party": "D",
+    "desc": "Former US Health Secretary and CA Attorney General; affordability, health care, housing. Backed by CA Dems, Newsom, CalChamber, CA YIMBY."
+   },
+   {
+    "name": "Steve Hilton",
+    "party": "R",
+    "desc": "Former Fox News host; lower taxes and gas prices, less regulation. Endorsed by Trump; CA GOP made no endorsement."
+   }
+  ]
+ },
+ {
+  "short": "LG",
+  "office": "Lieutenant Governor",
+  "note": "Open seat",
+  "cands": [
+   {
+    "name": "Fiona Ma",
+    "party": "D",
+    "desc": "State Treasurer; financial expertise. CA Dems; SF Chronicle 'with serious reservations'."
+   },
+   {
+    "name": "Gloria Romero",
+    "party": "R",
+    "desc": "Former Democratic Senate leader; education and school choice. CA GOP."
+   }
+  ]
+ },
+ {
+  "short": "AG",
+  "office": "Attorney General",
+  "cands": [
+   {
+    "name": "Rob Bonta",
+    "party": "D",
+    "inc": true,
+    "desc": "Has led CA's lawsuits against the Trump administration. CA Dems, SF Chronicle."
+   },
+   {
+    "name": "Michael Gates",
+    "party": "R",
+    "desc": "Former Huntington Beach city attorney; fought the state on housing and voter ID. CA GOP."
+   }
+  ]
+ },
+ {
+  "short": "SOS",
+  "office": "Secretary of State",
+  "cands": [
+   {
+    "name": "Shirley Weber",
+    "party": "D",
+    "inc": true,
+    "desc": "Steady election administration. CA Dems, SF Chronicle."
+   },
+   {
+    "name": "Don Wagner",
+    "party": "R",
+    "desc": "Orange County supervisor; election integrity and voter ID. CA GOP."
+   }
+  ]
+ },
+ {
+  "short": "TRE",
+  "office": "Treasurer",
+  "note": "Open seat",
+  "cands": [
+   {
+    "name": "Eleni Kounalakis",
+    "party": "D",
+    "desc": "Current Lieutenant Governor. CA Dems, SF Chronicle."
+   },
+   {
+    "name": "Jennifer Hawks",
+    "party": "R",
+    "desc": "CA GOP-endorsed."
+   }
+  ]
+ },
+ {
+  "short": "CON",
+  "office": "Controller",
+  "cands": [
+   {
+    "name": "Malia Cohen",
+    "party": "D",
+    "inc": true,
+    "desc": "Audits and oversight. CA Dems; SF Chronicle ('cautious')."
+   },
+   {
+    "name": "Herb Morgan",
+    "party": "R",
+    "desc": "CA GOP-endorsed."
+   }
+  ]
+ },
+ {
+  "short": "INS",
+  "office": "Insurance Commissioner",
+  "note": "Open seat · two Democrats",
+  "cands": [
+   {
+    "name": "Ben Allen",
+    "party": "D",
+    "desc": "State senator; pragmatic fix for the homeowners-insurance market. CA Dems, SF Chronicle."
+   },
+   {
+    "name": "Jane Kim",
+    "party": "D",
+    "desc": "Former SF supervisor; aggressive consumer-first regulation."
+   }
+  ]
+ },
+ {
+  "short": "SPI",
+  "office": "Superintendent of Public Instruction",
+  "note": "Nonpartisan",
+  "cands": [
+   {
+    "name": "Richard Barrera",
+    "party": "nonpartisan",
+    "desc": "San Diego Unified board member, labor-aligned. CA Dems, SF Chronicle."
+   },
+   {
+    "name": "Sonja Shaw",
+    "party": "nonpartisan",
+    "desc": "Chino Valley school board president; parental rights. CA GOP."
+   }
+  ]
+ },
+ {
+  "short": "JUD",
+  "office": "CA Supreme Court retention",
+  "note": "Yes/No on each justice",
+  "cands": [
+   {
+    "name": "Kelli M. Evans",
+    "party": "retain?",
+    "desc": "Associate Justice."
+   },
+   {
+    "name": "Joshua Groban",
+    "party": "retain?",
+    "desc": "Associate Justice."
+   }
+  ]
+ }
+]

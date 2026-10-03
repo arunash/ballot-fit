@@ -1,0 +1,508 @@
+[
+ {
+  "id": "1",
+  "t": "Housing affordability bond",
+  "type": "Legislative bond · $11.25B",
+  "what": "Borrows $11.25B: $10B for affordable rental housing, supportive housing, homeownership help and farmworker/student/tribal housing, plus $1.25B for veterans' home loans.",
+  "y": "The state can borrow $11.25B for these housing programs.",
+  "n": "It can't.",
+  "fiscal": "About $500–600M a year for ~25 years to repay (veterans' share is repaid by borrowers).",
+  "pro": "Gov. Newsom, CA Apartment Association, Habitat for Humanity, AFL-CIO",
+  "con": "No organised opposition; some Republican legislators",
+  "e": {
+   "Chron": "Y",
+   "CADEM": "Y",
+   "CAGOP": "–",
+   "LWV": "Y"
+  },
+  "poll": 55,
+  "jurisdiction": "ca"
+ },
+ {
+  "id": "2",
+  "t": "Bigger rainy-day fund",
+  "type": "Legislative constitutional amendment",
+  "what": "Raises the cap on the state's reserve fund from 10% to 20% of general-fund taxes and extends required extra debt payments to 2040.",
+  "y": "The state saves more in good years.",
+  "n": "Current reserve rules stay.",
+  "fiscal": "Higher reserves and possibly more debt payments; no dollar estimate.",
+  "pro": "Gov. Newsom, CA Professional Firefighters, LA Chamber",
+  "con": "Reform California, legislative Republicans",
+  "e": {
+   "Chron": "–",
+   "CADEM": "Y",
+   "CAGOP": "N",
+   "LWV": "Y"
+  },
+  "poll": null,
+  "care": true,
+  "jurisdiction": "ca"
+ },
+ {
+  "id": "3",
+  "t": "Make the high-income tax permanent",
+  "type": "Initiative constitutional amendment",
+  "what": "Makes permanent the 10.3%, 11.3% and 12.3% state income-tax brackets on high earners (first passed in 2012), which otherwise expire after 2030.",
+  "y": "The top brackets continue after 2030.",
+  "n": "They expire in 2031.",
+  "fiscal": "Keeps $5–15B a year that would otherwise disappear; about 40% to schools and community colleges.",
+  "pro": "CA Teachers Association, CA State PTA, CA Medical Association, Planned Parenthood",
+  "con": "CA Taxpayers Association, Family Business Association, Reform California",
+  "e": {
+   "Chron": "Y",
+   "CADEM": "Y",
+   "CAGOP": "N",
+   "LWV": "Y"
+  },
+  "poll": 58,
+  "money": true,
+  "care": true,
+  "jurisdiction": "ca"
+ },
+ {
+  "id": "4",
+  "t": "Allow public campaign financing",
+  "type": "Legislative statute",
+  "what": "Repeals the 1988 statewide ban on public financing of campaigns, so the state and cities could create voluntary programs (not paid for from education, transport or public-safety money).",
+  "y": "Governments may create public financing programs.",
+  "n": "The ban stays.",
+  "fiscal": "A few hundred thousand dollars a year for the state ethics commission.",
+  "pro": "Common Cause, League of Women Voters, ACLU",
+  "con": "CA Taxpayers Association, Reform California",
+  "e": {
+   "Chron": "–",
+   "CADEM": "Y",
+   "CAGOP": "N",
+   "LWV": "Y"
+  },
+  "poll": null,
+  "jurisdiction": "ca"
+ },
+ {
+  "id": "5",
+  "t": "Recall election reform",
+  "type": "Legislative constitutional amendment",
+  "what": "Recall ballots would only ask whether to remove the official. The seat would be filled later by special election (the lieutenant governor acts as governor meanwhile), and the recalled official could run.",
+  "y": "No replacement question on recall ballots.",
+  "n": "Recall and replacement on the same ballot, as now.",
+  "fiscal": "Unknown; millions in savings or costs depending on the office if a recall happens.",
+  "pro": "Sen. Josh Newman, Secretary of State, League of Women Voters, Common Cause",
+  "con": "Election Integrity Project California, most Republican legislators",
+  "e": {
+   "Chron": "–",
+   "CADEM": "Y",
+   "CAGOP": "N",
+   "LWV": "Y"
+  },
+  "poll": null,
+  "jurisdiction": "ca"
+ },
+ {
+  "id": "37",
+  "t": "Loans for middle-income buyers of new homes",
+  "type": "Initiative · $25B revenue bonds",
+  "what": "The state housing agency issues $25B of revenue bonds to lend up to 17% of the price of a newly built home (price cap ~$1.5M, income up to 200% of area median, 3% down).",
+  "y": "The loan program is created.",
+  "n": "It isn't.",
+  "fiscal": "No direct state cost; homebuyers' payments repay the bonds.",
+  "pro": "CA Association of Realtors, Carpenters union, Treasurer Fiona Ma",
+  "con": "No organised campaign; League of Women Voters and Reform California oppose",
+  "e": {
+   "Chron": "Y",
+   "CADEM": "Y",
+   "CAGOP": "–",
+   "LWV": "N"
+  },
+  "poll": 61,
+  "jurisdiction": "ca"
+ },
+ {
+  "id": "38",
+  "t": "Immunology research bond",
+  "type": "Initiative · $8.4B bond",
+  "what": "Borrows $8.4B for immunology and immunotherapy research: half to a new UC-affiliated nonprofit institute, half to competitive grants. Resulting drugs offered to Californians at a 20% discount.",
+  "y": "The state borrows $8.4B for this research.",
+  "n": "It doesn't.",
+  "fiscal": "About $500–600M a year for ~20 years to repay, possibly offset by research revenue.",
+  "pro": "Sponsor Gary Michelson, Michael J. Fox Foundation, Alzheimer's Association",
+  "con": "Stanford's Robert Kaplan, Courage California, Howard Jarvis Taxpayers Assn",
+  "e": {
+   "Chron": "N",
+   "CADEM": "Y",
+   "CAGOP": "Y",
+   "LWV": "N"
+  },
+  "poll": 55,
+  "care": true,
+  "jurisdiction": "ca"
+ },
+ {
+  "id": "39",
+  "t": "Voter ID",
+  "type": "Initiative constitutional amendment",
+  "what": "Requires government ID to vote in person, and the last four digits of a government ID on mail-ballot envelopes; adds citizenship-verification reporting. Counties would issue free ID cards.",
+  "y": "Extra ID information every time you vote.",
+  "n": "Identity stays verified by signature matching.",
+  "fiscal": "Tens of millions to low hundreds of millions of dollars a year to implement.",
+  "pro": "Reform California (Carl DeMaio), Howard Jarvis Taxpayers Assn; $17M from Richard Uihlein",
+  "con": "ACLU, Common Cause, League of Women Voters",
+  "e": {
+   "Chron": "–",
+   "CADEM": "N",
+   "CAGOP": "Y",
+   "LWV": "N"
+  },
+  "poll": 43,
+  "jurisdiction": "ca"
+ },
+ {
+  "id": "40",
+  "t": "One-time 5% billionaire tax",
+  "type": "Initiative constitutional amendment",
+  "what": "A one-time 5% tax on the net worth of the ~200 Californians worth over $1B (residents as of 1 Jan 2026), payable over up to five years. 90% goes to health care including Medi-Cal; 10% to education and food aid.",
+  "y": "The state collects the one-time tax.",
+  "n": "It doesn't.",
+  "fiscal": "Tens of billions over several years (backers say ~$100B); possibly under $1B a year less income tax if billionaires leave.",
+  "pro": "SEIU-UHW, Sen. Bernie Sanders, Teamsters, AFSCME",
+  "con": "Gov. Newsom, CA Teachers Association, CA Medical Association, Planned Parenthood, SF Democratic Party; $200M+ from tech donors incl. Sergey Brin",
+  "e": {
+   "Chron": "–",
+   "CADEM": "Y",
+   "CAGOP": "N",
+   "LWV": "neutral"
+  },
+  "poll": 52,
+  "care": true,
+  "jurisdiction": "ca"
+ },
+ {
+  "id": "41",
+  "t": "Audits for new special taxes (cancels 40)",
+  "type": "Initiative constitutional amendment",
+  "what": "Cancels any new state tax since 1 Jan 2026 that exempts its revenue from the state spending limit (i.e. Prop 40), and requires State Auditor reviews before and after new special taxes.",
+  "y": "Audits required; Prop 40 is cancelled if 41 gets more votes.",
+  "n": "No change.",
+  "fiscal": "Unknown; depends on future decisions.",
+  "pro": "Building a Better California (tech donors), Sergey Brin, CA Taxpayers Association",
+  "con": "SEIU-UHW, Bernie Sanders",
+  "e": {
+   "Chron": "N",
+   "CADEM": "N",
+   "CAGOP": "Y",
+   "LWV": "N"
+  },
+  "poll": 51,
+  "jurisdiction": "ca"
+ },
+ {
+  "id": "42",
+  "t": "Ban new state wealth/personal-property taxes (cancels 40)",
+  "type": "Initiative constitutional amendment",
+  "what": "Constitutionally bans new state taxes on owning financial assets, business interests, art and IP, and most retroactive state taxes. Cancels conflicting taxes since 1 Jan 2026 (i.e. Prop 40). Real estate and local taxes untouched.",
+  "y": "The state could never tax holdings like brokerage or stock accounts.",
+  "n": "The state keeps that option.",
+  "fiscal": "Tax revenue may not grow as much in future; no dollar estimate.",
+  "pro": "Building a Better California, Sergey Brin, CA Professional Firefighters, State Building Trades",
+  "con": "SEIU-UHW",
+  "e": {
+   "Chron": "N",
+   "CADEM": "N",
+   "CAGOP": "Y",
+   "LWV": "N"
+  },
+  "poll": 54,
+  "jurisdiction": "ca"
+ },
+ {
+  "id": "43",
+  "t": "Two-thirds vote for citizen local special taxes",
+  "type": "Legislative constitutional amendment",
+  "what": "From 2027, local special taxes put on the ballot by citizen initiative would need a two-thirds vote instead of a simple majority. Future taxes only.",
+  "y": "Two-thirds needed.",
+  "n": "A majority can still pass them.",
+  "fiscal": "Local tax revenue may grow less; size unknown.",
+  "pro": "Howard Jarvis Taxpayers Assn, CA Business Roundtable",
+  "con": "SEIU, CA Democratic Party, transit advocates",
+  "e": {
+   "Chron": "–",
+   "CADEM": "N",
+   "CAGOP": "Y",
+   "LWV": "N"
+  },
+  "poll": 43,
+  "jurisdiction": "ca"
+ },
+ {
+  "id": "44",
+  "t": "Clinics must spend 90% on program services",
+  "type": "Initiative statute",
+  "what": "Nonprofit community health centres (FQHCs) must spend at least 90% of revenue on program services or pay penalties, enforced by the Attorney General.",
+  "y": "New spending requirement on these clinics.",
+  "n": "No requirement.",
+  "fiscal": "State costs in the low tens of millions a year, covered by fees.",
+  "pro": "SEIU-UHW",
+  "con": "CA Primary Care Association, CA Medical Association, American Academy of Pediatrics–CA, Planned Parenthood",
+  "e": {
+   "Chron": "N",
+   "CADEM": "N",
+   "CAGOP": "N",
+   "LWV": "N"
+  },
+  "poll": null,
+  "jurisdiction": "ca"
+ },
+ {
+  "id": "45",
+  "t": "Faster environmental review for essential projects",
+  "type": "Initiative statute",
+  "what": "Time limits on CEQA review for housing, clean energy, water, health, transit, broadband and school projects: 365 days for an environmental report, 270 days for lawsuits, and courts can only halt the part that fails.",
+  "y": "Faster reviews, narrower lawsuits.",
+  "n": "Current CEQA rules stay.",
+  "fiscal": "Initial costs in the high tens of millions, possibly over $100M a year, partly covered by fees; long-term effects uncertain.",
+  "pro": "CalChamber, Building Industry Assn, CA Hospital Assn, NAACP California",
+  "con": "CA Labor Federation, CA Nurses Assn, Sierra Club, Western Center on Law & Poverty",
+  "e": {
+   "Chron": "–",
+   "CADEM": "N",
+   "CAGOP": "Y",
+   "LWV": "N"
+  },
+  "poll": 49,
+  "jurisdiction": "ca"
+ },
+ {
+  "id": "A",
+  "t": "Streamline city departments and commissions",
+  "type": "Charter amendment",
+  "what": "Cuts the number of city commissions (55 to about 38 by one count), moves others out of the Charter into ordinary law, and changes how legal settlements are approved.",
+  "y": "A slimmer Charter and fewer commissions.",
+  "n": "The current structure stays.",
+  "fiscal": "Saves about $365K–450K a year.",
+  "pro": "Mayor Lurie, most of the Board of Supervisors",
+  "con": "Coalition on Homelessness (less public oversight)",
+  "e": {
+   "Chron": "Y",
+   "Dems": "Y",
+   "GOP": "Y",
+   "SPUR": "Y",
+   "GrowSF": "Y",
+   "League": "N",
+   "SFTU": "N"
+  },
+  "jurisdiction": "sf"
+ },
+ {
+  "id": "B",
+  "t": "Municipal finance corporation and public bank",
+  "type": "Charter amendment",
+  "what": "Authorises (doesn't require) a city lending corporation that could become a public bank with state and federal approval.",
+  "y": "The framework is created.",
+  "n": "It isn't.",
+  "fiscal": "Nothing unless the city acts; if it does, about $310–460M over 8 years. The Controller calls the uncertainty high.",
+  "pro": "SF Public Bank Coalition, Labor Council, SF Democratic Party",
+  "con": "SF Chronicle, SPUR, GrowSF, SF Republican Party",
+  "e": {
+   "Chron": "N",
+   "Dems": "Y",
+   "GOP": "N",
+   "SPUR": "N",
+   "GrowSF": "N",
+   "League": "Y",
+   "SFTU": "Y"
+  },
+  "jurisdiction": "sf"
+ },
+ {
+  "id": "C",
+  "t": "More money for the Housing Trust Fund",
+  "type": "Charter amendment · by D7's Sup. Melgar",
+  "what": "Raises the city's annual affordable-housing set-aside from about $50M to $125M by 2034–35, extends it to 2058, and lifts the down-payment-loan income cap to 200% of area median. Can be paused in deficit years.",
+  "y": "A bigger, longer housing set-aside.",
+  "n": "The current formula (about $65M by 2034–35).",
+  "fiscal": "No new tax; moves up to about $60M a year of existing general-fund money by 2034–35.",
+  "pro": "Housing nonprofits, SF Democratic Party, SF Chronicle, SPUR, GrowSF",
+  "con": "SF Republican Party (a set-aside during a deficit)",
+  "e": {
+   "Chron": "Y",
+   "Dems": "Y",
+   "GOP": "N",
+   "SPUR": "Y",
+   "GrowSF": "Y",
+   "League": "Y",
+   "SFTU": "Y"
+  },
+  "jurisdiction": "sf"
+ },
+ {
+  "id": "D",
+  "t": "Harder to put measures on the ballot",
+  "type": "Charter amendment · Mayor's initiative",
+  "what": "Ends the Mayor's and four supervisors' power to place measures directly (a Board majority needed), and raises citizen-initiative signatures from 2% to 8% of voters (about 10,600 to 42,500).",
+  "y": "Fewer, harder-to-qualify ballot measures.",
+  "n": "Current access stays.",
+  "fiscal": "Minimal; may save printing and special-election costs.",
+  "pro": "Mayor Lurie, SF Democratic Party, SF Chronicle, SPUR, GrowSF",
+  "con": "Labor Council, Tenants Union, the League, SF Republican Party",
+  "e": {
+   "Chron": "Y",
+   "Dems": "Y",
+   "GOP": "N",
+   "SPUR": "Y",
+   "GrowSF": "Y",
+   "League": "N",
+   "SFTU": "N"
+  },
+  "jurisdiction": "sf"
+ },
+ {
+  "id": "E",
+  "t": "City Administrator controls contracting",
+  "type": "Charter amendment · Mayor's initiative",
+  "what": "Gives the City Administrator sole power over contracting rules (including at Muni, the PUC, Airport and Port), doubles the term to 10 years, and raises the size of contracts needing Board approval ($10M to $25M).",
+  "y": "Centralised contracting.",
+  "n": "Current checks stay.",
+  "fiscal": "Minimal; possible long-run procurement savings.",
+  "pro": "Mayor Lurie, SF Democratic Party, SF Chronicle, SPUR, GrowSF, SF Republican Party",
+  "con": "The League, Tenants Union, Greens",
+  "e": {
+   "Chron": "Y",
+   "Dems": "Y",
+   "GOP": "Y",
+   "SPUR": "Y",
+   "GrowSF": "Y",
+   "League": "N",
+   "SFTU": "N"
+  },
+  "jurisdiction": "sf"
+ },
+ {
+  "id": "F",
+  "t": "Stronger mayor over departments",
+  "type": "Charter amendment · Mayor's initiative",
+  "what": "Lets the Mayor merge departments (subject to a Board veto), hire and fire most department heads including the police chief, remove most commissioners at will, and appoint deputy mayors again.",
+  "y": "A stronger mayor.",
+  "n": "Commission independence stays.",
+  "fiscal": "Minimal; about $250K a year per deputy mayor.",
+  "pro": "Mayor Lurie, SF Democratic Party, SPUR, GrowSF, Chamber, SF Republican Party",
+  "con": "DSA, Indivisible SF, Small Business Forward, the League, Tenants Union",
+  "e": {
+   "Chron": "–",
+   "Dems": "Y",
+   "GOP": "Y",
+   "SPUR": "Y",
+   "GrowSF": "Y",
+   "League": "N",
+   "SFTU": "N"
+  },
+  "jurisdiction": "sf"
+ },
+ {
+  "id": "G",
+  "t": "Weekday cars on the Great Highway",
+  "type": "Ordinance · citizen initiative",
+  "what": "Reopens the Upper Great Highway (Lincoln to Sloat) to cars Monday 4am to Friday 6pm; weekends stay park. Partly reverses 2024's Prop K.",
+  "y": "Weekday car access returns.",
+  "n": "Sunset Dunes stays car-free.",
+  "fiscal": "About $9.8M one-time (mostly signals) plus $0.5–1.9M a year; needs a Coastal Commission permit.",
+  "pro": "Chinese American Democratic Club, SF Taxpayers Assn, SF Republican Party",
+  "con": "SF Chronicle, SF Democratic Party, SPUR, GrowSF, Sierra Club, Surfrider",
+  "e": {
+   "Chron": "N",
+   "Dems": "N",
+   "GOP": "Y",
+   "SPUR": "N",
+   "GrowSF": "N",
+   "League": "–",
+   "SFTU": "–"
+  },
+  "jurisdiction": "sf"
+ },
+ {
+  "id": "H",
+  "t": "Muni parcel tax",
+  "type": "Ordinance · special tax, majority vote",
+  "what": "A 15-year parcel tax (July 2027–2042) for Muni operations, based on building square footage. $129/yr for a home or condo up to 3,000 sq ft, indexed to inflation. Owner-occupants 65+ exempt.",
+  "y": "About $177M a year for Muni.",
+  "n": "No tax and a larger Muni deficit.",
+  "fiscal": "About $177M a year from 2027–28. Muni's deficit is about $307M next year.",
+  "pro": "Mayor Lurie, SF Democratic Party, Chamber, SF Chronicle, SPUR, GrowSF, Tenants Union",
+  "con": "SF Republican Party (fix SFMTA first), Business League",
+  "e": {
+   "Chron": "Y",
+   "Dems": "Y",
+   "GOP": "N",
+   "SPUR": "Y",
+   "GrowSF": "Y",
+   "League": "Y",
+   "SFTU": "Y"
+  },
+  "money": true,
+  "care": true,
+  "jurisdiction": "sf"
+ },
+ {
+  "id": "I",
+  "t": "Transfer tax on $10M+ sales to a housing fund",
+  "type": "Ordinance · citizen initiative",
+  "what": "For property sales of $10M and up, halves the existing transfer tax and adds an equal 'House SF' tax locked into a housing fund (60% production, 25% acquisition, 10% tenant stabilisation).",
+  "y": "The money is dedicated to housing.",
+  "n": "It stays flexible in the general fund.",
+  "fiscal": "Total revenue barely changes, but about $120M a year moves out of the general fund.",
+  "pro": "DSA SF, Tenants Union, the League, Affordable Housing Alliance",
+  "con": "Mayor Lurie, police and fire unions, SF Democratic Party, SPUR, GrowSF, SF Republican Party",
+  "e": {
+   "Chron": "–",
+   "Dems": "N",
+   "GOP": "N",
+   "SPUR": "N",
+   "GrowSF": "N",
+   "League": "Y",
+   "SFTU": "Y"
+  },
+  "jurisdiction": "sf"
+ },
+ {
+  "id": "J",
+  "t": "Tax foreclosures of big properties",
+  "type": "Ordinance · general tax",
+  "what": "Removes the transfer-tax exemption on foreclosures of commercial property, hotels and residential buildings of 5+ units. Homes, condos and buildings under 5 units stay exempt.",
+  "y": "Large-property foreclosures pay transfer tax.",
+  "n": "The exemption stays.",
+  "fiscal": "About $100–150M a year on average for 5 years, very volatile.",
+  "pro": "Mayor Lurie, SF Democratic Party, SEIU 1021, SPUR, GrowSF, Tenants Union",
+  "con": "SF Taxpayers Assn, SF Republican Party",
+  "e": {
+   "Chron": "–",
+   "Dems": "Y",
+   "GOP": "N",
+   "SPUR": "Y",
+   "GrowSF": "Y",
+   "League": "Y",
+   "SFTU": "Y"
+  },
+  "jurisdiction": "sf"
+ },
+ {
+  "id": "RTM",
+  "t": "Regional transit sales tax (Connect Bay Area)",
+  "type": "Regional citizen initiative · majority across 5 counties",
+  "what": "A 14-year sales tax for BART, Muni, Caltrain, AC Transit and ferries: 1% in SF (the extra half-cent goes to Muni), 0.5% in Alameda, Contra Costa, San Mateo and Santa Clara. About $1B a year region-wide.",
+  "y": "SF sales tax rises to 9.625%.",
+  "n": "No tax; transit agencies' cut plans proceed.",
+  "fiscal": "About $980M–$1B a year region-wide; SF's share mostly to Muni (63%) and BART (29%).",
+  "pro": "Mayor Lurie, Sen. Wiener, Rep. Pelosi, SF Democratic Party, SF Chronicle, SPUR, GrowSF",
+  "con": "SF Republican Party (SF pays double), SF Taxpayers Assn, Quentin Kopp",
+  "e": {
+   "Chron": "Y",
+   "Dems": "Y",
+   "GOP": "N",
+   "SPUR": "Y",
+   "GrowSF": "Y",
+   "League": "Y",
+   "SFTU": "Y"
+  },
+  "money": true,
+  "care": true,
+  "jurisdiction": "bay-area-rtm"
+ }
+]
