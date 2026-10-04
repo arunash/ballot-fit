@@ -1,5 +1,5 @@
 <title>Ballot Fit</title>
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src https://api.anthropic.com; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <style>
 /* Layout: left = household form (sticky on desktop), right = your personalised ballot. Same ballot-paper system as the personal guide. */
@@ -42,6 +42,14 @@ textarea{font:15px/1.45 var(--ui);padding:8px 10px;border:1px solid var(--rule);
 .notechips{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
 .nchip{font:600 12.5px var(--ui);border:1px solid var(--accent);background:var(--accent-soft);color:var(--ink);border-radius:999px;padding:3px 9px;cursor:pointer}
 .nchip span{color:var(--accent);margin-left:2px}
+.smart{display:flex;flex-direction:column;gap:6px}
+.sbtn{font:700 13.5px var(--ui);border:1px solid var(--accent);background:var(--accent-soft);color:var(--ink);border-radius:8px;padding:7px 11px;cursor:pointer;align-self:flex-start}
+.sbtn:disabled{opacity:.55;cursor:default}
+.linkbtn{font:600 13px var(--ui);background:none;border:0;color:var(--muted);text-decoration:underline;cursor:pointer}
+.smartkey{border:1px solid var(--rule);border-radius:10px;padding:10px 12px;background:var(--paper);font-size:13.5px;display:flex;flex-direction:column;gap:8px}
+.smartkey p{margin:0}
+.smartkey input{font:14px var(--mono);padding:7px 9px;border:1px solid var(--rule);border-radius:8px;background:var(--sheet);color:var(--ink);width:100%}
+.row2{display:flex;gap:10px;align-items:center}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .prow{display:contents}
 .pri output{font:500 12px var(--mono);color:var(--muted);min-width:56px;text-align:right}
@@ -83,7 +91,7 @@ summary{cursor:pointer;color:var(--muted);font-weight:600}
 <div class="wrap">
   <div class="eyebrow">United States · General election 3 November 2026</div>
   <h1>Ballot Fit</h1>
-  <p class="lede">Enter your ZIP code and a few facts about your household and get your statewide ballot back: what each measure would cost you, how it touches your family, and a recommendation you can trace to your own answers. Nothing you enter leaves this page.</p>
+  <p class="lede">Enter your ZIP code and a few facts about your household and get your statewide ballot back: what each measure would cost you, how it touches your family, and a recommendation you can trace to your own answers. Nothing you enter leaves this page unless you choose Smart read.</p>
 
   <div class="layout">
     <form id="f" novalidate>
@@ -130,7 +138,17 @@ summary{cursor:pointer;color:var(--muted);font-weight:600}
         <label data-need="note">Anything that might matter: your work, your family, what you care about.
           <textarea id="note" rows="4" maxlength="1000" placeholder="e.g. I'm a retired teacher and a veteran. We rent, I take the bus to work, and our son has an IEP."></textarea></label>
         <div id="notechips" class="notechips" aria-live="polite"></div>
-        <p class="priv" data-need="note">Read in your browser only, by simple phrase matching. Remove anything it got wrong.</p>
+        <div class="smart" data-need="note">
+          <button type="button" class="sbtn" id="smartgo">✨ Smart read</button>
+          <span class="priv" id="smartmsg" role="status"></span>
+          <div id="smartkey" class="smartkey" hidden>
+            <p>Your browser doesn't have a built-in AI model, so Smart read can use <b>Claude</b> instead. This sends <b>only your note</b> to Anthropic, using <b>your own API key</b>. The key is used once and isn't saved. Costs about a cent.</p>
+            <label>Anthropic API key <input type="password" id="akey" autocomplete="off" spellcheck="false" placeholder="sk-ant-…"></label>
+            <div class="row2"><button type="button" class="sbtn" id="smartsend">Send my note to Claude</button><button type="button" class="linkbtn" id="smartcancel">Cancel</button></div>
+            <p class="priv">No key? Get one at console.anthropic.com. Or skip this: the phrase matcher above already works without it.</p>
+          </div>
+        </div>
+        <p class="priv" data-need="note">Read in your browser by simple phrase matching. Smart read is optional: it uses your device's built-in AI if it has one (nothing sent), or Claude with your own key (only the note is sent). Remove any chip that's wrong.</p>
       </fieldset>
       <fieldset data-group="pri"><legend>What matters most to you</legend>
         <div class="pri">
@@ -142,7 +160,7 @@ summary{cursor:pointer;color:var(--muted);font-weight:600}
         </div>
       </fieldset>
       <button class="btn" type="submit" id="go">Update my ballot</button>
-      <p class="priv">Computed in your browser. Nothing is sent or stored.</p>
+      <p class="priv">Computed in your browser. Nothing is stored, and nothing is sent unless you use Smart read with Claude.</p>
     </form>
 
     <section class="results" aria-live="polite">
@@ -178,14 +196,17 @@ function read(){
     w:{budget:+g("w-budget").value,services:+g("w-services").value,transit:+g("w-transit").value,housing:+g("w-housing").value,fiscal:+g("w-fiscal").value}};
   // free-text note: visible, removable facts and priority nudges
   const P=parseNote(g("note").value,DISMISSED);
+  if(SMART){ const S=smartToFacts(SMART,DISMISSED);
+    for(const f of S.facts) if(!P.facts.some(x=>x.key===f.key)) P.facts.push(f);   // AI adds what the matcher missed
+    for(const k in S.weights) P.weights[k]=1; }
   P.facts.forEach(f=>f.apply(h));
   for(const k in P.weights) h.w[k]=Math.min(3,h.w[k]+P.weights[k]);
   h.noteFacts=P.facts;
   return h;
 }
-const DISMISSED=new Set();
+const DISMISSED=new Set(); let SMART=null;
 function renderNoteChips(h){
-  $("notechips").innerHTML=h.noteFacts.length?`<span class="priv">From your note:</span> `+h.noteFacts.map(f=>`<button type="button" class="nchip" data-k="${esc(f.key)}" title="Remove">${esc(f.label)} <span aria-hidden="true">×</span><span class="sr">remove</span></button>`).join(""):"";
+  $("notechips").innerHTML=h.noteFacts.length?`<span class="priv">From your note:</span> `+h.noteFacts.map(f=>`<button type="button" class="nchip" data-k="${esc(f.key)}" title="${f.evidence?esc("From your note: \u201c"+f.evidence+"\u201d. Click to remove"):"Remove"}">${esc(f.label)} <span aria-hidden="true">×</span><span class="sr">remove</span></button>`).join(""):"";
 }
 
 const rc=r=>/Yes/.test(r)?"Y":/No/.test(r)?"N":"Q";
@@ -263,7 +284,27 @@ function render(){
 }
 $("f").addEventListener("submit",e=>{e.preventDefault();$("exnote").hidden=true;render();});
 $("notechips").addEventListener("click",e=>{const b=e.target.closest(".nchip"); if(!b) return; DISMISSED.add(b.dataset.k); render();});
-$("note").addEventListener("input",()=>{ if(!$("note").value.trim()) DISMISSED.clear(); });
+$("note").addEventListener("input",()=>{ if(!$("note").value.trim()) DISMISSED.clear(); if(SMART){ SMART=null; $("smartmsg").textContent="Note changed; run Smart read again to refresh."; } });
+const smartMsg=t=>$("smartmsg").textContent=t;
+$("smartgo").addEventListener("click",async()=>{
+  const note=$("note").value.trim(); if(!note){ smartMsg("Write a note first."); return; }
+  $("smartgo").disabled=true; smartMsg("Checking for an on-device model…");
+  try{
+    const r=await smartReadOnDevice(note).catch(()=>null);
+    if(r){ SMART=r; smartMsg("Read on your device. Nothing was sent."); render(); }
+    else { smartMsg(""); $("smartkey").hidden=false; $("akey").focus(); }
+  } finally { $("smartgo").disabled=false; }
+});
+$("smartcancel").addEventListener("click",()=>{ $("smartkey").hidden=true; $("akey").value=""; smartMsg(""); });
+$("smartsend").addEventListener("click",async()=>{
+  const key=$("akey").value.trim(), note=$("note").value.trim();
+  if(!/^sk-ant-/.test(key)){ smartMsg("That doesn't look like an Anthropic API key (it starts with sk-ant-)."); return; }
+  $("smartsend").disabled=true; smartMsg("Sending your note to Claude…");
+  try{ SMART=await smartReadClaude(note,key); $("smartkey").hidden=true;
+       smartMsg(`Read by Claude: ${(SMART.facts||[]).length+(SMART.priorities||[]).length} item(s). Only your note was sent; your key wasn't saved.`); render(); }
+  catch(err){ smartMsg(err.message||"Smart read failed. The phrase matcher's results still apply."); }
+  finally{ $("akey").value=""; $("smartsend").disabled=false; }
+});
 let tmr; $("f").addEventListener("input",()=>{ $("exnote").hidden=true; clearTimeout(tmr); tmr=setTimeout(render,250); });
 render();
 </script>

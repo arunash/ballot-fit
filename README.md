@@ -14,7 +14,7 @@ Covers the **US general election of 3 November 2026**:
 - **Governor and US Senate races** in all 50 states
 - **San Francisco** local measures and the Bay Area regional transit tax (RTM) for those ZIPs
 
-ZIP code only: your state comes from the ZIP, and nothing leaves the browser. County and city measures outside San Francisco aren't included yet.
+ZIP code only: your state comes from the ZIP, and nothing leaves the browser (unless you choose Smart read; see below). County and city measures outside San Francisco aren't included yet.
 
 ## How recommendations work
 
@@ -29,6 +29,8 @@ There's no model making a call in the dark. Each measure has a small, readable r
 | `fiscal` | public debt, reserves, set-asides |
 
 There's also an **"Anything else about you?"** box. It's read in your browser by plain phrase matching (no AI, nothing sent): "retired teacher", "veteran", "we rent", "our son has an IEP", "taxes are too high" become visible chips that adjust your household and priorities, and you can remove any it got wrong (`src/note.js`).
+
+**✨ Smart read** (optional) reads the note with an AI model for the things phrase matching misses ("we still own the house we raised our kids in" → homeowner). It uses your device's built-in model when there is one (nothing sent), otherwise Claude with **your own** API key: only the note is sent, the key isn't stored, and there's no server in between. Results become the same removable chips, each showing the words it came from.
 
 Your answers set the weights (the five sliders, scaled up when your family actually uses those services or transit). The engine (`src/engine.js`) adds it up: **Yes / Lean Yes / Your call / Lean No / No**, and shows the top reasons.
 

@@ -25,3 +25,13 @@ const rec = h => ballot(h, US, { MEASURES: [], OFFICES: [], R }).results.find(x 
 const vet = { ...base }; parseNote("I'm a disabled veteran").facts.forEach(f => f.apply(vet));
 assert.notEqual(rec(base), rec(vet), "being a veteran changes LA-1");
 console.log("note tests passed:", rec(base), "->", rec(vet));
+
+// smart read: results map onto the same chips, with evidence; unknown keys are ignored
+{
+  const { smartToFacts, SMART_SCHEMA } = require("../src/note.js");
+  const S = smartToFacts({ facts: [{ key: "owner", evidence: "we own the house" }, { key: "bogus", evidence: "x" }], priorities: [{ key: "fiscal", evidence: "stop wasting money" }] });
+  assert.deepEqual(S.facts.map(f => f.key), ["owner", "w-fiscal"]);
+  assert.equal(S.facts[0].evidence, "we own the house"); assert.equal(S.weights.fiscal, 1);
+  assert.ok(SMART_SCHEMA.properties.facts.items.properties.key.enum.includes("veteran"));
+  console.log("smart-read mapping tests passed");
+}

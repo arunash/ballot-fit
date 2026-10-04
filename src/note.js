@@ -43,3 +43,81 @@ function parseNote(text, dismissed = new Set()) {
   return { facts, weights };
 }
 if (typeof module !== "undefined") module.exports = { parseNote };
+
+// ---- Smart read (opt-in) ----------------------------------------------------------
+// The same fact and priority keys as the phrase matcher, so AI results become ordinary chips.
+const SMART_FACT_KEYS = NOTE_RULES.map(r => r.key);
+const SMART_PRIORITY_KEYS = NOTE_PRIORITIES.map(p => p.key);
+const SMART_SCHEMA = {
+  type: "object", additionalProperties: false, required: ["facts", "priorities"],
+  properties: {
+    facts: { type: "array", items: { type: "object", additionalProperties: false, required: ["key", "evidence"],
+      properties: { key: { type: "string", enum: SMART_FACT_KEYS }, evidence: { type: "string" } } } },
+    priorities: { type: "array", items: { type: "object", additionalProperties: false, required: ["key", "evidence"],
+      properties: { key: { type: "string", enum: SMART_PRIORITY_KEYS }, evidence: { type: "string" } } } },
+  },
+};
+const SMART_SYSTEM = `You read a short note a voter wrote about their own household and map it to a fixed list of facts and priorities used to estimate how ballot measures affect them.
+
+Facts (include only if the note clearly says it about the writer's own household):
+${NOTE_RULES.map(r => `- ${r.key}: ${r.label}`).join("\n")}
+
+Priorities (include only if the writer says this matters to them):
+${NOTE_PRIORITIES.map(p => `- ${p.key}: ${p.label}`).join("\n")}
+
+For each item, "evidence" is the shortest exact quote from the note that supports it. Leave out anything that is guessed, hypothetical, negated, or about other people. Don't infer political views or party. Return empty arrays if nothing applies.`;
+
+// Turns a smart-read result into the same shape parseNote returns.
+function smartToFacts(result, dismissed = new Set()) {
+  const facts = [], weights = {};
+  for (const f of result?.facts || []) {
+    const r = NOTE_RULES.find(x => x.key === f.key);
+    if (r && !dismissed.has(r.key)) facts.push({ ...r, label: "✨ " + r.label, evidence: f.evidence });
+  }
+  for (const p of result?.priorities || []) {
+    const r = NOTE_PRIORITIES.find(x => x.key === p.key);
+    if (r && !dismissed.has("w-" + r.key)) { weights[r.key] = 1; facts.push({ key: "w-" + r.key, label: "✨ " + r.label, evidence: p.evidence, apply: () => {} }); }
+  }
+  return { facts, weights };
+}
+
+// On-device first (Chrome's built-in Prompt API: nothing leaves the device).
+async function smartReadOnDevice(note) {
+  if (typeof LanguageModel === "undefined") return null;
+  if ((await LanguageModel.availability()) !== "available") return null;
+  const session = await LanguageModel.create({ initialPrompts: [{ role: "system", content: SMART_SYSTEM }] });
+  try { return JSON.parse(await session.prompt(note, { responseConstraint: SMART_SCHEMA })); }
+  finally { session.destroy?.(); }
+}
+
+// Claude via the visitor's own API key, called directly from the browser. Only the note is sent.
+async function smartReadClaude(note, apiKey) {
+  const res = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: {
+      "content-type": "application/json",
+      "x-api-key": apiKey,
+      "anthropic-version": "2023-06-01",
+      "anthropic-beta": "server-side-fallback-2026-07-01",
+      "anthropic-dangerous-direct-browser-access": "true",
+    },
+    body: JSON.stringify({
+      model: "claude-opus-5-5",
+      max_tokens: 4000,
+      fallbacks: "default",
+      output_config: { effort: "low", format: { type: "json_schema", schema: SMART_SCHEMA } },
+      system: SMART_SYSTEM,
+      messages: [{ role: "user", content: note }],
+    }),
+  });
+  const body = await res.json().catch(() => ({}));
+  if (!res.ok) {
+    const msg = body?.error?.message || res.statusText;
+    throw new Error(res.status === 401 ? "That API key wasn't accepted. Check it and try again."
+      : res.status === 429 ? "Rate limited by Anthropic. Wait a moment and try again." : `Claude returned an error: ${msg}`);
+  }
+  if (body.stop_reason === "refusal") throw new Error("Claude declined to read this note. The phrase matcher's results still apply.");
+  const text = (body.content || []).filter(b => b.type === "text").map(b => b.text).join("");
+  return JSON.parse(text);
+}
+if (typeof module !== "undefined") Object.assign(module.exports, { SMART_SCHEMA, SMART_SYSTEM, smartToFacts, smartReadClaude, smartReadOnDevice });
