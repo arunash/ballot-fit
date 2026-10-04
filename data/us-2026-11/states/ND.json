@@ -54,6 +54,9 @@
   "boost": {
    "school": {
     "budget": 1.5
+   },
+   "teacher": {
+    "services": 0.5
    }
   }
  }

@@ -28,6 +28,6 @@ Each measure object:
     {"services": n, "transit": n, "housing": n, "fiscal": n, "budget": n}
     services = schools, health/Medicaid, disability services, safety net; fiscal = public debt, reserves, state budget health (negative = adds debt/costs or cuts revenue sharply); budget = non-tax household money effects only (use cost for taxes)
 - reasons: one plain sentence per non-zero effect key, e.g. {"services":"Adds $X a year for K-12 schools"}
-- boost (optional): extra effects for specific households: keys among "disab","medicaid","school","owner","renter","hourly","employer","senior","transit_user"; values are effect objects, e.g. {"disab":{"services":1}}
+- boost (optional): extra effects for specific households: keys among "disab","medicaid","school","owner","renter","hourly","employer","senior","transit_user","veteran","farmer","teacher","public_employee","student","first_buyer","landlord"; values are effect objects, e.g. {"disab":{"services":1}}
 
 Neutrality: describe, don't advocate. Every effect needs a reason; every reason should come from the official analysis or the measure text.

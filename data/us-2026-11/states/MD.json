@@ -26,7 +26,13 @@
    "fiscal": -0.5
   },
   "reasons": {
-   "fiscal": "Legislative Services projects at least $150,000 a year in new state costs from FY 2028, and possibly significant personnel costs from FY 2029."
+   "fiscal": "Legislative Services projects at least $150,000 a year in new state costs from FY 2028, and possibly significant personnel costs from FY 2029.",
+   "budget": "Gives state workers' contract terms a protected path through the budget"
+  },
+  "boost": {
+   "public_employee": {
+    "budget": 1.5
+   }
   }
  },
  {

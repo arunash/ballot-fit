@@ -24,7 +24,8 @@ const html = read("src/template.html")
   .replace("/*DATA*/", `const US={MEASURES:${JSON.stringify(measures)},OFFICES:${JSON.stringify(offices)}};\nconst CA={MEASURES:${read(`${CA}/measures.json`)},OFFICES:${read(`${CA}/offices.json`)}};`)
   .replace("/*GEO*/", read(`${US}/geo.js`))
   .replace("/*RULES*/", read(`${CA}/rules.js`))
-  .replace("/*ENGINE*/", read("src/engine.js"));
+  .replace("/*ENGINE*/", read("src/engine.js"))
+  .replace("/*NOTE*/", read("src/note.js"));
 fs.mkdirSync("dist", { recursive: true });
 fs.writeFileSync("dist/index.html", html);
 const states = new Set(measures.map(m => m.state));

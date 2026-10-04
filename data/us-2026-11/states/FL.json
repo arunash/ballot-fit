@@ -52,7 +52,13 @@
    "fiscal": -0.25
   },
   "reasons": {
-   "fiscal": "Cuts local government property-tax revenue by about $31M a year."
+   "fiscal": "Cuts local government property-tax revenue by about $31M a year.",
+   "budget": "Exempts farm equipment from property tax"
+  },
+  "boost": {
+   "farmer": {
+    "budget": 1.5
+   }
   }
  },
  {

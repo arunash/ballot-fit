@@ -28,6 +28,8 @@ There's no model making a call in the dark. Each measure has a small, readable r
 | `housing` | supply and affordability |
 | `fiscal` | public debt, reserves, set-asides |
 
+There's also an **"Anything else about you?"** box. It's read in your browser by plain phrase matching (no AI, nothing sent): "retired teacher", "veteran", "we rent", "our son has an IEP", "taxes are too high" become visible chips that adjust your household and priorities, and you can remove any it got wrong (`src/note.js`).
+
 Your answers set the weights (the five sliders, scaled up when your family actually uses those services or transit). The engine (`src/engine.js`) adds it up: **Yes / Lean Yes / Your call / Lean No / No**, and shows the top reasons.
 
 Measures that are mostly about values (voter ID, recall rules, public campaign finance) always come back **"Your call"**. The tool weighs interests you state; it doesn't pick sides on values.

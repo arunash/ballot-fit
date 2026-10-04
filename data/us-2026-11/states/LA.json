@@ -12,13 +12,22 @@
   "fiscal": "Legislative Fiscal Office: revenue impact not expected to be significant. 229 surviving spouses claimed the exemption in 2025 (about $1.6M of assessed value, roughly $168,000 a year in forgone local tax); how many would move in any year is indeterminable but expected to be low.",
   "pro": "Sen. Franklin Foil (R, sponsor); passed House 92-0 and Senate 36-0",
   "con": "No organised opposition; Pelican Institute (opposes new tax carve-outs)",
-  "endorse": {"Pelican Institute": "N"},
+  "endorse": {
+   "Pelican Institute": "N"
+  },
   "poll": null,
   "source": "https://www.sos.la.gov/media/jo2die1s/proposed-constitutional-amendments-2026-nov.pdf",
   "values": false,
   "cost": null,
   "effects": {},
-  "reasons": {}
+  "reasons": {
+   "budget": "Lets a disabled veteran's surviving spouse keep the property-tax exemption after moving"
+  },
+  "boost": {
+   "veteran": {
+    "budget": 1
+   }
+  }
  },
  {
   "id": "LA-2",
@@ -33,13 +42,19 @@
   "fiscal": "Legislative Fiscal Office: may result in forgone local property-tax revenue if taxing authorities defer rolling forward their millages; the extent is indeterminable and depends on each authority's decisions.",
   "pro": "Rep. Roger Wilder III (R, sponsor), Pelican Institute; passed House 95-0 and Senate 36-0",
   "con": "No organised opposition identified",
-  "endorse": {"Pelican Institute": "Y"},
+  "endorse": {
+   "Pelican Institute": "Y"
+  },
   "poll": null,
   "source": "https://www.sos.la.gov/media/jo2die1s/proposed-constitutional-amendments-2026-nov.pdf",
   "values": false,
   "cost": null,
-  "effects": {"fiscal": -0.5},
-  "reasons": {"fiscal": "The Legislative Fiscal Office says local governments may forgo some property-tax revenue by keeping lower rates longer, by an indeterminable amount."}
+  "effects": {
+   "fiscal": -0.5
+  },
+  "reasons": {
+   "fiscal": "The Legislative Fiscal Office says local governments may forgo some property-tax revenue by keeping lower rates longer, by an indeterminable amount."
+  }
  },
  {
   "id": "LA-3",
@@ -54,7 +69,9 @@
   "fiscal": "Legislative Fiscal Office: indeterminable increase in local sheriffs' jail costs from holding these offenders before transfer; no effect on revenues.",
   "pro": "Rep. Debbie Villio (R, sponsor), Attorney General Liz Murrill, Louisiana Fraternal Order of Police",
   "con": "No organised opposition identified",
-  "endorse": {"Pelican Institute": "–"},
+  "endorse": {
+   "Pelican Institute": "–"
+  },
   "poll": null,
   "source": "https://www.sos.la.gov/media/jo2die1s/proposed-constitutional-amendments-2026-nov.pdf",
   "values": true,
@@ -75,7 +92,9 @@
   "fiscal": "No fiscal note identified; no material fiscal effect expected beyond minimal ballot costs.",
   "pro": "Rep. Michael Bayham (R, sponsor); passed largely along party lines (House 73-25, Senate 28-10)",
   "con": "Most Democratic legislators; Rep. Mark Wright (R) criticised it",
-  "endorse": {"Pelican Institute": "–"},
+  "endorse": {
+   "Pelican Institute": "–"
+  },
   "poll": null,
   "source": "https://www.sos.la.gov/media/jo2die1s/proposed-constitutional-amendments-2026-nov.pdf",
   "values": true,
@@ -96,7 +115,9 @@
   "fiscal": "Legislative actuary: no change to any benefits; the impact of allowing systems to choose how to allocate the money is not actuarially measurable.",
   "pro": "Rep. Dixon McMakin (R, sponsor), Pelican Institute; passed House 87-0 and Senate 34-0",
   "con": "No organised opposition identified",
-  "endorse": {"Pelican Institute": "Y"},
+  "endorse": {
+   "Pelican Institute": "Y"
+  },
   "poll": null,
   "source": "https://www.sos.la.gov/media/jo2die1s/proposed-constitutional-amendments-2026-nov.pdf",
   "values": true,
@@ -117,14 +138,24 @@
   "fiscal": "Legislative Fiscal Office: indeterminable but significant decrease in local property-tax revenue where adopted. Example: a 65-68-year-old with $6,000 extra exemption saves about $630/yr at the 105-mill statewide average; 184,329 seniors had the special assessment in 2025, so even $1,000 of extra exemption each would cost about $19.4M a year statewide. Possible indeterminate effects on state school (MFP) funding; assessor implementation costs may be significant statewide.",
   "pro": "Rep. Les Farnum (R, sponsor); passed House 93-0 and Senate 34-0",
   "con": "Pelican Institute (narrow carve-outs shift the tax burden)",
-  "endorse": {"Pelican Institute": "N"},
+  "endorse": {
+   "Pelican Institute": "N"
+  },
   "poll": null,
   "source": "https://www.sos.la.gov/media/jo2die1s/proposed-constitutional-amendments-2026-nov.pdf",
   "values": false,
   "cost": null,
-  "effects": {"fiscal": -1},
-  "reasons": {"fiscal": "The Legislative Fiscal Office expects a significant (but indeterminable) loss of local property-tax revenue where parishes adopt it, which taxing bodies must absorb."},
-  "boost": {"senior": {"budget": 1.5}}
+  "effects": {
+   "fiscal": -1
+  },
+  "reasons": {
+   "fiscal": "The Legislative Fiscal Office expects a significant (but indeterminable) loss of local property-tax revenue where parishes adopt it, which taxing bodies must absorb."
+  },
+  "boost": {
+   "senior": {
+    "budget": 1.5
+   }
+  }
  },
  {
   "id": "LA-7",
@@ -139,14 +170,26 @@
   "fiscal": "Legislative Fiscal Office: may increase local spending to the extent political subdivisions use public funds for this work; no effect on revenues.",
   "pro": "Sen. Royce Duplessis (D, sponsor); passed Senate 32-4 and House 80-12",
   "con": "No organised opposition identified",
-  "endorse": {"Pelican Institute": "–"},
+  "endorse": {
+   "Pelican Institute": "–"
+  },
   "poll": null,
   "source": "https://www.sos.la.gov/media/jo2die1s/proposed-constitutional-amendments-2026-nov.pdf",
   "values": false,
   "cost": null,
-  "effects": {"services": 0.5, "fiscal": -0.5},
-  "reasons": {"services": "Allows local governments to fund removal of lead and other hazardous drinking-water lines on customers' property.", "fiscal": "The Legislative Fiscal Office says local spending may rise to the extent governments choose to fund this work."},
-  "boost": {"owner": {"budget": 0.5}}
+  "effects": {
+   "services": 0.5,
+   "fiscal": -0.5
+  },
+  "reasons": {
+   "services": "Allows local governments to fund removal of lead and other hazardous drinking-water lines on customers' property.",
+   "fiscal": "The Legislative Fiscal Office says local spending may rise to the extent governments choose to fund this work."
+  },
+  "boost": {
+   "owner": {
+    "budget": 0.5
+   }
+  }
  },
  {
   "id": "LA-8",
@@ -161,7 +204,9 @@
   "fiscal": "No fiscal note identified; no material fiscal effect expected beyond minimal ballot costs.",
   "pro": "Rep. Charles Owen (R, sponsor), Pelican Institute; passed House 100-0 and Senate 36-0",
   "con": "No organised opposition identified",
-  "endorse": {"Pelican Institute": "Y"},
+  "endorse": {
+   "Pelican Institute": "Y"
+  },
   "poll": null,
   "source": "https://www.sos.la.gov/media/jo2die1s/proposed-constitutional-amendments-2026-nov.pdf",
   "values": true,
@@ -182,14 +227,27 @@
   "fiscal": "Legislative Fiscal Office: can only decrease local property-tax collections because a significant number of additional homes become eligible for the freeze from tax year 2027; the size cannot be determined because income data for owners isn't available. 422,344 properties already receive the special assessment; largest effect expected with 2028 reassessment. Possible indirect effect on state school (MFP) funding.",
   "pro": "Rep. Shane Mack (R, sponsor)",
   "con": "Pelican Institute (narrow carve-outs shift the tax burden)",
-  "endorse": {"Pelican Institute": "N"},
+  "endorse": {
+   "Pelican Institute": "N"
+  },
   "poll": null,
   "source": "https://www.sos.la.gov/media/jo2die1s/proposed-constitutional-amendments-2026-nov.pdf",
   "values": false,
   "cost": null,
-  "effects": {"fiscal": -1},
-  "reasons": {"fiscal": "The Legislative Fiscal Office says it can only reduce local property-tax revenue as many more homes qualify for the assessment freeze, by an undetermined amount."},
-  "boost": {"senior": {"budget": 1}, "disab": {"budget": 1}}
+  "effects": {
+   "fiscal": -1
+  },
+  "reasons": {
+   "fiscal": "The Legislative Fiscal Office says it can only reduce local property-tax revenue as many more homes qualify for the assessment freeze, by an undetermined amount."
+  },
+  "boost": {
+   "senior": {
+    "budget": 1
+   },
+   "disab": {
+    "budget": 1
+   }
+  }
  },
  {
   "id": "LA-10",
@@ -204,12 +262,20 @@
   "fiscal": "Legislative Fiscal Office: local revenue impact indeterminable; depends on how many parishes adopt it, how much rehabilitation it spurs and resulting value increases. Mainly forgone tax on the increased value after rehabilitation.",
   "pro": "Rep. Chance Henry (R, sponsor); passed House 80-12 and Senate 33-2",
   "con": "Pelican Institute (opposes new tax carve-outs)",
-  "endorse": {"Pelican Institute": "N"},
+  "endorse": {
+   "Pelican Institute": "N"
+  },
   "poll": null,
   "source": "https://www.sos.la.gov/media/jo2die1s/proposed-constitutional-amendments-2026-nov.pdf",
   "values": false,
   "cost": null,
-  "effects": {"housing": 0.5, "fiscal": -0.5},
-  "reasons": {"housing": "Aims to encourage owners to rehabilitate blighted or derelict buildings.", "fiscal": "The Legislative Fiscal Office says localities would forgo some tax on the higher value of rehabilitated property, by an indeterminable amount."}
+  "effects": {
+   "housing": 0.5,
+   "fiscal": -0.5
+  },
+  "reasons": {
+   "housing": "Aims to encourage owners to rehabilitate blighted or derelict buildings.",
+   "fiscal": "The Legislative Fiscal Office says localities would forgo some tax on the higher value of rehabilitated property, by an indeterminable amount."
+  }
  }
 ]

@@ -38,6 +38,11 @@ input:focus-visible,select:focus-visible,button:focus-visible{outline:3px solid 
 .two{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .pri{display:grid;grid-template-columns:1fr auto;gap:4px 10px;align-items:center;font-size:14px}
 [hidden]{display:none!important}
+textarea{font:15px/1.45 var(--ui);padding:8px 10px;border:1px solid var(--rule);border-radius:8px;background:var(--paper);color:var(--ink);width:100%;resize:vertical;min-height:84px}
+.notechips{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.nchip{font:600 12.5px var(--ui);border:1px solid var(--accent);background:var(--accent-soft);color:var(--ink);border-radius:999px;padding:3px 9px;cursor:pointer}
+.nchip span{color:var(--accent);margin-left:2px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .prow{display:contents}
 .pri output{font:500 12px var(--mono);color:var(--muted);min-width:56px;text-align:right}
 input[type=range]{width:100%;accent-color:var(--accent)}
@@ -121,6 +126,12 @@ summary{cursor:pointer;color:var(--muted);font-weight:600}
         <label data-need="transit">Transit use <select id="transit"><option value="0">Rarely</option><option value="1" selected>Weekly</option><option value="2">Daily</option></select></label>
         <label class="row" data-need="westside" id="westrow"><input type="checkbox" id="westside"> I drive SF's west side most weekdays</label>
       </fieldset>
+      <fieldset data-group="note"><legend>Anything else about you?</legend>
+        <label data-need="note">Anything that might matter: your work, your family, what you care about.
+          <textarea id="note" rows="4" maxlength="1000" placeholder="e.g. I'm a retired teacher and a veteran. We rent, I take the bus to work, and our son has an IEP."></textarea></label>
+        <div id="notechips" class="notechips" aria-live="polite"></div>
+        <p class="priv" data-need="note">Read in your browser only, by simple phrase matching. Remove anything it got wrong.</p>
+      </fieldset>
       <fieldset data-group="pri"><legend>What matters most to you</legend>
         <div class="pri">
           <div class="prow" data-need="w-budget"><span>Keeping my household's costs down</span><output id="o-budget"></output><input type="range" id="w-budget" min="0" max="3" value="2" aria-label="Keeping costs down"></div>
@@ -150,6 +161,7 @@ summary{cursor:pointer;color:var(--muted);font-weight:600}
 /*GEO*/
 /*RULES*/
 /*ENGINE*/
+/*NOTE*/
 US.G=GEO; CA.R=RULES;
 const LVL=["Not much","Some","A lot","Top priority"];
 const $=id=>document.getElementById(id);
@@ -158,12 +170,22 @@ const safeUrl=u=>/^https?:\/\//i.test(String(u||""))?u:"";
 
 function read(){
   const g=id=>$(id), n=id=>Math.max(0,Number(g(id).value)||0);
-  return {zip:(g("zip").value||"").trim(),filing:g("filing").value,income:n("income"),spend:n("spend"),stocks:g("stocks").checked,
+  const h={zip:(g("zip").value||"").trim(),filing:g("filing").value,income:n("income"),spend:n("spend"),stocks:g("stocks").checked,
     home:g("home").value,sqft:g("sqft").value,rentals:Math.min(20,Math.round(n("rentals"))),rentctl:g("rentctl").checked,senior:g("senior").checked,
     school:g("school").checked,disab:g("disab").checked,medical:g("medical").checked,clinic:g("clinic").checked,
     transit:Number(g("transit").value),westside:g("westside").checked,
     homeValue:n("homeValue"),rentalsValue:n("rentalsValue"),wage:n("wage"),employer:g("employer").checked,
     w:{budget:+g("w-budget").value,services:+g("w-services").value,transit:+g("w-transit").value,housing:+g("w-housing").value,fiscal:+g("w-fiscal").value}};
+  // free-text note: visible, removable facts and priority nudges
+  const P=parseNote(g("note").value,DISMISSED);
+  P.facts.forEach(f=>f.apply(h));
+  for(const k in P.weights) h.w[k]=Math.min(3,h.w[k]+P.weights[k]);
+  h.noteFacts=P.facts;
+  return h;
+}
+const DISMISSED=new Set();
+function renderNoteChips(h){
+  $("notechips").innerHTML=h.noteFacts.length?`<span class="priv">From your note:</span> `+h.noteFacts.map(f=>`<button type="button" class="nchip" data-k="${esc(f.key)}" title="Remove">${esc(f.label)} <span aria-hidden="true">×</span><span class="sr">remove</span></button>`).join(""):"";
 }
 
 const rc=r=>/Yes/.test(r)?"Y":/No/.test(r)?"N":"Q";
@@ -180,6 +202,7 @@ function needsFor(zip){
     ["income","stocks","home","school","disab","medical","clinic","transit","w-budget","w-services","w-transit","w-housing","w-fiscal"].forEach(x=>N.add(x));
     if(rtm) N.add("spend");
     if(sf) ["sqft","rentals","rentctl","senior","westside"].forEach(x=>N.add(x));
+    N.add("note");
     return {N,st};
   }
   const COST={income_tax_brackets:["income"],income_tax_flat:["income"],property_tax_rate:["home","homeValue","rentals","rentalsValue"],
@@ -194,6 +217,7 @@ function needsFor(zip){
     for(const f of Object.keys(m.boost||{})) if(FLAG[f]) N.add(FLAG[f]);
   }
   if(N.has("w-budget")&&!N.has("income")) N.add("income");   // income scales how much a cost matters
+  if(N.size) N.add("note");
   return {N,st};
 }
 function applyNeeds(){
@@ -210,6 +234,7 @@ function applyNeeds(){
 }
 function render(){
   applyNeeds();
+  renderNoteChips(read());
   const h=read();
   ["budget","services","transit","housing","fiscal"].forEach(k=>$("o-"+k).textContent=LVL[h.w[k]]);
   const B=ballot(h,US,CA);
@@ -237,6 +262,8 @@ function render(){
      <p class="what">${s.cands.map(x=>`<b>${esc(x.name)}</b> (${esc(x.party)})${x.inc?" · incumbent":""}: ${esc(x.desc)}`).join("<br>")}</p></article>`).join("")||`<p class="empty">Statewide races coming soon.</p>`;
 }
 $("f").addEventListener("submit",e=>{e.preventDefault();$("exnote").hidden=true;render();});
+$("notechips").addEventListener("click",e=>{const b=e.target.closest(".nchip"); if(!b) return; DISMISSED.add(b.dataset.k); render();});
+$("note").addEventListener("input",()=>{ if(!$("note").value.trim()) DISMISSED.clear(); });
 let tmr; $("f").addEventListener("input",()=>{ $("exnote").hidden=true; clearTimeout(tmr); tmr=setTimeout(render,250); });
 render();
 </script>

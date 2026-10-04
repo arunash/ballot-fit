@@ -1,7 +1,7 @@
 // node test/validate-data.mjs — checks every data/us-2026-11/states file against SCHEMA.md
 import fs from "node:fs";
 const dir = "data/us-2026-11/states", MODELS = new Set(["income_tax_brackets","income_tax_flat","property_tax_rate","property_tax_pct","homestead_exemption","sales_tax","flat_fee","min_wage"]);
-const KEYS = new Set(["budget","services","transit","housing","fiscal"]), FLAGS = new Set(["disab","medicaid","school","owner","renter","hourly","employer","senior","transit_user"]);
+const KEYS = new Set(["budget","services","transit","housing","fiscal"]), FLAGS = new Set(["disab","medicaid","school","owner","renter","hourly","employer","senior","transit_user","veteran","farmer","teacher","public_employee","student","first_buyer","landlord"]);
 let errors = 0, warns = 0, n = 0; const ids = new Set();
 const err = (f, id, msg) => { errors++; console.log(`ERROR ${f} ${id}: ${msg}`); };
 const warn = (f, id, msg) => { warns++; console.log(`warn  ${f} ${id}: ${msg}`); };

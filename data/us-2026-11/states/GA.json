@@ -21,7 +21,13 @@
    "fiscal": -0.5
   },
   "reasons": {
-   "fiscal": "Local governments and school districts would collect less property tax on additional large farm and timber holdings; no official dollar estimate exists."
+   "fiscal": "Local governments and school districts would collect less property tax on additional large farm and timber holdings; no official dollar estimate exists.",
+   "budget": "Lets more farm and timber land get the lower conservation-use valuation"
+  },
+  "boost": {
+   "farmer": {
+    "budget": 1.5
+   }
   }
  },
  {

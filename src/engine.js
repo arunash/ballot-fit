@@ -49,7 +49,9 @@ const costEff = (amt, income) => {
 
 function flags(h) {
   return { disab: h.disab, medicaid: h.medical, school: h.school, owner: h.home === "own", renter: h.home === "rent",
-    hourly: h.wage > 0, employer: h.employer, senior: h.senior, transit_user: h.transit >= 1 };
+    hourly: h.wage > 0, employer: h.employer, senior: h.senior, transit_user: h.transit >= 1,
+    veteran: !!h.veteran, farmer: !!h.farmer, teacher: !!h.teacher, public_employee: !!h.public_employee,
+    student: !!h.student, first_buyer: !!h.first_buyer, landlord: (h.rentals || 0) > 0 };
 }
 
 function effectsGeneric(m, h, G) {
@@ -69,7 +71,7 @@ function effectsGeneric(m, h, G) {
 }
 
 function weights(h) {
-  const needsServices = h.disab || h.medical || h.school;
+  const needsServices = h.disab || h.medical || h.school || h.teacher;
   return { budget: h.w.budget, services: h.w.services * (needsServices ? 1.5 : 0.75),
     transit: h.w.transit * [0.5, 1, 1.5][h.transit || 0], housing: h.w.housing, fiscal: h.w.fiscal };
 }
